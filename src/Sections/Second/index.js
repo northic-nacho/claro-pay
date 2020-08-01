@@ -3,6 +3,7 @@ import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
 import SectionTitle from '../../Components/SectionTitle';
+import Icons from '../../Components/Icons';
 import './styles.scss';
 
 const SecondSection = () => {
@@ -10,12 +11,7 @@ const SecondSection = () => {
     <ParallaxSection id="s2">
       <div className="content-group">
         <div className="column left">
-          <div className="gf-circle-wipe-green">
-            <div
-              className="circle-spinner"
-              parallax="half-circle-rotation"
-            ></div>
-          </div>
+          <Icons.GreenCircle animation="half-circle-rotation" />
           <ArrowButton to="#s3" />
         </div>
         <div className="column right">

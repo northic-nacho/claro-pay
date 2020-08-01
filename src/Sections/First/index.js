@@ -3,6 +3,7 @@ import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
 import SectionTitle from '../../Components/SectionTitle';
+import Icons from '../../Components/Icons';
 import './styles.scss';
 
 const FirstSection = () => {
@@ -17,12 +18,7 @@ const FirstSection = () => {
             <figure className="iphone-hardware"></figure>
             <figure className="iphone-shadow"></figure>
           </div>
-          <div className="gf-circle-wipe-green">
-            <div
-              className="circle-spinner"
-              parallax="half-circle-rotation-home"
-            ></div>
-          </div>
+          <Icons.GreenCircle animation="half-circle-rotation-home" />
         </div>
         <div className="column right">
           <SectionTitle>

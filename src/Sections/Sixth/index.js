@@ -3,6 +3,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import Icons from "../../Components/Icons";
 import './styles.scss';
 
 const SixthSection = () => {
@@ -163,12 +164,7 @@ const SixthSection = () => {
       </div>
       <div className="gf-bars-grey-1">/</div>
       <div className="gf-bars-grey-2">/</div>
-      <div className="gf-circle-wipe-green">
-        <div
-          className="circle-spinner"
-          parallax="quarter-circle-rotation"
-        ></div>
-      </div>
+      <Icons.GreenCircle animation="quarter-circle-rotation" />
     </ParallaxSection>
   );
 };
