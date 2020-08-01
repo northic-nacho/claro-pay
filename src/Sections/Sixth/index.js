@@ -1,5 +1,7 @@
 import React from "react";
 import ParallaxSection from "../../Components/ParallaxSection";
+import ArrowButton from "../../Components/ArrowButton";
+import './styles.scss';
 
 const SixthSection = () => {
   return (
@@ -131,13 +133,7 @@ const SixthSection = () => {
               <b>y débito</b> de cualquier banco.
             </p>
           </div>
-          <a href="#s7" className="btn-arrow">
-            <img
-              src="images/icon-arrow-down-red.png"
-              srcSet="images/icon-arrow-down-red@2x.png 2x"
-              alt="Scroll Down"
-            />
-          </a>
+          <ArrowButton to="#s7" />
         </div>
       </div>
       <div className="gf-bill-green">

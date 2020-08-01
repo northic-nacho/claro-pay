@@ -1,5 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
+import ArrowButton from '../../Components/ArrowButton';
+import './styles.scss';
 
 const FirstSection = () => {
   return (
@@ -45,13 +47,7 @@ const FirstSection = () => {
               <b>Abierto las 24 horas en tu celular.</b>
             </p>
           </div>
-          <a href="#s2" className="btn-arrow">
-            <img
-              src="images/icon-arrow-down-red.png"
-              srcSet="images/icon-arrow-down-red@2x.png 2x"
-              alt="Scroll Down"
-            />
-          </a>
+          <ArrowButton to="#s2"/>
         </div>
       </div>
       <div className="gf-bars-green">{'//'}</div>

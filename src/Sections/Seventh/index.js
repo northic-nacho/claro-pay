@@ -1,5 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
+import ArrowButton from '../../Components/ArrowButton';
+import './styles.scss';
 
 const SeventhSection = () => {
   return (
@@ -13,7 +15,7 @@ const SeventhSection = () => {
             <div className="section-description">
               <p className="description">Recibí <b>alertas con descuentos</b><br />para tu línea Claro</p>
             </div>
-            <a href="#s8" className="btn-arrow"><img src="images/icon-arrow-down-red.png" srcSet="images/icon-arrow-down-red@2x.png 2x" alt="Scroll Down" /></a>
+            <ArrowButton to="#s8" />
           </div>
           <div className="column right">
             <div className="iphone-image-group iphone-s4">

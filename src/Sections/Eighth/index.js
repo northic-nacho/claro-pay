@@ -1,5 +1,6 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
+import './styles.scss';
 
 const EighthSection = () => {
   return (

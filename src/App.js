@@ -11,6 +11,9 @@ import SeventhSection from "./Sections/Seventh";
 import EighthSection from "./Sections/Eighth";
 import Footer from "./Components/Footer";
 import Paginator from "./Components/Paginator";
+import NavBar from "./Components/NavBar";
+
+import './index.scss';
 
 function App() {
   React.useEffect(() => {
@@ -19,27 +22,7 @@ function App() {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light navbar-claropay">
-        <a className="navbar-brand" href="#">
-          <img
-            id="logoHeader"
-            src="images/logo-claropay-header.png"
-            srcSet="images/logo-claropay-header@2x.png 2x"
-            alt="Claro Pay"
-          />
-        </a>
-        <form className="form-inline ml-auto">
-          <a href="#" className="btn btn-primary btn-signup">
-            Creá tu cuenta
-          </a>
-          <a href="#" className="btn btn-link-black btn-login">
-            Entrá ahora
-          </a>
-          <a href="#" className="btn btn-primary btn-signup-mobile">
-            Entrá ahora
-          </a>
-        </form>
-      </nav>
+      <NavBar />
       <FirstSection />
       <SecondSection />
       <ThirdSection />

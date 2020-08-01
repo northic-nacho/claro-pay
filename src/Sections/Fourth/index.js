@@ -1,5 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
+import ArrowButton from '../../Components/ArrowButton';
+import './styles.scss';
 
 const FourthSection = () => {
   return (
@@ -59,7 +61,7 @@ const FourthSection = () => {
           <div className="section-description">
             <p className="description"><b>Luz, Agua, Gas, Internet...</b><br />lo que necesites sin hacer filas <br />ni moverte de tu casa.</p>
           </div>
-          <a href="#s5" className="btn-arrow"><img src="images/icon-arrow-down-red.png" srcSet="images/icon-arrow-down-red@2x.png 2x" alt="Scroll Down" /></a>
+          <ArrowButton to="#s5" />
         </div>
       </div>
       <div className="gf-plus-green"><img src="images/gf-plus-green.png" srcSet="images/gf-plus-green@2x.png 2x" alt=""/></div>

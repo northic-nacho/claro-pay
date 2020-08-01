@@ -1,5 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
+import ArrowButton from '../../Components/ArrowButton';
+import './styles.scss';
 
 const SecondSection = () => {
   return (
@@ -12,13 +14,7 @@ const SecondSection = () => {
               parallax="half-circle-rotation"
             ></div>
           </div>
-          <a href="#s3" className="btn-arrow">
-            <img
-              src="images/icon-arrow-down-red.png"
-              srcSet="images/icon-arrow-down-red@2x.png 2x"
-              alt="Scroll Down"
-            />
-          </a>
+          <ArrowButton to="#s3" />
         </div>
         <div className="column right">
           <div className="section-title">

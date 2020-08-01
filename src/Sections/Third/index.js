@@ -1,5 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
+import ArrowButton from '../../Components/ArrowButton';
+import './styles.scss';
 
 const ThirdSection = () => {
   return (
@@ -12,7 +14,7 @@ const ThirdSection = () => {
           <div className="section-description">
             <p className="description">con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales o a cualquier banco de manera <b>simple y segura.</b></p>
           </div>
-          <a href="#s4" className="btn-arrow"><img src="images/icon-arrow-down-red.png" srcSet="images/icon-arrow-down-red@2x.png 2x" alt="Scroll Down" /></a>
+          <ArrowButton to="#s4" />
         </div>
         <div className="column right">
           <div className="iphone-image-group iphone-s4" parallax="slide-in-right">
