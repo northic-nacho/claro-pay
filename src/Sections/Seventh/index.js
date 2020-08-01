@@ -1,6 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
+import HighlightedText from '../../Components/HighlightedText';
 import './styles.scss';
 
 const SeventhSection = () => {
@@ -10,7 +11,9 @@ const SeventhSection = () => {
         <div className="content-group align-items-center">
           <div className="column left">
             <div className="section-title">
-              <h1 className="title color-red">Recargá<br />con <span className="highlight hl1"><i parallax="reveal-left-in:shift(-30%)">descuentos</i>descuentos</span> <span className="highlight hl2"><i parallax="reveal-left-in">exclusivos</i>exclusivos</span></h1>
+              
+              <h1 className="title color-red">Recargá<br />con <HighlightedText text="descuentos" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" /><br />
+              <HighlightedText text="exclusivos" containerClassName="hl2 "/></h1>
             </div>
             <div className="section-description">
               <p className="description">Recibí <b>alertas con descuentos</b><br />para tu línea Claro</p>

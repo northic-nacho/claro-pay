@@ -1,6 +1,7 @@
 import React from "react";
 import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
+import HighlightedText from "../../Components/HighlightedText";
 import './styles.scss';
 
 const FifthSection = () => {
@@ -11,7 +12,7 @@ const FifthSection = () => {
           <div className="section-title">
             <h1 className="title color-red">
               <span className="highlight">
-                <i parallax="reveal-left-in">Movete</i>Movete
+                <HighlightedText text="Movete" />
               </span>{" "}
               en todo momento, sin obstáculos
             </h1>

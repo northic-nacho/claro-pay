@@ -1,6 +1,7 @@
 import React from "react";
 import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
+import HighlightedText from "../../Components/HighlightedText";
 import './styles.scss';
 
 const SixthSection = () => {
@@ -120,10 +121,7 @@ const SixthSection = () => {
             <h1 className="title color-red">
               Todas tus tarjetas
               <br />
-              <span className="highlight hl2">
-                <i parallax="reveal-left-in">en un solo lugar</i>en un solo
-                lugar
-              </span>
+              <HighlightedText text="en un solo lugar" containerClassName="hl2" />
             </h1>
           </div>
           <div className="section-description">

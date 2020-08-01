@@ -1,6 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
+import HighlightedText from '../../Components/HighlightedText';
 import './styles.scss';
 
 const FirstSection = () => {
@@ -29,10 +30,7 @@ const FirstSection = () => {
               <br />
               es tu nueva
               <br />
-              <span className="highlight">
-                <i parallax="reveal-left-in">billetera virtual</i>billetera
-                virtual
-              </span>
+              <HighlightedText text="billetera virtual"/>
             </h1>
           </div>
           <div className="section-description">

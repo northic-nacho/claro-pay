@@ -1,6 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
+import HighlightedText from '../../Components/HighlightedText';
 import './styles.scss';
 
 const SecondSection = () => {
@@ -21,15 +22,10 @@ const SecondSection = () => {
             <h1 className="title color-red">
               Con todo el
               <br />
-              <span className="highlight hl1">
-                <i parallax="reveal-left-in:shift(-30%)">respaldo</i>
-                respaldo
-              </span>
+              <HighlightedText text="respaldo" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" />
               <br />
               <span className="pl-6"></span>de{" "}
-              <span className="highlight  hl2">
-                <i parallax="reveal-left-in">Claro</i>Claro
-              </span>
+              <HighlightedText text="Claro" containerClassName="hl2" />
             </h1>
           </div>
           <div className="section-description">
