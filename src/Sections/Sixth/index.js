@@ -4,58 +4,56 @@ import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
-import './styles.scss';
+import IPhone from "../../Components/IPhone";
+import "./styles.scss";
 
 const SixthSection = () => {
   return (
     <ParallaxSection id="s6">
       <div className="content-group align-items-center">
         <div className="column left">
-          <div className="iphone-image-group iphone-s4">
-            <figure className="iphone-hardware"></figure>
-            <figure className="iphone-screen">
-              <div
-                className="gf-screen-card-in-01 gf-screen-card-in"
-                parallax="credit-card-in-1"
-              >
-                <img
-                  src="images/gf-screen-card-01.png"
-                  srcSet="images/gf-screen-card-01@2x.png 2x"
-                  alt=""
-                />
-              </div>
+          <IPhone className="iphone-s4" showScreen>
+            <div
+              className="gf-screen-card-in-01 gf-screen-card-in"
+              parallax="credit-card-in-1"
+            >
+              <img
+                src="images/gf-screen-card-01.png"
+                srcSet="images/gf-screen-card-01@2x.png 2x"
+                alt=""
+              />
+            </div>
 
-              <div
-                className="gf-screen-card-in-02 gf-screen-card-in"
-                parallax="credit-card-in-2"
-              >
-                <img
-                  src="images/gf-screen-card-02.png"
-                  srcSet="images/gf-screen-card-02@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div
-                className="gf-screen-card-in-03 gf-screen-card-in"
-                parallax="credit-card-in-3"
-              >
-                <img
-                  src="images/gf-screen-card-03.png"
-                  srcSet="images/gf-screen-card-03@2x.png 2x"
-                  alt=""
-                />
-              </div>
+            <div
+              className="gf-screen-card-in-02 gf-screen-card-in"
+              parallax="credit-card-in-2"
+            >
+              <img
+                src="images/gf-screen-card-02.png"
+                srcSet="images/gf-screen-card-02@2x.png 2x"
+                alt=""
+              />
+            </div>
 
-              <div className="gf-screen-cards-background">
-                <img
-                  src="images/gf-screen-cards-background.png"
-                  srcSet="images/gf-screen-cards-background@2x.png 2x"
-                  alt=""
-                />
-              </div>
-            </figure>
-            <figure className="iphone-shadow"></figure>
-          </div>
+            <div
+              className="gf-screen-card-in-03 gf-screen-card-in"
+              parallax="credit-card-in-3"
+            >
+              <img
+                src="images/gf-screen-card-03.png"
+                srcSet="images/gf-screen-card-03@2x.png 2x"
+                alt=""
+              />
+            </div>
+
+            <div className="gf-screen-cards-background">
+              <img
+                src="images/gf-screen-cards-background.png"
+                srcSet="images/gf-screen-cards-background@2x.png 2x"
+                alt=""
+              />
+            </div>
+          </IPhone>
           <div
             className="gf-screen-card-01 gf-screen-card"
             parallax="credit-card-back-1"
