@@ -1,6 +1,7 @@
 import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import HighlightedText from '../../Components/HighlightedText';
+import SectionTitle from '../../Components/SectionTitle';
 import './styles.scss';
 
 const EighthSection = () => {
@@ -29,9 +30,9 @@ const EighthSection = () => {
             <div className="gf-moare-right"><img src="images/gf-moare-grey.png" srcSet="images/gf-moare-grey@2x.png 2x" alt="" /></div>
           </div>
           <div className="column right">
-            <div className="section-title">
-              <h1 className="title color-red">¡Abierto<br />las <HighlightedText text="24hs" /><br />en tu celular!</h1>
-            </div>
+            <SectionTitle>
+              ¡Abierto<br />las <HighlightedText text="24hs" /><br />en tu celular!
+            </SectionTitle>
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
+import SectionTitle from '../../Components/SectionTitle';
 import './styles.scss';
 
 const FourthSection = () => {
@@ -56,11 +57,9 @@ const FourthSection = () => {
           <div className="gf-circle-grey" parallax="zoom-in zoom-in:reverse"></div>
         </div>
         <div className="column right">
-          <div className="section-title">
-            <h1 className="title color-red">
-              <HighlightedText text="Pagá" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" /> todas tus facturas y <HighlightedText text="recargá" containerClassName="hl2" /> tus servicios
-            </h1>
-          </div>
+          <SectionTitle>
+            <HighlightedText text="Pagá" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" /> todas tus facturas y <HighlightedText text="recargá" containerClassName="hl2" /> tus servicios
+          </SectionTitle>
           <div className="section-description">
             <p className="description"><b>Luz, Agua, Gas, Internet...</b><br />lo que necesites sin hacer filas <br />ni moverte de tu casa.</p>
           </div>

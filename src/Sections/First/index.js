@@ -2,6 +2,7 @@ import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
+import SectionTitle from '../../Components/SectionTitle';
 import './styles.scss';
 
 const FirstSection = () => {
@@ -24,15 +25,13 @@ const FirstSection = () => {
           </div>
         </div>
         <div className="column right">
-          <div className="section-title">
-            <h1 className="title color-red">
-              Claro Pay
-              <br />
-              es tu nueva
-              <br />
-              <HighlightedText text="billetera virtual"/>
-            </h1>
-          </div>
+          <SectionTitle>
+            Claro Pay
+            <br />
+            es tu nueva
+            <br />
+            <HighlightedText text="billetera virtual"/>
+          </SectionTitle>
           <div className="section-description">
             <p className="description">
               Enviá y recibí dinero,

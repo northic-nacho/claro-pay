@@ -2,6 +2,7 @@ import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
+import SectionTitle from '../../Components/SectionTitle';
 import './styles.scss';
 
 const ThirdSection = () => {
@@ -9,11 +10,9 @@ const ThirdSection = () => {
     <ParallaxSection id="s3">
       <div className="content-group align-items-center">
         <div className="column left">
-          <div className="section-title">
-            <h1 className="title color-red">
-              <HighlightedText text="Mandá y recibí" /><br />dinero
-            </h1>
-          </div>
+          <SectionTitle>
+            <HighlightedText text="Mandá y recibí" /><br />dinero
+          </SectionTitle>
           <div className="section-description">
             <p className="description">con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales o a cualquier banco de manera <b>simple y segura.</b></p>
           </div>

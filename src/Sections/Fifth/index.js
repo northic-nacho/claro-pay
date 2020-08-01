@@ -2,6 +2,7 @@ import React from "react";
 import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
+import SectionTitle from "../../Components/SectionTitle";
 import './styles.scss';
 
 const FifthSection = () => {
@@ -9,14 +10,9 @@ const FifthSection = () => {
     <ParallaxSection id="s5">
       <div className="content-group align-items-center">
         <div className="column left">
-          <div className="section-title">
-            <h1 className="title color-red">
-              <span className="highlight">
-                <HighlightedText text="Movete" />
-              </span>{" "}
-              en todo momento, sin obstáculos
-            </h1>
-          </div>
+          <SectionTitle>
+            <HighlightedText text="Movete" /> en todo momento, sin obstáculos
+          </SectionTitle>
           <div className="section-description">
             <p className="description">
               Podés cargar tu tarjeta <b>Sube</b>

@@ -2,6 +2,7 @@ import React from 'react';
 import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
+import SectionTitle from '../../Components/SectionTitle';
 import './styles.scss';
 
 const SecondSection = () => {
@@ -18,16 +19,14 @@ const SecondSection = () => {
           <ArrowButton to="#s3" />
         </div>
         <div className="column right">
-          <div className="section-title">
-            <h1 className="title color-red">
-              Con todo el
-              <br />
-              <HighlightedText text="respaldo" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" />
-              <br />
-              <span className="pl-6"></span>de{" "}
-              <HighlightedText text="Claro" containerClassName="hl2" />
-            </h1>
-          </div>
+          <SectionTitle>
+            Con todo el
+            <br />
+            <HighlightedText text="respaldo" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" />
+            <br />
+            <span className="pl-6"></span>de{" "}
+            <HighlightedText text="Claro" containerClassName="hl2" />
+          </SectionTitle>
           <div className="section-description">
             <p className="description">
               Tenés la tranquilidad de operar con una compañía que está en
