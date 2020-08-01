@@ -64,6 +64,7 @@
       font-size: 1.2rem;
     }
   }
+  
 
   .content-group {
     position: relative;
@@ -77,4 +78,41 @@
       position: relative;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    section {
+      background: #fefefe;
+    }
+    .content-group {
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+      .column {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+      }
+    }
+
+    &-title .title {
+      font-size: 2.5rem;
+      line-height: 2.8rem;
+      text-align: center;
+      .highlight i {
+        height: 105px;
+        left: -8px;
+        top: -14px;
+        padding: 0.5rem 0.5rem 0.25rem;
+      }
+    }
+  
+    &-description .description {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .pl-6 {
+      padding-left: 0;
+    }
+  }
 }
+
