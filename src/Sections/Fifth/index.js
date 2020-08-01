@@ -4,6 +4,7 @@ import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
+import ScreenElement from "../../Components/ScreenElement";
 import IPhone from "../../Components/IPhone";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
@@ -34,84 +35,52 @@ const FifthSection = () => {
           <ArrowButton to="#s6" />
         </div>
         <div className="column right">
-          <div className="gf-screen-sube-money" parallax="sube-money">
-            <img
-              src="images/gf-screen-sube-money.png"
-              srcSet="images/gf-screen-sube-money@2x.png 2x"
-              alt=""
-            />
-          </div>
+          <ScreenElement
+            parallax="sube-money"
+            className="gf-screen-sube-money"
+            image="gf-screen-sube-money"
+          />
           <IPhone
             className="iphone-s4"
             showScreen
             showScreenNav
             {...iphoneProps}
           >
-            <div
-              className="gf-screen-sube-outline-front"
-              parallax="sube-outline-front"
-            >
-              <img
-                src="images/gf-screen-sube-outline.png"
-                srcSet="images/gf-screen-sube-outline@2x.png 2x"
-                alt=""
-              />
-            </div>
-            <div
-              className="gf-screen-sube-outline-front-mobile"
+            <ScreenElement
               parallax="sube-outline-front-mobile"
-            >
-              <img
-                src="images/gf-screen-sube-outline.png"
-                srcSet="images/gf-screen-sube-outline@2x.png 2x"
-                alt=""
-              />
-            </div>
-            <div className="gf-screen-app-buttons">
-              <img
-                src="images/gf-screen-app-buttons.png"
-                srcSet="images/gf-screen-app-buttons@2x.png 2x"
-                alt=""
-              />
-            </div>
+              className="gf-screen-sube-outline-front"
+              image="gf-screen-sube-outline"
+            />
+            <ScreenElement
+              parallax="sube-outline-front-mobile"
+              className="gf-screen-sube-outline-front-mobile"
+              image="gf-screen-sube-outline"
+            />
+            <ScreenElement
+              className="gf-screen-app-buttons"
+              image="gf-screen-app-buttons"
+            />
           </IPhone>
-          <div
+          <ScreenElement
             className="gf-screen-sube-outline-back"
             parallax="sube-outline-back"
-          >
-            <img
-              src="images/gf-screen-sube-outline.png"
-              srcSet="images/gf-screen-sube-outline@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div
+            image="gf-screen-sube-outline"
+          />
+          <ScreenElement
             className="gf-screen-sube-outline-back-mobile"
             parallax="sube-outline-back-mobile"
-          >
-            <img
-              src="images/gf-screen-sube-outline.png"
-              srcSet="images/gf-screen-sube-outline@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div className="gf-screen-sube-green-back" parallax="sube-green-back">
-            <img
-              src="images/gf-screen-sube-green.png"
-              srcSet="images/gf-screen-sube-green@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div
+            image="gf-screen-sube-outline"
+          />
+          <ScreenElement
+            className="gf-screen-sube-green-back"
+            parallax="sube-green-back"
+            image="gf-screen-sube-green"
+          />
+          <ScreenElement
             className="gf-screen-sube-green-back-mobile"
             parallax="sube-green-back-mobile"
-          >
-            <img
-              src="images/gf-screen-sube-green.png"
-              srcSet="images/gf-screen-sube-green@2x.png 2x"
-              alt=""
-            />
-          </div>
+            image="gf-screen-sube-green"
+          />
           <div className="gf-circle-grey-2"></div>
           <div className="gf-circle-bar-grey">
             <img
@@ -129,27 +98,9 @@ const FifthSection = () => {
           </div>
         </div>
       </div>
-      <div className="gf-plus-green-1">
-        <img
-          src="images/gf-plus-green.png"
-          srcSet="images/gf-plus-green@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-plus-green-2">
-        <img
-          src="images/gf-plus-green.png"
-          srcSet="images/gf-plus-green@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-plus-green-3">
-        <img
-          src="images/gf-plus-green.png"
-          srcSet="images/gf-plus-green@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Icons.Plus color="green" iconKey={1} />
+      <Icons.Plus color="green" iconKey={2} />
+      <Icons.Plus color="green" iconKey={3} />
       <div className="gf-money-grey">
         <img
           src="images/gf-money-grey.png"
@@ -165,7 +116,7 @@ const FifthSection = () => {
         />
       </div>
       <div className="gf-circle-grey-1"></div>
-      <div className="gf-bars-green">{"//"}</div>
+      <Icons.Bars color="green" />
       <Icons.GreenCircle animation="half-circle-rotation" />
     </ParallaxSection>
   );

@@ -5,6 +5,7 @@ import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
 import IPhone from "../../Components/IPhone";
+import ScreenElement from "../../Components/ScreenElement";
 import "./styles.scss";
 
 const SixthSection = () => {
@@ -13,108 +14,56 @@ const SixthSection = () => {
       <div className="content-group align-items-center">
         <div className="column left">
           <IPhone className="iphone-s4" showScreen>
-            <div
+            <ScreenElement
               className="gf-screen-card-in-01 gf-screen-card-in"
               parallax="credit-card-in-1"
-            >
-              <img
-                src="images/gf-screen-card-01.png"
-                srcSet="images/gf-screen-card-01@2x.png 2x"
-                alt=""
-              />
-            </div>
-
-            <div
+              image="gf-screen-card-01"
+            />
+            <ScreenElement
               className="gf-screen-card-in-02 gf-screen-card-in"
               parallax="credit-card-in-2"
-            >
-              <img
-                src="images/gf-screen-card-02.png"
-                srcSet="images/gf-screen-card-02@2x.png 2x"
-                alt=""
-              />
-            </div>
-
-            <div
+              image="gf-screen-card-02"
+            />
+            <ScreenElement
               className="gf-screen-card-in-03 gf-screen-card-in"
               parallax="credit-card-in-3"
-            >
-              <img
-                src="images/gf-screen-card-03.png"
-                srcSet="images/gf-screen-card-03@2x.png 2x"
-                alt=""
-              />
-            </div>
-
-            <div className="gf-screen-cards-background">
-              <img
-                src="images/gf-screen-cards-background.png"
-                srcSet="images/gf-screen-cards-background@2x.png 2x"
-                alt=""
-              />
-            </div>
+              image="gf-screen-card-03"
+            />
+            <ScreenElement
+              className="gf-screen-cards-background"
+              image="gf-screen-cards-background"
+            />
           </IPhone>
-          <div
+          <ScreenElement
             className="gf-screen-card-01 gf-screen-card"
             parallax="credit-card-back-1"
-          >
-            <img
-              src="images/gf-screen-card-01.png"
-              srcSet="images/gf-screen-card-01@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div
+            image="gf-screen-card-01"
+          />
+          <ScreenElement
             className="gf-screen-card-02 gf-screen-card"
             parallax="credit-card-back-2"
-          >
-            <img
-              src="images/gf-screen-card-02.png"
-              srcSet="images/gf-screen-card-02@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div
+            image="gf-screen-card-02"
+          />
+          <ScreenElement
             className="gf-screen-card-03 gf-screen-card"
             parallax="credit-card-back-3"
-          >
-            <img
-              src="images/gf-screen-card-03.png"
-              srcSet="images/gf-screen-card-03@2x.png 2x"
-              alt=""
-            />
-          </div>
-
-          <div
+            image="gf-screen-card-03"
+          />
+          <ScreenElement
             className="gf-screen-card-01-mobile gf-screen-card"
             parallax="credit-card-back-1-mobile"
-          >
-            <img
-              src="images/gf-screen-card-01.png"
-              srcSet="images/gf-screen-card-01@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div
+            image="gf-screen-card-01"
+          />
+          <ScreenElement
             className="gf-screen-card-02-mobile gf-screen-card"
             parallax="credit-card-back-2-mobile"
-          >
-            <img
-              src="images/gf-screen-card-02.png"
-              srcSet="images/gf-screen-card-02@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div
+            image="gf-screen-card-02"
+          />
+          <ScreenElement
             className="gf-screen-card-03-mobile gf-screen-card"
             parallax="credit-card-back-3-mobile"
-          >
-            <img
-              src="images/gf-screen-card-03.png"
-              srcSet="images/gf-screen-card-03@2x.png 2x"
-              alt=""
-            />
-          </div>
+            image="gf-screen-card-03"
+          />
         </div>
         <div className="column right">
           <SectionTitle>
@@ -139,20 +88,8 @@ const SixthSection = () => {
           alt=""
         />
       </div>
-      <div className="gf-plus-green">
-        <img
-          src="images/gf-plus-green.png"
-          srcSet="images/gf-plus-green@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-plus-grey">
-        <img
-          src="images/gf-plus-grey.png"
-          srcSet="images/gf-plus-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Icons.Plus color="green" />
+      <Icons.Plus color="grey" />
       <div className="gf-money-grey">
         <img
           src="images/gf-money-grey.png"
@@ -160,8 +97,7 @@ const SixthSection = () => {
           alt=""
         />
       </div>
-      <div className="gf-bars-grey-1">/</div>
-      <div className="gf-bars-grey-2">/</div>
+      <Icons.Bars color="grey" />
       <Icons.GreenCircle animation="quarter-circle-rotation" />
     </ParallaxSection>
   );

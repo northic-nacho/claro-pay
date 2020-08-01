@@ -51,8 +51,8 @@ const SecondSection = () => {
           alt=""
         />
       </div>
-      <div className="gf-bars-grey">{'//'}</div>
-      <div className="gf-bars-green ocultar-mobile">{'//'}</div>
+      <Icons.Bars color="grey" />
+      <Icons.Bars color="green" hideInMobile />
       <div className="gf-box-small-red"></div>
     </ParallaxSection>
   );

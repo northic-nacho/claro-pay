@@ -41,14 +41,14 @@ const FirstSection = () => {
           <ArrowButton to="#s2" />
         </div>
       </div>
-      <div className="gf-bars-green">{"//"}</div>
+      <Icons.Bars color="green" />
       <div className="gf-box-small-red"></div>
       <div className="gf-dash-green">
         <i></i>
         <i></i>
         <i></i>
       </div>
-      <div className="gf-bars-grey">{"//"}</div>
+      <Icons.Bars color="grey" />
     </ParallaxSection>
   );
 };

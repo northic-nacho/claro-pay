@@ -4,6 +4,7 @@ import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import IPhone from "../../Components/IPhone";
+import ScreenElement from "../../Components/ScreenElement";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
 
@@ -61,13 +62,10 @@ const SeventhSection = () => {
                   alt=""
                 />
               </div>
-              <div className="gf-screen-app-buttons">
-                <img
-                  src="images/gf-screen-app-buttons.png"
-                  srcSet="images/gf-screen-app-buttons@2x.png 2x"
-                  alt=""
-                />
-              </div>
+              <ScreenElement
+                className="gf-screen-app-buttons"
+                image="gf-screen-app-buttons"
+              />
             </IPhone>
             <div className="gf-moare-right">
               <img

@@ -6,17 +6,19 @@ import SectionTitle from "../../Components/SectionTitle";
 import IPhone from "../../Components/IPhone";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
+import Icons from "../../Components/Icons";
+import ScreenElement from "../../Components/ScreenElement";
 
 const FourthSection = () => {
   const { isMobileDevice } = useDeviceDetection();
 
-  const iphoneProps = isMobileDevice
-    ? {}
-    : { containerParallax: "slide-in-left" };
+  const iphoneProps = {
+    containerParallax: isMobileDevice ? null : 'slide-in-left'
+  };
 
-  const greyCircleProps = isMobileDevice
-    ? {}
-    : { parallax: "zoom-in zoom-in:reverse" };
+  const greyCircleProps = {
+    parallax: isMobileDevice ? null : 'zoom-in zoom-in:reverse'
+  };
 
   return (
     <ParallaxSection id="s4">
@@ -32,189 +34,102 @@ const FourthSection = () => {
               className="screen-services-container"
               parallax="ribbon-services"
             >
-              <div className="gf-screen-service-01 gf-screen-service-circle">
-                <img
-                  src="images/gf-screen-service-01.png"
-                  srcSet="images/gf-screen-service-01@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-ribbon">
-                <img
-                  src="images/gf-screen-ribbon.png"
-                  srcSet="images/gf-screen-ribbon@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div className="gf-screen-service-plus-white-01">
-                <img
-                  src="images/gf-screen-service-plus-white.png"
-                  srcSet="images/gf-screen-service-plus-white@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div
+              <ScreenElement
+                className="gf-screen-service-01 gf-screen-service-circle"
+                image="gf-screen-service-01"
+              />
+              <ScreenElement
+                className="gf-screen-ribbon"
+                image="gf-screen-ribbon"
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-white-01"
+                image="gf-screen-service-plus-white"
+              />
+              <ScreenElement
                 className="gf-screen-service-02 gf-screen-service-circle"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-02.png"
-                  srcSet="images/gf-screen-service-02@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-plus-red-01">
-                <img
-                  src="images/gf-screen-service-plus-red.png"
-                  srcSet="images/gf-screen-service-plus-red@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-money-white">
-                <img
-                  src="images/gf-screen-service-money-white.png"
-                  srcSet="images/gf-screen-service-money-white@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div
+                image="gf-screen-service-02"
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-red-01"
+                image="gf-screen-service-plus-red"
+              />
+              <ScreenElement
+                className="gf-screen-service-money-white"
+                image="gf-screen-service-money-white"
+              />
+              <ScreenElement
                 className="gf-screen-service-03 gf-screen-service-circle"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-03.png"
-                  srcSet="images/gf-screen-service-03@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-plus-red-02">
-                <img
-                  src="images/gf-screen-service-plus-red.png"
-                  srcSet="images/gf-screen-service-plus-red@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-points-white">
-                <img
-                  src="images/gf-screen-service-points-white.png"
-                  srcSet="images/gf-screen-service-points-white@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div
+                image="gf-screen-service-03"
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-red-02"
+                image="gf-screen-service-plus-red"
+              />
+              <ScreenElement
+                className="gf-screen-service-points-white"
+                image="gf-screen-service-points-white"
+              />
+              <ScreenElement
                 className="gf-screen-service-04 gf-screen-service-circle"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-04.png"
-                  srcSet="images/gf-screen-service-04@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-points-white">
-                <img
-                  src="images/gf-screen-service-points-white.png"
-                  srcSet="images/gf-screen-service-points-white@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-plus-red-03">
-                <img
-                  src="images/gf-screen-service-plus-red.png"
-                  srcSet="images/gf-screen-service-plus-red@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div
+                image="gf-screen-service-04"
+              />
+              <ScreenElement
+                className="gf-screen-service-points-white"
+                image="gf-screen-service-points-white"
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-red-03"
+                image="gf-screen-service-plus-red"
+              />
+              <ScreenElement
                 className="gf-screen-service-05 gf-screen-service-circle"
+                image="gf-screen-service-05"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-05.png"
-                  srcSet="images/gf-screen-service-05@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-points-white">
-                <img
-                  src="images/gf-screen-service-points-white.png"
-                  srcSet="images/gf-screen-service-points-white@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div
+              />
+              <ScreenElement
+                className="gf-screen-service-points-white"
+                image="gf-screen-service-points-white"
+              />
+              <ScreenElement
                 className="gf-screen-service-06 gf-screen-service-circle"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-06.png"
-                  srcSet="images/gf-screen-service-06@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-points-white">
-                <img
-                  src="images/gf-screen-service-points-white.png"
-                  srcSet="images/gf-screen-service-points-white@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-plus-red-04">
-                <img
-                  src="images/gf-screen-service-plus-red.png"
-                  srcSet="images/gf-screen-service-plus-red@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div
+                image="gf-screen-service-06"
+              />
+              <ScreenElement
+                className="gf-screen-service-points-white"
+                image="gf-screen-service-points-white"
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-red-04"
+                image="gf-screen-service-plus-red"
+              />
+              <ScreenElement
                 className="gf-screen-service-07 gf-screen-service-circle"
+                image="gf-screen-service-07"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-07.png"
-                  srcSet="images/gf-screen-service-07@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-plus-red-05">
-                <img
-                  src="images/gf-screen-service-plus-red.png"
-                  srcSet="images/gf-screen-service-plus-red@2x.png 2x"
-                  alt=""
-                />
-              </div>
-              <div className="gf-screen-service-plus-red-06">
-                <img
-                  src="images/gf-screen-service-plus-red.png"
-                  srcSet="images/gf-screen-service-plus-red@2x.png 2x"
-                  alt=""
-                />
-              </div>
-
-              <div
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-red-05"
+                image="gf-screen-service-plus-red"
+              />
+              <ScreenElement
+                className="gf-screen-service-plus-red-06"
+                image="gf-screen-service-plus-red"
+              />
+              <ScreenElement
                 className="gf-screen-service-08"
                 parallax="service-zoom-in:shift(0%)"
-              >
-                <img
-                  src="images/gf-screen-service-08.png"
-                  srcSet="images/gf-screen-service-08@2x.png 2x"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="gf-screen-app-buttons">
-              <img
-                src="images/gf-screen-app-buttons.png"
-                srcSet="images/gf-screen-app-buttons@2x.png 2x"
-                alt=""
+                image="gf-screen-service-08"
               />
             </div>
+            <ScreenElement
+              className="gf-screen-app-buttons"
+              image="gf-screen-app-buttons"
+            />
             <div className="gf-screen-circle-red"></div>
           </IPhone>
           <div className="gf-circle-grey" {...greyCircleProps}></div>
@@ -241,13 +156,7 @@ const FourthSection = () => {
           <ArrowButton to="#s5" />
         </div>
       </div>
-      <div className="gf-plus-green">
-        <img
-          src="images/gf-plus-green.png"
-          srcSet="images/gf-plus-green@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Icons.Plus color="green" />
       <div className="gf-money-grey">
         <img
           src="images/gf-money-grey.png"

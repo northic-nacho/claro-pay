@@ -3,6 +3,8 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import Icons from "../../Components/Icons";
+import ScreenElement from "../../Components/ScreenElement";
 import IPhone from "../../Components/IPhone";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
@@ -10,9 +12,9 @@ import "./styles.scss";
 const ThirdSection = () => {
   const { isMobileDevice } = useDeviceDetection();
 
-  const iphoneProps = isMobileDevice
-    ? {}
-    : { containerParallax: "slide-in-right" };
+  const iphoneProps = {
+    containerParallax: isMobileDevice ? null : 'slide-in-right'
+  }
 
   return (
     <ParallaxSection id="s3">
@@ -38,20 +40,16 @@ const ThirdSection = () => {
             showScreenNav
             {...iphoneProps}
           >
-            <div className="gf-screen-money-icon" parallax="screen-wallet">
-              <img
-                src="images/gf-screen-money-icon.png"
-                srcSet="images/gf-screen-money-icon@2x.png 2x"
-                alt=""
-              />
-            </div>
-            <div className="gf-screen-wallet" parallax="screen-wallet">
-              <img
-                src="images/gf-screen-wallet.png"
-                srcSet="images/gf-screen-wallet@2x.png 2x"
-                alt=""
-              />
-            </div>
+            <ScreenElement
+              className="gf-screen-money-icon"
+              parallax="screen-wallet"
+              image="gf-screen-money-icon"
+            />
+            <ScreenElement
+              className="gf-screen-wallet"
+              parallax="screen-wallet"
+              image="gf-screen-wallet"
+            />
             <div className="screen-money">
               <h4 className="text-money">
                 <span id="dinero-celular" parallax="screen-circle">
@@ -59,20 +57,15 @@ const ThirdSection = () => {
                 </span>
               </h4>
             </div>
-            <div className="gf-screen-check" parallax="screen-check-green">
-              <img
-                src="images/gf-screen-check-green.png"
-                srcSet="images/gf-screen-check-green@2x.png 2x"
-                alt=""
-              />
-            </div>
-            <div className="gf-screen-app-buttons">
-              <img
-                src="images/gf-screen-app-buttons.png"
-                srcSet="images/gf-screen-app-buttons@2x.png 2x"
-                alt=""
-              />
-            </div>
+            <ScreenElement
+              className="gf-screen-check"
+              parallax="screen-check-green"
+              image="gf-screen-check-green"
+            />
+            <ScreenElement
+              className="gf-screen-app-buttons"
+              image="gf-screen-app-buttons"
+            />
             <div
               className="gf-screen-circle-red"
               parallax="screen-circle"
@@ -102,7 +95,7 @@ const ThirdSection = () => {
           alt=""
         />
       </div>
-      <div className="gf-bars-grey">{"//"}</div>
+      <Icons.Bars color="grey" />
       <div className="gf-money-grey">
         <img
           src="images/gf-money-grey.png"
@@ -129,20 +122,8 @@ const ThirdSection = () => {
         <i></i>
         <i></i>
       </div>
-      <div className="gf-plus-green">
-        <img
-          src="images/gf-plus-green.png"
-          srcSet="images/gf-plus-green@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-plus-white">
-        <img
-          src="images/gf-plus-white.png"
-          srcSet="images/gf-plus-white@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Icons.Plus color="green" />
+      <Icons.Plus color="white" />
       {isMobileDevice ? (
         ""
       ) : (
