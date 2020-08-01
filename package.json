@@ -32,7 +32,9 @@
       "prettier"
     ],
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "react/jsx-filename-extension": 0,
+      "react/jsx-props-no-spreading": 0
     }
   },
   "browserslist": {

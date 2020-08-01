@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Image = ({ className, image, parallax }) => {
   const parallaxProps = {
-    parallax: parallax ? parallax : null
+    parallax: parallax || null,
   };
   return (
     <div className={className} {...parallaxProps}>
@@ -12,7 +12,7 @@ const Image = ({ className, image, parallax }) => {
         alt=""
       />
     </div>
-  )
-}
+  );
+};
 
-export default Image
+export default Image;
