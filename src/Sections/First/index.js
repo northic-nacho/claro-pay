@@ -54,14 +54,14 @@ const FirstSection = () => {
           </a>
         </div>
       </div>
-      <div className="gf-bars-green">//</div>
+      <div className="gf-bars-green">{'//'}</div>
       <div className="gf-box-small-red"></div>
       <div className="gf-dash-green">
         <i></i>
         <i></i>
         <i></i>
       </div>
-      <div className="gf-bars-grey">//</div>
+      <div className="gf-bars-grey">{'//'}</div>
     </ParallaxSection>
   );
 }

@@ -1,20 +1,24 @@
+// eslint-disable jsx-a11y/anchor-is-valid
 import React from "react";
-import libre from "./jquery.parallax";
+import jqueryParallax from "./jquery.parallax";
 import FirstSection from "./Sections/First";
 import SecondSection from "./Sections/Second";
 import ThirdSection from "./Sections/Third";
 import FourthSection from "./Sections/Fourth";
 import FifthSection from "./Sections/Fifth";
 import SixthSection from "./Sections/Sixth";
+import SeventhSection from "./Sections/Seventh";
+import EighthSection from "./Sections/Eighth";
+import Footer from "./Components/Footer";
+import Paginator from "./Components/Paginator";
 
 function App() {
   React.useEffect(() => {
-    libre();
+    jqueryParallax();
   }, []);
 
   return (
     <div>
-      {/* TODO revisar navbar */}
       <nav className="navbar navbar-expand-lg navbar-light navbar-claropay">
         <a className="navbar-brand" href="#">
           <img
@@ -42,22 +46,15 @@ function App() {
       <FourthSection />
       <FifthSection />
       <SixthSection />
-      <div className="paging">
-        <a
-          href="#s1"
-          parallax="paging-button"
-          parallax-container="#s1"
-          title="Bienvenidos"
-        ></a>
-        <a
-          href="#s2"
-          parallax="paging-button"
-          parallax-container="#s2"
-          title="Con el reslapdo de Claro"
-        ></a>
-      </div>
+      <SeventhSection />
+      <EighthSection />
+      <Footer />
+      <Paginator />
+      
     </div>
   );
 }
 
 export default App;
+
+// eslint-enable

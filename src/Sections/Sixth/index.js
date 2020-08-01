@@ -4,7 +4,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 const SixthSection = () => {
   return (
     <ParallaxSection id="s6">
-      <div classNameName="content-group align-items-center">
+      <div className="content-group align-items-center">
         <div className="column left">
           <div className="iphone-image-group iphone-s4">
             <figure className="iphone-hardware"></figure>
@@ -15,7 +15,8 @@ const SixthSection = () => {
               >
                 <img
                   src="images/gf-screen-card-01.png"
-                  srcset="images/gf-screen-card-01@2x.png 2x"
+                  srcSet="images/gf-screen-card-01@2x.png 2x"
+                  alt=""
                 />
               </div>
 
@@ -25,7 +26,8 @@ const SixthSection = () => {
               >
                 <img
                   src="images/gf-screen-card-02.png"
-                  srcset="images/gf-screen-card-02@2x.png 2x"
+                  srcSet="images/gf-screen-card-02@2x.png 2x"
+                  alt=""
                 />
               </div>
               <div
@@ -34,14 +36,15 @@ const SixthSection = () => {
               >
                 <img
                   src="images/gf-screen-card-03.png"
-                  srcset="images/gf-screen-card-03@2x.png 2x"
+                  srcSet="images/gf-screen-card-03@2x.png 2x"
+                  alt=""
                 />
               </div>
 
               <div className="gf-screen-cards-background">
                 <img
                   src="images/gf-screen-cards-background.png"
-                  srcset="images/gf-screen-cards-background@2x.png 2x"
+                  srcSet="images/gf-screen-cards-background@2x.png 2x"
                   alt=""
                 />
               </div>
@@ -54,7 +57,8 @@ const SixthSection = () => {
           >
             <img
               src="images/gf-screen-card-01.png"
-              srcset="images/gf-screen-card-01@2x.png 2x"
+              srcSet="images/gf-screen-card-01@2x.png 2x"
+              alt=""
             />
           </div>
           <div
@@ -63,7 +67,8 @@ const SixthSection = () => {
           >
             <img
               src="images/gf-screen-card-02.png"
-              srcset="images/gf-screen-card-02@2x.png 2x"
+              srcSet="images/gf-screen-card-02@2x.png 2x"
+              alt=""
             />
           </div>
           <div
@@ -72,7 +77,8 @@ const SixthSection = () => {
           >
             <img
               src="images/gf-screen-card-03.png"
-              srcset="images/gf-screen-card-03@2x.png 2x"
+              srcSet="images/gf-screen-card-03@2x.png 2x"
+              alt=""
             />
           </div>
 
@@ -82,7 +88,8 @@ const SixthSection = () => {
           >
             <img
               src="images/gf-screen-card-01.png"
-              srcset="images/gf-screen-card-01@2x.png 2x"
+              srcSet="images/gf-screen-card-01@2x.png 2x"
+              alt=""
             />
           </div>
           <div
@@ -91,7 +98,8 @@ const SixthSection = () => {
           >
             <img
               src="images/gf-screen-card-02.png"
-              srcset="images/gf-screen-card-02@2x.png 2x"
+              srcSet="images/gf-screen-card-02@2x.png 2x"
+              alt=""
             />
           </div>
           <div
@@ -100,7 +108,8 @@ const SixthSection = () => {
           >
             <img
               src="images/gf-screen-card-03.png"
-              srcset="images/gf-screen-card-03@2x.png 2x"
+              srcSet="images/gf-screen-card-03@2x.png 2x"
+              alt=""
             />
           </div>
         </div>
@@ -125,7 +134,7 @@ const SixthSection = () => {
           <a href="#s7" className="btn-arrow">
             <img
               src="images/icon-arrow-down-red.png"
-              srcset="images/icon-arrow-down-red@2x.png 2x"
+              srcSet="images/icon-arrow-down-red@2x.png 2x"
               alt="Scroll Down"
             />
           </a>
@@ -134,25 +143,29 @@ const SixthSection = () => {
       <div className="gf-bill-green">
         <img
           src="images/gf-bill-green.png"
-          srcset="images/gf-bill-green@2x.png 2x"
+          srcSet="images/gf-bill-green@2x.png 2x"
+          alt=""
         />
       </div>
       <div className="gf-plus-green">
         <img
           src="images/gf-plus-green.png"
-          srcset="images/gf-plus-green@2x.png 2x"
+          srcSet="images/gf-plus-green@2x.png 2x"
+          alt=""
         />
       </div>
       <div className="gf-plus-grey">
         <img
           src="images/gf-plus-grey.png"
-          srcset="images/gf-plus-grey@2x.png 2x"
+          srcSet="images/gf-plus-grey@2x.png 2x"
+          alt=""
         />
       </div>
       <div className="gf-money-grey">
         <img
           src="images/gf-money-grey.png"
-          srcset="images/gf-money-grey@2x.png 2x"
+          srcSet="images/gf-money-grey@2x.png 2x"
+          alt=""
         />
       </div>
       <div className="gf-bars-grey-1">/</div>

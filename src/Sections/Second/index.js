@@ -54,16 +54,18 @@ const SecondSection = () => {
         <img
           src="images/gf-money-red.png"
           srcSet="images/gf-money-red@2x.png 2x"
+          alt=""
         />
       </div>
       <div className="gf-shield-green">
         <img
           src="images/gf-shield-green.png"
           srcSet="images/gf-shield-green@2x.png 2x"
+          alt=""
         />
       </div>
-      <div className="gf-bars-grey">//</div>
-      <div className="gf-bars-green ocultar-mobile">//</div>
+      <div className="gf-bars-grey">{'//'}</div>
+      <div className="gf-bars-green ocultar-mobile">{'//'}</div>
       <div className="gf-box-small-red"></div>
     </ParallaxSection>
   );
