@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /**
  * DNA PARALLAX
  * CSS-defined parallax effects bound to scrollbar
@@ -30,7 +31,7 @@
  */
 import $ from 'jquery';
 
-const libre = function() {
+const jqueryParallax = function() {
     var $window = $(window);
     var allRules = {};
     var lock = 0;
@@ -39,11 +40,6 @@ const libre = function() {
     var viewTopLast = viewTop;
     var scrolling = true;
     var eventType = "scroll"; //  "scroll" | "frame" use on-scroll event or requestAnimationFrame
-
-		console.log('pase por aca');
-
-		console.log('jquery?', $);
-		console.log('window?', window);
     // Install animation hooks
     function installHooks() {
 	$window
@@ -539,4 +535,5 @@ const libre = function() {
 
 };
 
-export default libre;
+export default jqueryParallax;
+/* eslint-enable eqeqeq */
