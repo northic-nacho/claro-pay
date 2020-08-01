@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="app-container">
       <NavBar />
       <FirstSection />
       <SecondSection />
@@ -33,7 +33,6 @@ function App() {
       <EighthSection />
       <Footer />
       <Paginator />
-      
     </div>
   );
 }

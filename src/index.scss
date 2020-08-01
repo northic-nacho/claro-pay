@@ -30,5 +30,10 @@ h6 {
   font-weight: 900;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @import './parallax';
 @import './keyframes';
