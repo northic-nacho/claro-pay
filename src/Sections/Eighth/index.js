@@ -2,6 +2,7 @@ import React from "react";
 import ParallaxSection from "../../Components/ParallaxSection";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import Image from "../../Components/Image";
 import IPhone from "../../Components/IPhone";
 import "./styles.scss";
 
@@ -27,20 +28,14 @@ const EighthSection = () => {
                 ></div>
               </div>
             </IPhone>
-            <div className="gf-moare-left">
-              <img
-                src="images/gf-moare-grey.png"
-                srcSet="images/gf-moare-grey@2x.png 2x"
-                alt=""
-              />
-            </div>
-            <div className="gf-moare-right">
-              <img
-                src="images/gf-moare-grey.png"
-                srcSet="images/gf-moare-grey@2x.png 2x"
-                alt=""
-              />
-            </div>
+            <Image
+              className="gf-moare-left"
+              image="gf-moare-grey"
+            />
+            <Image
+              className="gf-moare-right"
+              image="gf-moare-grey"
+            />
           </div>
           <div className="column right">
             <SectionTitle>

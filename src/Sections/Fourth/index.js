@@ -7,6 +7,7 @@ import IPhone from "../../Components/IPhone";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
 import Icons from "../../Components/Icons";
+import Image from "../../Components/Image";
 import ScreenElement from "../../Components/ScreenElement";
 
 const FourthSection = () => {
@@ -157,38 +158,26 @@ const FourthSection = () => {
         </div>
       </div>
       <Icons.Plus color="green" />
-      <div className="gf-money-grey">
-        <img
-          src="images/gf-money-grey.png"
-          srcSet="images/gf-money-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-money-grey"
+        image="gf-money-grey"
+      />
       {isMobileDevice ? (
         ""
       ) : (
-        <div className="gf-ticket-green">
-          <img
-            src="images/gf-ticket-green.png"
-            srcSet="images/gf-ticket-green@2x.png 2x"
-            alt=""
-          />
-        </div>
-      )}
-      <div className="gf-bill-green">
-        <img
-          src="images/gf-bill-green.png"
-          srcSet="images/gf-bill-green@2x.png 2x"
-          alt=""
+        <Image
+          className="gf-ticket-green"
+          image="gf-ticket-green"
         />
-      </div>
-      <div className="gf-money-grey-2">
-        <img
-          src="images/gf-money-grey.png"
-          srcSet="images/gf-money-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
+      )}    
+      <Image
+        className="gf-bill-green"
+        image="gf-bill-green"
+      />
+      <Image
+        className="gf-money-grey-2"
+        image="gf-money-grey"
+      />
       <div className="gf-dash-grey">
         <i></i>
         <i></i>

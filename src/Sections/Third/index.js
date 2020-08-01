@@ -5,6 +5,7 @@ import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
 import ScreenElement from "../../Components/ScreenElement";
+import Image from "../../Components/Image";
 import IPhone from "../../Components/IPhone";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
@@ -71,52 +72,35 @@ const ThirdSection = () => {
               parallax="screen-circle"
             ></div>
           </IPhone>
-          <div className="gf-big-bill" parallax="bill-slide-in-top">
-            <img
-              src="images/gf-big-bill.png"
-              srcSet="images/gf-big-bill@2x.png 2x"
-              alt=""
-            />
-          </div>
+          <Image
+            image="gf-big-bill"
+            className="gf-big-bill"
+            parallax="bill-slide-in-top"
+          />
           <div className="gf-circle-white" parallax="zoom-in:shift(10%)"></div>
-          <div className="gf-moare-right">
-            <img
-              src="images/gf-moare-right.png"
-              srcSet="images/gf-moare-right@2x.png 2x"
-              alt=""
-            />
-          </div>
+          <Image
+            image="gf-moare-right"
+            className="gf-moare-right"
+          />
         </div>
       </div>
-      <div className="gf-shield-green">
-        <img
-          src="images/gf-shield-green.png"
-          srcSet="images/gf-shield-green@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-shield-green"
+        image="gf-shield-green"
+      />
       <Icons.Bars color="grey" />
-      <div className="gf-money-grey">
-        <img
-          src="images/gf-money-grey.png"
-          srcSet="images/gf-money-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-money-white">
-        <img
-          src="images/gf-money-white.png"
-          srcSet="images/gf-money-white@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-check-green ocultar-mobile">
-        <img
-          src="images/gf-check-green.png"
-          srcSet="images/gf-check-green@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-money-grey"
+        image="gf-money-grey"
+      />
+      <Image
+        className="gf-money-white"
+        image="gf-money-white"
+      />
+      <Image
+        className="gf-check-green ocultar-mobile"
+        image="gf-check-green"
+      />
       <div className="gf-dash-grey">
         <i></i>
         <i></i>

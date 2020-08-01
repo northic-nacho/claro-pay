@@ -3,6 +3,7 @@ import ParallaxSection from '../../Components/ParallaxSection';
 import ArrowButton from '../../Components/ArrowButton';
 import HighlightedText from '../../Components/HighlightedText';
 import SectionTitle from '../../Components/SectionTitle';
+import Image from '../../Components/Image';
 import Icons from '../../Components/Icons';
 import './styles.scss';
 
@@ -37,20 +38,14 @@ const SecondSection = () => {
         <i></i>
         <i></i>
       </div>
-      <div className="gf-money-red">
-        <img
-          src="images/gf-money-red.png"
-          srcSet="images/gf-money-red@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-shield-green">
-        <img
-          src="images/gf-shield-green.png"
-          srcSet="images/gf-shield-green@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-money-red"
+        image="gf-money-red"
+      />
+      <Image
+        className="gf-shield-green"
+        image="gf-shield-green"
+      />
       <Icons.Bars color="grey" />
       <Icons.Bars color="green" hideInMobile />
       <div className="gf-box-small-red"></div>

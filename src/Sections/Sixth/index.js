@@ -5,6 +5,7 @@ import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
 import IPhone from "../../Components/IPhone";
+import Image from "../../Components/Image";
 import ScreenElement from "../../Components/ScreenElement";
 import "./styles.scss";
 
@@ -81,22 +82,16 @@ const SixthSection = () => {
           <ArrowButton to="#s7" />
         </div>
       </div>
-      <div className="gf-bill-green">
-        <img
-          src="images/gf-bill-green.png"
-          srcSet="images/gf-bill-green@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-bill-green"
+        image="gf-bill-green"
+      />
       <Icons.Plus color="green" />
       <Icons.Plus color="grey" />
-      <div className="gf-money-grey">
-        <img
-          src="images/gf-money-grey.png"
-          srcSet="images/gf-money-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-money-grey"
+        image="gf-money-grey"
+      />
       <Icons.Bars color="grey" />
       <Icons.GreenCircle animation="quarter-circle-rotation" />
     </ParallaxSection>

@@ -6,6 +6,7 @@ import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
 import ScreenElement from "../../Components/ScreenElement";
 import IPhone from "../../Components/IPhone";
+import Image from "../../Components/Image";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
 
@@ -82,39 +83,27 @@ const FifthSection = () => {
             image="gf-screen-sube-green"
           />
           <div className="gf-circle-grey-2"></div>
-          <div className="gf-circle-bar-grey">
-            <img
-              src="images/gf-circle-bar-grey.png"
-              srcSet="images/gf-circle-bar-grey@2x.png 2x"
-              alt=""
-            />
-          </div>
-          <div className="gf-moare-right">
-            <img
-              src="images/gf-moare-right.png"
-              srcSet="images/gf-moare-right@2x.png 2x"
-              alt=""
-            />
-          </div>
+          <Image
+            className="gf-circle-bar-grey"
+            image="gf-circle-bar-grey"
+          />
+          <Image
+            className="gf-moare-right"
+            image="gf-moare-right"
+          />
         </div>
       </div>
       <Icons.Plus color="green" iconKey={1} />
       <Icons.Plus color="green" iconKey={2} />
       <Icons.Plus color="green" iconKey={3} />
-      <div className="gf-money-grey">
-        <img
-          src="images/gf-money-grey.png"
-          srcSet="images/gf-money-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
-      <div className="gf-house-grey ocultar-mobile">
-        <img
-          src="images/gf-house-grey.png"
-          srcSet="images/gf-house-grey@2x.png 2x"
-          alt=""
-        />
-      </div>
+      <Image
+        className="gf-money-grey"
+        image="gf-money-grey"
+      />
+      <Image
+        className="gf-house-grey ocultar-mobile"
+        image="gf-house-grey"
+      />
       <div className="gf-circle-grey-1"></div>
       <Icons.Bars color="green" />
       <Icons.GreenCircle animation="half-circle-rotation" />
