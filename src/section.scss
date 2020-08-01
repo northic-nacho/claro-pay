@@ -1,0 +1,80 @@
+.section {
+  height: 200vh;
+  background-color: #ebebeb;
+  background: url("../images/bg-s1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  &-title {
+    .title {
+      font-size: 4rem;
+      line-height: 4.5rem;
+
+      &::before {
+        color: #fff;
+        background-color: #000;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        padding: 0.7rem 0.5rem 0.5rem;
+        position: absolute;
+        left: -70px;
+        top: -20px;
+      }
+
+      .highlight {
+        position: relative;
+
+        i {
+          height: 154px;
+          left: -8px;
+          top: -15px;
+          color: #f2f2f2;
+          position: absolute;
+          padding: 0.5rem 0.5rem 0.25rem;
+          -webkit-clip-path: inset(-1% 100% 50% -1%);
+          clip-path: inset(-1% 100% 50% -1%);
+          font-style: normal;
+          text-align: left;
+        }
+      }
+
+      &.color-red {
+        .highlight {
+          i {
+            background-color: #ff2c1e;
+          }
+        }
+      }
+
+      &.color-green {
+        .highlight {
+          i {
+            background-color: #00f7bf;
+          }
+        }
+      }
+    }
+  }
+
+  &-description {
+    .description {
+      font-size: 1.2rem;
+    }
+  }
+
+  .content-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 20;
+
+    .column {
+      position: relative;
+    }
+  }
+}

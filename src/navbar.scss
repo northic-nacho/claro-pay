@@ -1,0 +1,14 @@
+.navbar-claropay {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 1.5rem 1rem;
+
+  .navbar-brand {
+    margin-left: 0.5rem;
+
+    img {
+      margin-top: -18px;
+    }
+  }
+}
