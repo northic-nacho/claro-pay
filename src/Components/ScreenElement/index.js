@@ -1,20 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Image from '../Image';
 
-const ScreenElement = ({ className, image, parallax}) => {
-  const parallaxPropx = {
+const ScreenElement = ({ className, image, parallax }) => {
+  const parallaxProps = {
     parallax: parallax ? parallax : null
   };
   return (
-    <div
+    <Image
       className={className}
-      {...parallaxPropx}
-    >
-      <img
-        src={`images/${image}.png`}
-        srcSet={`images/${image}@2x.png 2x`}
-        alt=""
-      />
-    </div>
+      image={image}
+      {...parallaxProps}
+    />
   );
 }
 
