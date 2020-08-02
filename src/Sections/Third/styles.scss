@@ -1,315 +1,330 @@
 /*Section 3*/
-#s3 .content-group .column.left {
-  margin-right: 7rem;
-  z-index: 2;
-}
-#s3 .iphone-image-group {
-  position: relative;
-  z-index: 10;
-}
-#s3 .iphone-screen {
-  position: absolute;
-  left: 18px;
-  top: 17px;
-  width: 225px;
-  height: 485px;
-  background-color: #fff;
-  z-index: 1;
-  overflow: hidden;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-align: center;
-  align-items: center;
-}
-#s3 .iphone-screen .gf-screen-app-buttons {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-}
-#s3 .iphone-screen .gf-screen-circle-red {
-  width: 600px;
-  height: 600px;
-  border-radius: 300px;
-  background-color: #ff2817;
-  position: absolute;
-  left: 50%;
-  margin-left: -300px;
-  top: -426px;
-  z-index: 1;
-}
-#s3 .iphone-screen .screen-nav {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 30px 25px;
-}
-#s3 .iphone-screen .gf-screen-money-icon {
-  position: relative;
-  z-index: 2;
-  margin-top: 20px;
-}
-#s3 .iphone-screen .gf-screen-wallet {
-  position: relative;
-  z-index: 3;
-  margin-top: 30px;
-}
-#s3 .iphone-screen .screen-money {
-  position: relative;
-  z-index: 3;
-  margin-top: 40px;
-}
-#s3 .iphone-screen .text-money {
-  font-weight: 300;
-  color: #ff2817;
-  font-size: 38px;
-}
-#s3 .gf-screen-check {
-  z-index: 3;
-  position: absolute;
-  top: 160px;
-}
-
-#s3 .iphone-hardware {
-  z-index: 10;
-}
-#s3 .section-title .title .highlight i {
-  width: 500px;
-}
-#s3 .section-description {
-  width: 350px;
-  position: relative;
-}
-#s3 .gf-big-bill {
-  position: absolute;
-  top: 0;
-  left: 50px;
-}
-#s3 .gf-shield-green {
-  position: absolute;
-  left: 10%;
-  top: 48%;
-}
-#s3 .gf-bars-grey {
-  color: #606060;
-  opacity: 0.45;
-  font-weight: bold;
-  font-size: 1.2rem;
-  position: absolute;
-  top: 12%;
-  left: 9%;
-}
-#s3 .gf-money-grey {
-  position: absolute;
-  left: 56%;
-  top: 35%;
-}
-#s3 .gf-money-white {
-  position: absolute;
-  right: 7%;
-  top: 19%;
-  z-index: 4;
-}
-#s3 .gf-check-green {
-  position: absolute;
-  left: 56%;
-  top: 51%;
-}
-#s3 .gf-dash-grey {
-  left: 0;
-  top: 27%;
-}
-#s3 .gf-plus-green {
-  position: absolute;
-  left: 19%;
-  bottom: 26%;
-}
-#s3 .gf-plus-white {
-  position: absolute;
-  right: 9%;
-  bottom: 20%;
-}
-#s3 .btn-arrow {
-  margin-top: 2rem;
-  position: relative;
-  display: inline-block;
-  left: 220px;
-}
-#s3 .iphone-image-group {
-  z-index: 5;
-  position: relative;
-}
-#s3 .gf-moare-right {
-  position: absolute;
-  z-index: 3;
-  top: -50px;
-  left: 230px;
-}
-#s3 .gf-circle-red {
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  background-color: #ff2817;
-  right: -23%;
-  top: 5%;
-  z-index: 2;
-  border-radius: 400px;
-}
-#s3 .gf-circle-white {
-  position: absolute;
-  z-index: 4;
-  width: 180px;
-  height: 180px;
-  background-color: #f2f2f2;
-  left: 180px;
-  bottom: -20px;
-  border-radius: 90px;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-}
-#s3 .gf-plus-white {
-  position: absolute;
-  z-index: 4;
-  bottom: 25%;
-  right: 7%;
-}
-#s3 .gf-circle-green {
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  background-color: #00f5bd;
-  left: 0;
-  top: 87%;
-  z-index: 1;
-  border-radius: 400px;
+#s3 {
+  .content-group {
+    .column.left {
+      margin-right: 7rem;
+      z-index: 2;
+    }
+  }
+  .iphone-image-group {
+    position: relative;
+    z-index: 10;
+    z-index: 5;
+    position: relative;
+  }
+  .iphone-screen {
+    position: absolute;
+    left: 18px;
+    top: 17px;
+    width: 225px;
+    height: 485px;
+    background-color: #fff;
+    z-index: 1;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    .gf-screen-app-buttons {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+    }
+    .gf-screen-circle-red {
+      width: 600px;
+      height: 600px;
+      border-radius: 300px;
+      background-color: #ff2817;
+      position: absolute;
+      left: 50%;
+      margin-left: -300px;
+      top: -426px;
+      z-index: 1;
+    }
+    .screen-nav {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 30px 25px;
+    }
+    .gf-screen-money-icon {
+      position: relative;
+      z-index: 2;
+      margin-top: 20px;
+    }
+    .gf-screen-wallet {
+      position: relative;
+      z-index: 3;
+      margin-top: 30px;
+    }
+    .screen-money {
+      position: relative;
+      z-index: 3;
+      margin-top: 40px;
+    }
+    .text-money {
+      font-weight: 300;
+      color: #ff2817;
+      font-size: 38px;
+    }
+  }
+  .gf-screen-check {
+    z-index: 3;
+    position: absolute;
+    top: 160px;
+  }
+  .iphone-hardware {
+    z-index: 10;
+  }
+  .section-title {
+    .title {
+      .highlight {
+        i {
+          width: 500px;
+        }
+      }
+    }
+  }
+  .section-description {
+    width: 350px;
+    position: relative;
+  }
+  .gf-big-bill {
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+  .gf-shield-green {
+    position: absolute;
+    left: 10%;
+    top: 48%;
+  }
+  .gf-bars-grey {
+    color: #606060;
+    opacity: 0.45;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 12%;
+    left: 9%;
+  }
+  .gf-money-grey {
+    position: absolute;
+    left: 56%;
+    top: 35%;
+  }
+  .gf-money-white {
+    position: absolute;
+    right: 7%;
+    top: 19%;
+    z-index: 4;
+  }
+  .gf-check-green {
+    position: absolute;
+    left: 56%;
+    top: 51%;
+  }
+  .gf-dash-grey {
+    left: 0;
+    top: 27%;
+  }
+  .gf-plus-green {
+    position: absolute;
+    left: 19%;
+    bottom: 26%;
+  }
+  .gf-plus-white {
+    position: absolute;
+    right: 9%;
+    bottom: 20%;
+    position: absolute;
+    z-index: 4;
+    bottom: 25%;
+    right: 7%;
+  }
+  .btn-arrow {
+    margin-top: 2rem;
+    position: relative;
+    display: inline-block;
+    left: 220px;
+  }
+  .gf-moare-right {
+    position: absolute;
+    z-index: 3;
+    top: -50px;
+    left: 230px;
+  }
+  .gf-circle-red {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    background-color: #ff2817;
+    right: -23%;
+    top: 5%;
+    z-index: 2;
+    border-radius: 400px;
+  }
+  .gf-circle-white {
+    position: absolute;
+    z-index: 4;
+    width: 180px;
+    height: 180px;
+    background-color: #f2f2f2;
+    left: 180px;
+    bottom: -20px;
+    border-radius: 90px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  }
+  .gf-circle-green {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #00f5bd;
+    left: 0;
+    top: 87%;
+    z-index: 1;
+    border-radius: 400px;
+  }
 }
 @media only screen and (max-width: 768px) {
-  #s3 .content-group .column.left {
-    margin-right: 0rem;
-  }
-  #s3 .content-group .column.right {
-    z-index: 1;
-    width: auto;
-  }
-  #s3 .section-description {
-    width: 100%;
-  }
-  #s3 .content-group .column {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  #s3 .section-title .title .highlight i {
-    width: 320px;
-  }
-  #s3 .btn-arrow {
-    left: 50%;
-    margin-left: -20px;
-    margin-top: 0;
+  #s3 {
+    .content-group {
+      .column.left {
+        margin-right: 0rem;
+      }
+      .column.right {
+        z-index: 1;
+        width: auto;
+      }
+      .column {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      margin-top: 90px;
+    }
+    .section-description {
+      width: 100%;
+    }
+    .section-title {
+      .title {
+        .highlight {
+          i {
+            width: 320px;
+            width: 97px;
+            padding: 4px 6px;
+            height: 74px;
+            top: -7px;
+            left: -6px;
+          }
+        }
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+      }
+    }
+    .btn-arrow {
+      left: 50%;
+      margin-left: -20px;
+      margin-top: 0;
+    }
+    .gf-big-bill {
+      left: 57px;
+      top: 30px;
+      img {
+        width: 70%;
+      }
+    }
+    .gf-circle-white {
+      width: 90px;
+      height: 90px;
+      left: 130px;
+      bottom: 0px;
+      border-radius: 90px;
+    }
+    .iphone-screen {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      width: 137px;
+      height: 294px;
+      .gf-screen-circle-red {
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        left: 50%;
+        margin-left: -200px;
+        top: -300px;
+      }
+      .screen-nav {
+        padding: 10px 10px;
+      }
+      .gf-screen-money-icon {
+        margin-top: 10px;
+        img {
+          width: 75%;
+        }
+      }
+      .gf-screen-wallet {
+        text-align: center;
+        margin-top: 20px;
+        img {
+          width: 75%;
+        }
+      }
+      .screen-money {
+        margin-top: 30px;
+      }
+      .text-money {
+        font-size: 24px;
+      }
+    }
+    .screen-nav {
+      .gf-screen-logo {
+        img {
+          width: 75%;
+        }
+      }
+      .gf-screen-nav-button {
+        img {
+          width: 75%;
+        }
+      }
+    }
+    .gf-screen-check {
+      text-align: center;
+      top: 110px;
+      img {
+        width: 70%;
+      }
+    }
+    .gf-screen-app-buttons {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .gf-circle-green {
+      width: 400px;
+      height: 400px;
+      background-color: #00f5bd;
+      left: -25%;
+      top: 91%;
+      z-index: 1;
+      border-radius: 200px;
+    }
   }
   #anim-stage-s3 {
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
-  }
-  #s3 .content-group {
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-    margin-top: 90px;
-  }
-  #s3 .gf-big-bill {
-    left: 57px;
-    top: 30px;
-  }
-  #s3 .gf-big-bill img {
-    width: 70%;
-  }
-  #s3 .gf-circle-white {
-    width: 90px;
-    height: 90px;
-    left: 130px;
-    bottom: 0px;
-    border-radius: 90px;
-  }
-  #s3 .iphone-screen {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 137px;
-    height: 294px;
-  }
-  #s3 .iphone-screen .gf-screen-circle-red {
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    left: 50%;
-    margin-left: -200px;
-    top: -300px;
-  }
-  #s3 .iphone-screen .screen-nav {
-    padding: 10px 10px;
-  }
-  #s3 .screen-nav .gf-screen-logo img {
-    width: 75%;
-  }
-  #s3 .screen-nav .gf-screen-nav-button img {
-    width: 75%;
-  }
-  #s3 .iphone-screen .gf-screen-money-icon {
-    margin-top: 10px;
-  }
-  #s3 .iphone-screen .gf-screen-money-icon img {
-    width: 75%;
-  }
-  #s3 .iphone-screen .gf-screen-wallet {
-    text-align: center;
-    margin-top: 20px;
-  }
-  #s3 .iphone-screen .gf-screen-wallet img {
-    width: 75%;
-  }
-  #s3 .iphone-screen .screen-money {
-    margin-top: 30px;
-  }
-  #s3 .iphone-screen .text-money {
-    font-size: 24px;
-  }
-  #s3 .gf-screen-check {
-    text-align: center;
-    top: 110px;
-  }
-  #s3 .gf-screen-check img {
-    width: 70%;
-  }
-  #s3 .gf-screen-app-buttons {
-    width: 100%;
-  }
-  #s3 .gf-screen-app-buttons img {
-    width: 100%;
-  }
-  #s3 .gf-circle-green {
-    width: 400px;
-    height: 400px;
-    background-color: #00f5bd;
-    left: -25%;
-    top: 91%;
-    z-index: 1;
-    border-radius: 200px;
-  }
-  #s3 .section-title .title {
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-  }
-  #s3 .section-title .title .highlight i {
-    width: 97px;
-    padding: 4px 6px;
-    height: 74px;
-    top: -7px;
-    left: -6px;
   }
 }

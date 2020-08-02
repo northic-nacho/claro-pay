@@ -1,344 +1,393 @@
 /*Section 4*/
-#s4 .content-group .column.left {
-  margin-right: 7rem;
-  z-index: 1;
-}
-#s4 .content-group .column.right {
-  z-index: 2;
-}
-#s4 .section-title {
-  width: 410px;
-}
-#s4 .section-title .title .highlight.hl1 i {
-  width: 180px;
-}
-#s4 .section-title .title .highlight.hl2 i {
-  width: 270px;
-}
-#s4 .btn-arrow {
-  margin-top: 2rem;
-  display: inline-block;
-}
-#s4 .iphone-image-group {
-  z-index: 10;
-  position: relative;
-}
-#s4 .iphone-screen {
-  position: absolute;
-  left: 18px;
-  top: 17px;
-  width: 225px;
-  height: 485px;
-  background-color: #fff;
-  z-index: 1;
-  overflow: hidden;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
-}
-#s4 .iphone-screen .gf-screen-app-buttons {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-}
-#s4 .iphone-screen .gf-screen-circle-red {
-  width: 600px;
-  height: 600px;
-  border-radius: 300px;
-  background-color: #ff2817;
-  position: absolute;
-  left: 50%;
-  margin-left: -300px;
-  top: -460px;
-  z-index: 1;
-}
-#s4 .iphone-screen .screen-nav {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 30px 25px;
-}
-#s4 .gf-circle-grey {
-  width: 120px;
-  height: 120px;
-  background-color: #606060;
-  opacity: 0.2;
-  position: absolute;
-  border-radius: 60px;
-  z-index: 1;
-  right: -40px;
-  top: 40%;
-}
-#s4 .gf-plus-green {
-  position: absolute;
-  left: 9%;
-  height: 18%;
-}
-#s4 .gf-money-grey {
-  position: absolute;
-  left: 42%;
-  top: 18%;
-}
-#s4 .gf-ticket-green {
-  position: absolute;
-  left: 42%;
-  top: 30%;
-}
-#s4 .gf-bill-green {
-  position: absolute;
-  bottom: 15%;
-  right: 20%;
-}
-#s4 .gf-money-grey-2 {
-  position: absolute;
-  bottom: 20%;
-  right: 10%;
-}
-#s4 .gf-dash-grey {
-  position: absolute;
-  right: 0;
-  bottom: 22%;
-}
-#s4 .screen-services-container {
-  background-color: #00f5bd;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  top: 210px;
-  left: 0;
-}
-#s4 .gf-screen-service-circle {
-  position: relative;
-  margin: 0 1.5rem;
-}
-#s4 .gf-screen-service-circle img {
-  position: relative;
-  z-index: 2;
-}
-#s4 .gf-screen-service-circle:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-  border-radius: 100px;
-  width: 112px;
-  height: 112px;
-  left: 2px;
-  top: 2px;
-}
-#s4 .gf-screen-ribbon {
-  margin-right: 2rem;
-}
-#s4 .gf-screen-service-plus-white-01 {
-  position: absolute;
-  left: 320px;
-  top: 15px;
-}
-#s4 .gf-screen-service-plus-red-01 {
-  position: absolute;
-  left: 455px;
-  bottom: 10px;
-}
-#s4 .gf-screen-service-money-white {
-  position: absolute;
-  left: 480px;
-  top: 35px;
-}
-#s4 .gf-screen-service-plus-red-02 {
-  position: absolute;
-  left: 655px;
-  top: 15px;
-}
-#s4 .gf-screen-service-plus-red-03 {
-  position: absolute;
-  left: 845px;
-  bottom: 15px;
-}
-#s4 .gf-screen-service-plus-red-04 {
-  position: absolute;
-  left: 1245px;
-  bottom: 15px;
-}
-#s4 .gf-screen-service-plus-red-05 {
-  position: absolute;
-  left: 1385px;
-  top: 15px;
-}
-#s4 .gf-screen-service-plus-red-06 {
-  position: absolute;
-  left: 1405px;
-  top: 45px;
-}
-#s4 .gf-screen-service-01 {
-  margin-left: 3rem;
-  margin-right: 1rem;
-}
-#s4 .gf-screen-service-08 {
-  margin-left: 5rem;
-  margin-right: 12rem;
-}
-
-@media only screen and (max-width: 768px) {
-  #s4 .iphone-image-group {
-    margin-top: 20px;
+#s4 {
+  .content-group {
+    .column.left {
+      margin-right: 7rem;
+      z-index: 1;
+    }
+    .column.right {
+      z-index: 2;
+    }
   }
-  #s4 .iphone-screen {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 137px;
-    height: 294px;
+  .section-title {
+    width: 410px;
+    .title {
+      .highlight.hl1 {
+        i {
+          width: 180px;
+        }
+      }
+      .highlight.hl2 {
+        i {
+          width: 270px;
+        }
+      }
+    }
   }
-  #s4 .iphone-screen .gf-screen-circle-red {
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    left: 50%;
-    margin-left: -200px;
-    top: -300px;
+  .btn-arrow {
+    margin-top: 2rem;
+    display: inline-block;
   }
-  #s4 .iphone-screen .screen-nav {
-    padding: 10px 10px;
-  }
-  #s4 .screen-nav .gf-screen-logo img {
-    width: 75%;
-  }
-  #s4 .screen-nav .gf-screen-nav-button img {
-    width: 75%;
-  }
-  #s4 .gf-screen-app-buttons {
-    width: 100%;
-  }
-  #s4 .gf-screen-app-buttons img {
-    width: 100%;
-  }
-  #s4 .content-group .column.right {
-    z-index: 2;
-  }
-  #s4 .content-group .column.left {
-    width: auto;
-    margin: 0 auto;
-  }
-  #s4 .section-title .title .highlight.hl1 i {
-    width: 76px;
-    padding: 4px 6px;
-    height: 74px;
-    top: -7px;
-    left: -6px;
-  }
-  #s4 .section-title .title .highlight.hl2 i {
-    width: 111px;
-    padding: 4px 6px;
-    height: 74px;
-    top: -7px;
-    left: -6px;
-  }
-  #s4 .btn-arrow {
+  .iphone-image-group {
+    z-index: 10;
     position: relative;
-    margin-top: 0;
-    left: 50%;
-    margin-left: -20px;
   }
-  #s4 .section-title .title {
-    font-size: 1.6rem;
-    line-height: 1.9rem;
+  .iphone-screen {
+    position: absolute;
+    left: 18px;
+    top: 17px;
+    width: 225px;
+    height: 485px;
+    background-color: #fff;
+    z-index: 1;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    .gf-screen-app-buttons {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+    }
+    .gf-screen-circle-red {
+      width: 600px;
+      height: 600px;
+      border-radius: 300px;
+      background-color: #ff2817;
+      position: absolute;
+      left: 50%;
+      margin-left: -300px;
+      top: -460px;
+      z-index: 1;
+    }
+    .screen-nav {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 30px 25px;
+    }
   }
-  #s4 .section-title {
-    width: auto;
+  .gf-circle-grey {
+    width: 120px;
+    height: 120px;
+    background-color: #606060;
+    opacity: 0.2;
+    position: absolute;
+    border-radius: 60px;
+    z-index: 1;
+    right: -40px;
+    top: 40%;
   }
-  #s4 .screen-services-container {
-    top: 110px;
+  .gf-plus-green {
+    position: absolute;
+    left: 9%;
+    height: 18%;
   }
-  #s4 .gf-screen-service-circle {
-    margin: 0 0.75rem;
+  .gf-money-grey {
+    position: absolute;
+    left: 42%;
+    top: 18%;
   }
-  #s4 .gf-screen-service-points-white img {
-    width: 15px;
+  .gf-ticket-green {
+    position: absolute;
+    left: 42%;
+    top: 30%;
   }
-  #s4 .gf-screen-service-circle:after {
-    width: 74px;
-    height: 74px;
-    left: 1px;
-    top: 1px;
+  .gf-bill-green {
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
   }
-  #s4 .gf-screen-ribbon img {
-    height: 116px;
+  .gf-money-grey-2 {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
   }
-  #s4 .gf-screen-ribbon {
-    margin-right: 1rem;
+  .gf-dash-grey {
+    position: absolute;
+    right: 0;
+    bottom: 22%;
   }
-  #s4 .gf-screen-service-01 {
-    margin-left: 1rem;
+  .screen-services-container {
+    background-color: #00f5bd;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 210px;
+    left: 0;
   }
-  #s4 .gf-screen-service-01 img,
-  #s4 .gf-screen-service-02 img,
-  #s4 .gf-screen-service-03 img,
-  #s4 .gf-screen-service-04 img,
-  #s4 .gf-screen-service-05 img,
-  #s4 .gf-screen-service-06 img,
-  #s4 .gf-screen-service-07 img {
-    height: 76px;
+  .gf-screen-service-circle {
+    position: relative;
+    margin: 0 1.5rem;
+    img {
+      position: relative;
+      z-index: 2;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+      border-radius: 100px;
+      width: 112px;
+      height: 112px;
+      left: 2px;
+      top: 2px;
+    }
   }
-  #s4 .gf-screen-service-plus-white-01 {
-    left: 200px;
+  .gf-screen-ribbon {
+    margin-right: 2rem;
+  }
+  .gf-screen-service-plus-white-01 {
+    position: absolute;
+    left: 320px;
     top: 15px;
   }
-  #s4 .gf-screen-service-plus-red-01 {
+  .gf-screen-service-plus-red-01 {
     position: absolute;
-    left: 288px;
+    left: 455px;
     bottom: 10px;
   }
-  #s4 .gf-screen-service-money-white {
+  .gf-screen-service-money-white {
     position: absolute;
-    left: 297px;
+    left: 480px;
     top: 35px;
   }
-  #s4 .gf-screen-service-plus-red-02 {
+  .gf-screen-service-plus-red-02 {
     position: absolute;
-    left: 405px;
+    left: 655px;
     top: 15px;
   }
-  #s4 .gf-screen-service-plus-red-03 {
+  .gf-screen-service-plus-red-03 {
     position: absolute;
-    left: 525px;
+    left: 845px;
     bottom: 15px;
   }
-  #s4 .gf-screen-service-plus-red-04 {
+  .gf-screen-service-plus-red-04 {
     position: absolute;
-    left: 755px;
+    left: 1245px;
     bottom: 15px;
   }
-  #s4 .gf-screen-service-plus-red-05 {
+  .gf-screen-service-plus-red-05 {
     position: absolute;
-    left: 855px;
+    left: 1385px;
     top: 15px;
   }
-  #s4 .gf-screen-service-plus-red-06 {
+  .gf-screen-service-plus-red-06 {
     position: absolute;
-    left: 875px;
+    left: 1405px;
     top: 45px;
   }
-  #s4 .gf-screen-service-08 {
+  .gf-screen-service-01 {
     margin-left: 3rem;
-    margin-right: 3rem;
+    margin-right: 1rem;
   }
-  #s4 .gf-bill-green {
-    bottom: 5%;
-    right: 70%;
+  .gf-screen-service-08 {
+    margin-left: 5rem;
+    margin-right: 12rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #s4 {
+    .iphone-image-group {
+      margin-top: 20px;
+    }
+    .iphone-screen {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      width: 137px;
+      height: 294px;
+      .gf-screen-circle-red {
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        left: 50%;
+        margin-left: -200px;
+        top: -300px;
+      }
+      .screen-nav {
+        padding: 10px 10px;
+      }
+    }
+    .screen-nav {
+      .gf-screen-logo {
+        img {
+          width: 75%;
+        }
+      }
+      .gf-screen-nav-button {
+        img {
+          width: 75%;
+        }
+      }
+    }
+    .gf-screen-app-buttons {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .content-group {
+      .column.right {
+        z-index: 2;
+      }
+      .column.left {
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+    .section-title {
+      .title {
+        .highlight.hl1 {
+          i {
+            width: 76px;
+            padding: 4px 6px;
+            height: 74px;
+            top: -7px;
+            left: -6px;
+          }
+        }
+        .highlight.hl2 {
+          i {
+            width: 111px;
+            padding: 4px 6px;
+            height: 74px;
+            top: -7px;
+            left: -6px;
+          }
+        }
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+      }
+      width: auto;
+    }
+    .btn-arrow {
+      position: relative;
+      margin-top: 0;
+      left: 50%;
+      margin-left: -20px;
+    }
+    .screen-services-container {
+      top: 110px;
+    }
+    .gf-screen-service-circle {
+      margin: 0 0.75rem;
+      &:after {
+        width: 74px;
+        height: 74px;
+        left: 1px;
+        top: 1px;
+      }
+    }
+    .gf-screen-service-points-white {
+      img {
+        width: 15px;
+      }
+    }
+    .gf-screen-ribbon {
+      img {
+        height: 116px;
+      }
+      margin-right: 1rem;
+    }
+    .gf-screen-service-01 {
+      margin-left: 1rem;
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-02 {
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-03 {
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-04 {
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-05 {
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-06 {
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-07 {
+      img {
+        height: 76px;
+      }
+    }
+    .gf-screen-service-plus-white-01 {
+      left: 200px;
+      top: 15px;
+    }
+    .gf-screen-service-plus-red-01 {
+      position: absolute;
+      left: 288px;
+      bottom: 10px;
+    }
+    .gf-screen-service-money-white {
+      position: absolute;
+      left: 297px;
+      top: 35px;
+    }
+    .gf-screen-service-plus-red-02 {
+      position: absolute;
+      left: 405px;
+      top: 15px;
+    }
+    .gf-screen-service-plus-red-03 {
+      position: absolute;
+      left: 525px;
+      bottom: 15px;
+    }
+    .gf-screen-service-plus-red-04 {
+      position: absolute;
+      left: 755px;
+      bottom: 15px;
+    }
+    .gf-screen-service-plus-red-05 {
+      position: absolute;
+      left: 855px;
+      top: 15px;
+    }
+    .gf-screen-service-plus-red-06 {
+      position: absolute;
+      left: 875px;
+      top: 45px;
+    }
+    .gf-screen-service-08 {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .gf-bill-green {
+      bottom: 5%;
+      right: 70%;
+    }
   }
 }
