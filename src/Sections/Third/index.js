@@ -9,6 +9,7 @@ import ScreenElement from "../../Components/ScreenElement";
 import Image from "../../Components/Image";
 import Video from "../../Components/Video";
 import IPhone from "../../Components/IPhone";
+import Money from "../../Components/Money";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
 
@@ -29,13 +30,7 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
         parallax="screen-wallet"
         image="gf-screen-wallet"
       />
-      <div className="screen-money">
-        <h4 className="text-money">
-          <span id="dinero-celular" parallax="screen-circle">
-            <small>$</small> 85.00
-          </span>
-        </h4>
-      </div>
+      <Money />
       <ScreenElement
         className="gf-screen-check"
         parallax="screen-check-green"
