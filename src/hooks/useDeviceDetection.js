@@ -11,9 +11,9 @@ const useDeviceDetection = () => {
   const { deviceMemory } = useMemoryStatus();
 
   useEffect(() => {
-    /* if (numberOfLogicalProcessors < 4 || deviceMemory < 3) {
+    if (numberOfLogicalProcessors < 4 || deviceMemory < 3) {
       setIsLowEndDevice(true);
-    } */
+    }
 
     console.log("----DEVICE SPECS----");
     console.log("Is mobile: ", isMobileDevice);

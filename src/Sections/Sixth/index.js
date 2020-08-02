@@ -43,7 +43,7 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
 };
 
 const SixthSection = () => {
-  const { isMobileDevice, isLowEndDevice } = useDeviceDetection();
+  const { isLowEndDevice } = useDeviceDetection();
 
   return (
     <ParallaxSection id="s6">

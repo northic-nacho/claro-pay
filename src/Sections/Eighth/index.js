@@ -28,7 +28,7 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
 };
 
 const EighthSection = () => {
-  const { isMobileDevice, isLowEndDevice } = useDeviceDetection();
+  const { isLowEndDevice } = useDeviceDetection();
 
   const iphoneProps = {
     showScreenNav: isLowEndDevice ? false : "true",
