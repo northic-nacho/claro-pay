@@ -26,7 +26,7 @@ const Plus = ({ color = "green", iconKey }) => {
     <div className={plusClassNames}>
       <img
         src={`images/gf-plus-${color}.png`}
-        srcSet={`images/gf-plus-${color}@x.png 2x`}
+        srcSet={`images/gf-plus-${color}@2x.png 2x`}
         alt=""
       />
     </div>
