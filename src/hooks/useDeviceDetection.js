@@ -10,19 +10,17 @@ const useDeviceDetection = () => {
   const { numberOfLogicalProcessors } = useHardwareConcurrency();
   const { deviceMemory } = useMemoryStatus();
 
+  console.log("----DEVICE SPECS----");
+  console.log("Is mobile: ", isMobileDevice);
+  console.log("Is low end: ", isLowEndDevice);
+  console.log("Processors: ", numberOfLogicalProcessors);
+  console.log("Memory: ", deviceMemory);
+  console.log("----DEVICE SPECS----");
+
   useEffect(() => {
     if (numberOfLogicalProcessors < 4 || deviceMemory < 3) {
       setIsLowEndDevice(true);
     }
-
-    console.log("----DEVICE SPECS----");
-    console.log("Is mobile: ", isMobileDevice);
-    console.log("Is low end: ", isLowEndDevice);
-    console.log("Processors: ", numberOfLogicalProcessors);
-    console.log("Memory: ", deviceMemory);
-    console.log("----DEVICE SPECS----");
-
-    setIsLowEndDevice(true);
   }, []);
 
   return {
