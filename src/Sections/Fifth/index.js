@@ -3,6 +3,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import SectionDescription from "../../Components/SectionDescription";
 import Icons from "../../Components/Icons";
 import ScreenElement from "../../Components/ScreenElement";
 import IPhone from "../../Components/IPhone";
@@ -24,15 +25,13 @@ const FifthSection = () => {
           <SectionTitle>
             <HighlightedText text="Movete" /> en todo momento, sin obstáculos
           </SectionTitle>
-          <div className="section-description">
-            <p className="description">
-              Podés cargar tu tarjeta <b>Sube</b>
-              <br />
-              cuando lo necesites,
-              <br />
-              <b>estés donde estés.</b>
-            </p>
-          </div>
+          <SectionDescription>
+            Podés cargar tu tarjeta <b>Sube</b>
+            <br />
+            cuando lo necesites,
+            <br />
+            <b>estés donde estés.</b>
+          </SectionDescription>
           <ArrowButton to="#s6" />
         </div>
         <div className="column right">
@@ -82,29 +81,17 @@ const FifthSection = () => {
             parallax="sube-green-back-mobile"
             image="gf-screen-sube-green"
           />
-          <div className="gf-circle-grey-2"></div>
-          <Image
-            className="gf-circle-bar-grey"
-            image="gf-circle-bar-grey"
-          />
-          <Image
-            className="gf-moare-right"
-            image="gf-moare-right"
-          />
+          <div className="gf-circle-grey-2" />
+          <Image className="gf-circle-bar-grey" image="gf-circle-bar-grey" />
+          <Image className="gf-moare-right" image="gf-moare-right" />
         </div>
       </div>
       <Icons.Plus color="green" iconKey={1} />
       <Icons.Plus color="green" iconKey={2} />
       <Icons.Plus color="green" iconKey={3} />
-      <Image
-        className="gf-money-grey"
-        image="gf-money-grey"
-      />
-      <Image
-        className="gf-house-grey ocultar-mobile"
-        image="gf-house-grey"
-      />
-      <div className="gf-circle-grey-1"></div>
+      <Image className="gf-money-grey" image="gf-money-grey" />
+      <Image className="gf-house-grey ocultar-mobile" image="gf-house-grey" />
+      <div className="gf-circle-grey-1" />
       <Icons.Bars color="green" />
       <Icons.GreenCircle animation="half-circle-rotation" />
     </ParallaxSection>

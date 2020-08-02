@@ -6,6 +6,7 @@ import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
 import IPhone from "../../Components/IPhone";
 import "./styles.scss";
+import SectionDescription from "../../Components/SectionDescription";
 
 const FirstSection = () => {
   return (
@@ -26,28 +27,22 @@ const FirstSection = () => {
             <br />
             <HighlightedText text="billetera virtual" />
           </SectionTitle>
-          <div className="section-description">
-            <p className="description">
-              Enviá y recibí dinero,
-              <br />
-              pagá tus servicios,
-              <br />
-              recargá tu celu y tu SUBE.
-            </p>
+          <SectionDescription>
+            Enviá y recibí dinero,
+            <br />
+            pagá tus servicios,
+            <br />
+            recargá tu celu y tu SUBE.
             <p className="description">
               <b>Abierto las 24 horas en tu celular.</b>
             </p>
-          </div>
+          </SectionDescription>
           <ArrowButton to="#s2" />
         </div>
       </div>
       <Icons.Bars color="green" />
-      <div className="gf-box-small-red"></div>
-      <div className="gf-dash-green">
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
+      <Icons.Box color="red" />
+      <Icons.Dash color="green" />
       <Icons.Bars color="grey" />
     </ParallaxSection>
   );

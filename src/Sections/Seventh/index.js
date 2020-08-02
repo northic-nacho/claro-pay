@@ -3,6 +3,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import SectionDescription from "../../Components/SectionDescription";
 import IPhone from "../../Components/IPhone";
 import ScreenElement from "../../Components/ScreenElement";
 import Image from "../../Components/Image";
@@ -29,13 +30,11 @@ const SeventhSection = () => {
               <br />
               <HighlightedText text="exclusivos" containerClassName="hl2 " />
             </SectionTitle>
-            <div className="section-description">
-              <p className="description">
-                Recibí <b>alertas con descuentos</b>
-                <br />
-                para tu línea Claro
-              </p>
-            </div>
+            <SectionDescription>
+              Recibí <b>alertas con descuentos</b>
+              <br />
+              para tu línea Claro
+            </SectionDescription>
             <ArrowButton to="#s8" />
           </div>
           <div className="column right">
@@ -68,17 +67,11 @@ const SeventhSection = () => {
                 image="gf-screen-app-buttons"
               />
             </IPhone>
-            <Image
-              className="gf-moare-right"
-              image="gf-moare-grey"
-            />
+            <Image className="gf-moare-right" image="gf-moare-grey" />
             {isMobileDevice ? (
               ""
             ) : (
-              <div
-                className="gf-circle-green"
-                parallax="zoom-in:shift(10%)"
-              ></div>
+              <div className="gf-circle-green" parallax="zoom-in:shift(10%)" />
             )}
           </div>
         </div>

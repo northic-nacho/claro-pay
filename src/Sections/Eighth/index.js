@@ -17,25 +17,19 @@ const EighthSection = () => {
                 <div
                   className="clockwise clockwise-black"
                   parallax="clockwise-black"
-                ></div>
+                />
                 <div
                   className="clockwise clockwise-white"
                   parallax="clockwise-white"
-                ></div>
+                />
                 <div
                   className="clockwise clockwise-purple"
                   parallax="clockwise-purple"
-                ></div>
+                />
               </div>
             </IPhone>
-            <Image
-              className="gf-moare-left"
-              image="gf-moare-grey"
-            />
-            <Image
-              className="gf-moare-right"
-              image="gf-moare-grey"
-            />
+            <Image className="gf-moare-left" image="gf-moare-grey" />
+            <Image className="gf-moare-right" image="gf-moare-grey" />
           </div>
           <div className="column right">
             <SectionTitle>

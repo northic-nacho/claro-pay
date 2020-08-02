@@ -1,11 +1,12 @@
-import React from 'react';
-import ParallaxSection from '../../Components/ParallaxSection';
-import ArrowButton from '../../Components/ArrowButton';
-import HighlightedText from '../../Components/HighlightedText';
-import SectionTitle from '../../Components/SectionTitle';
-import Image from '../../Components/Image';
-import Icons from '../../Components/Icons';
-import './styles.scss';
+import React from "react";
+import ParallaxSection from "../../Components/ParallaxSection";
+import ArrowButton from "../../Components/ArrowButton";
+import HighlightedText from "../../Components/HighlightedText";
+import SectionTitle from "../../Components/SectionTitle";
+import SectionDescription from "../../Components/SectionDescription";
+import Image from "../../Components/Image";
+import Icons from "../../Components/Icons";
+import "./styles.scss";
 
 const SecondSection = () => {
   return (
@@ -19,38 +20,30 @@ const SecondSection = () => {
           <SectionTitle>
             Con todo el
             <br />
-            <HighlightedText text="respaldo" containerClassName="hl1" effect="reveal-left-in:shift(-30%)" />
+            <HighlightedText
+              text="respaldo"
+              containerClassName="hl1"
+              effect="reveal-left-in:shift(-30%)"
+            />
             <br />
-            <span className="pl-6"></span>de{" "}
-            <HighlightedText text="Claro" containerClassName="hl2" />
+            <span className="pl-6" />
+            de <HighlightedText text="Claro" containerClassName="hl2" />
           </SectionTitle>
-          <div className="section-description">
-            <p className="description">
-              Tenés la tranquilidad de operar con una compañía que está en
-              la Argentina desde hace más de 10 años con productos y
-              servicios pensados <b>para hacerte todo más simple.</b>
-            </p>
-          </div>
+          <SectionDescription>
+            Tenés la tranquilidad de operar con una compañía que está en la
+            Argentina desde hace más de 10 años con productos y servicios
+            pensados <b>para hacerte todo más simple.</b>
+          </SectionDescription>
         </div>
       </div>
-      <div className="gf-dash-green">
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <Image
-        className="gf-money-red"
-        image="gf-money-red"
-      />
-      <Image
-        className="gf-shield-green"
-        image="gf-shield-green"
-      />
+      <Icons.Dash color="green" />
+      <Image className="gf-money-red" image="gf-money-red" />
+      <Image className="gf-shield-green" image="gf-shield-green" />
       <Icons.Bars color="grey" />
       <Icons.Bars color="green" hideInMobile />
-      <div className="gf-box-small-red"></div>
+      <Icons.Box color="red" />
     </ParallaxSection>
   );
-}
+};
 
 export default SecondSection;

@@ -3,6 +3,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import SectionDescription from "../../Components/SectionDescription";
 import IPhone from "../../Components/IPhone";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
@@ -14,11 +15,11 @@ const FourthSection = () => {
   const { isMobileDevice } = useDeviceDetection();
 
   const iphoneProps = {
-    containerParallax: isMobileDevice ? null : 'slide-in-left'
+    containerParallax: isMobileDevice ? null : "slide-in-left",
   };
 
   const greyCircleProps = {
-    parallax: isMobileDevice ? null : 'zoom-in zoom-in:reverse'
+    parallax: isMobileDevice ? null : "zoom-in zoom-in:reverse",
   };
 
   return (
@@ -131,9 +132,9 @@ const FourthSection = () => {
               className="gf-screen-app-buttons"
               image="gf-screen-app-buttons"
             />
-            <div className="gf-screen-circle-red"></div>
+            <div className="gf-screen-circle-red" />
           </IPhone>
-          <div className="gf-circle-grey" {...greyCircleProps}></div>
+          <div className="gf-circle-grey" {...greyCircleProps} />
         </div>
         <div className="column right">
           <SectionTitle>
@@ -146,43 +147,25 @@ const FourthSection = () => {
             <HighlightedText text="recargá" containerClassName="hl2" /> tus
             servicios
           </SectionTitle>
-          <div className="section-description">
-            <p className="description">
-              <b>Luz, Agua, Gas, Internet...</b>
-              <br />
-              lo que necesites sin hacer filas <br />
-              ni moverte de tu casa.
-            </p>
-          </div>
+          <SectionDescription>
+            <b>Luz, Agua, Gas, Internet...</b>
+            <br />
+            lo que necesites sin hacer filas <br />
+            ni moverte de tu casa.
+          </SectionDescription>
           <ArrowButton to="#s5" />
         </div>
       </div>
       <Icons.Plus color="green" />
-      <Image
-        className="gf-money-grey"
-        image="gf-money-grey"
-      />
+      <Image className="gf-money-grey" image="gf-money-grey" />
       {isMobileDevice ? (
         ""
       ) : (
-        <Image
-          className="gf-ticket-green"
-          image="gf-ticket-green"
-        />
-      )}    
-      <Image
-        className="gf-bill-green"
-        image="gf-bill-green"
-      />
-      <Image
-        className="gf-money-grey-2"
-        image="gf-money-grey"
-      />
-      <div className="gf-dash-grey">
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
+        <Image className="gf-ticket-green" image="gf-ticket-green" />
+      )}
+      <Image className="gf-bill-green" image="gf-bill-green" />
+      <Image className="gf-money-grey-2" image="gf-money-grey" />
+      <Icons.Dash color="grey" />
     </ParallaxSection>
   );
 };

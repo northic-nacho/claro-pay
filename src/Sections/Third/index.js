@@ -3,6 +3,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import SectionDescription from "../../Components/SectionDescription";
 import Icons from "../../Components/Icons";
 import ScreenElement from "../../Components/ScreenElement";
 import Image from "../../Components/Image";
@@ -14,8 +15,8 @@ const ThirdSection = () => {
   const { isMobileDevice } = useDeviceDetection();
 
   const iphoneProps = {
-    containerParallax: isMobileDevice ? null : 'slide-in-right'
-  }
+    containerParallax: isMobileDevice ? null : "slide-in-right",
+  };
 
   return (
     <ParallaxSection id="s3">
@@ -26,12 +27,10 @@ const ThirdSection = () => {
             <br />
             dinero
           </SectionTitle>
-          <div className="section-description">
-            <p className="description">
-              con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales
-              o a cualquier banco de manera <b>simple y segura.</b>
-            </p>
-          </div>
+          <SectionDescription>
+            con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales o
+            a cualquier banco de manera <b>simple y segura.</b>
+          </SectionDescription>
           <ArrowButton to="#s4" />
         </div>
         <div className="column right">
@@ -67,54 +66,29 @@ const ThirdSection = () => {
               className="gf-screen-app-buttons"
               image="gf-screen-app-buttons"
             />
-            <div
-              className="gf-screen-circle-red"
-              parallax="screen-circle"
-            ></div>
+            <div className="gf-screen-circle-red" parallax="screen-circle" />
           </IPhone>
           <Image
             image="gf-big-bill"
             className="gf-big-bill"
             parallax="bill-slide-in-top"
           />
-          <div className="gf-circle-white" parallax="zoom-in:shift(10%)"></div>
-          <Image
-            image="gf-moare-right"
-            className="gf-moare-right"
-          />
+          <div className="gf-circle-white" parallax="zoom-in:shift(10%)" />
+          <Image image="gf-moare-right" className="gf-moare-right" />
         </div>
       </div>
-      <Image
-        className="gf-shield-green"
-        image="gf-shield-green"
-      />
+      <Image className="gf-shield-green" image="gf-shield-green" />
       <Icons.Bars color="grey" />
-      <Image
-        className="gf-money-grey"
-        image="gf-money-grey"
-      />
-      <Image
-        className="gf-money-white"
-        image="gf-money-white"
-      />
-      <Image
-        className="gf-check-green ocultar-mobile"
-        image="gf-check-green"
-      />
-      <div className="gf-dash-grey">
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
+      <Image className="gf-money-grey" image="gf-money-grey" />
+      <Image className="gf-money-white" image="gf-money-white" />
+      <Image className="gf-check-green ocultar-mobile" image="gf-check-green" />
+      <Icons.Dash color="grey" />
       <Icons.Plus color="green" />
       <Icons.Plus color="white" />
       {isMobileDevice ? (
         ""
       ) : (
-        <div
-          className="gf-circle-green"
-          parallax="zoom-in zoom-in:reverse"
-        ></div>
+        <div className="gf-circle-green" parallax="zoom-in zoom-in:reverse" />
       )}
     </ParallaxSection>
   );

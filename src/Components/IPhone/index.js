@@ -20,7 +20,7 @@ const IPhone = ({
 
   return (
     <div className={`iphone-image-group ${className}`} {...containerProps}>
-      <figure className="iphone-hardware"></figure>
+      <figure className="iphone-hardware" />
       {showScreen ? (
         <figure className="iphone-screen" {...screenProps}>
           {showScreenNav ? (
@@ -48,7 +48,7 @@ const IPhone = ({
       ) : (
         ""
       )}
-      <figure className="iphone-shadow"></figure>
+      <figure className="iphone-shadow" />
     </div>
   );
 };

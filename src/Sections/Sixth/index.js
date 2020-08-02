@@ -3,6 +3,7 @@ import ParallaxSection from "../../Components/ParallaxSection";
 import ArrowButton from "../../Components/ArrowButton";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
+import SectionDescription from "../../Components/SectionDescription";
 import Icons from "../../Components/Icons";
 import IPhone from "../../Components/IPhone";
 import Image from "../../Components/Image";
@@ -72,26 +73,18 @@ const SixthSection = () => {
             <br />
             <HighlightedText text="en un solo lugar" containerClassName="hl2" />
           </SectionTitle>
-          <div className="section-description">
-            <p className="description">
-              Usá tus <b>tarjetas de crédito</b>
-              <br />
-              <b>y débito</b> de cualquier banco.
-            </p>
-          </div>
+          <SectionDescription>
+            Usá tus <b>tarjetas de crédito</b>
+            <br />
+            <b>y débito</b> de cualquier banco.
+          </SectionDescription>
           <ArrowButton to="#s7" />
         </div>
       </div>
-      <Image
-        className="gf-bill-green"
-        image="gf-bill-green"
-      />
+      <Image className="gf-bill-green" image="gf-bill-green" />
       <Icons.Plus color="green" />
       <Icons.Plus color="grey" />
-      <Image
-        className="gf-money-grey"
-        image="gf-money-grey"
-      />
+      <Image className="gf-money-grey" image="gf-money-grey" />
       <Icons.Bars color="grey" />
       <Icons.GreenCircle animation="quarter-circle-rotation" />
     </ParallaxSection>

@@ -1,16 +1,26 @@
-import React from 'react'
+import React from "react";
 
-const Bars = ({ color = 'green', hideInMobile = false }) => {
-  const barClassNames = `gf-bars-${color} ${hideInMobile ? 'ocultar-mobile' : null}`
-  return (
-    <div className={barClassNames}>{'//'}</div>
-  )
+const Bars = ({ color = "green", hideInMobile = false }) => {
+  const barClassNames = `gf-bars-${color} ${
+    hideInMobile ? "ocultar-mobile" : null
+  }`;
+  return <div className={barClassNames}>//</div>;
 };
 
-const Plus = ({ color = 'green', iconKey = '0' }) => {
+const Box = ({ color = "red" }) => <div className={`gf-box-small-${color}`} />;
+
+const Dash = ({ color = "green" }) => (
+  <div className={`gf-dash-${color}`}>
+    <i />
+    <i />
+    <i />
+  </div>
+);
+
+const Plus = ({ color = "green", iconKey = "0" }) => {
   let plusClassNames = `gf-plus-${color}`;
   if (iconKey) {
-    plusClassNames += `-${iconKey}`
+    plusClassNames += `-${iconKey}`;
   }
   return (
     <div className={plusClassNames}>
@@ -20,24 +30,21 @@ const Plus = ({ color = 'green', iconKey = '0' }) => {
         alt=""
       />
     </div>
-  )
-}
+  );
+};
 
 const GreenCircle = ({ animation }) => (
   <div className="gf-circle-wipe-green">
-    <div
-      className="circle-spinner"
-      parallax={animation}
-    ></div>
+    <div className="circle-spinner" parallax={animation} />
   </div>
 );
 
-
 const Icons = {
   Bars,
+  Box,
+  Dash,
   GreenCircle,
   Plus,
-}
-
+};
 
 export default Icons;
