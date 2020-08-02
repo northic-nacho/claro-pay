@@ -52,14 +52,7 @@ button:focus {
   section {
     background: #fefefe;
   }
-  .navbar-collapse {
-    padding: 2rem 1rem;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-top: 1rem;
-    border: 1px solid #dcdcdc;
-    background-color: rgba(255, 255, 255, 0.9);
-  }
+
   .content-group {
     -ms-flex-direction: column;
     flex-direction: column;
@@ -86,12 +79,7 @@ button:focus {
     top: -14px;
     padding: 0.5rem 0.5rem 0.25rem;
   }
-  .navbar-claropay .navbar-brand {
-    margin-left: 0;
-  }
-  .navbar-claropay .navbar-brand img {
-    width: 160px;
-  }
+
   .pl-6 {
     padding-left: 0;
   }

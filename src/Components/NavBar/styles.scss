@@ -122,3 +122,24 @@
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    .navbar-brand {
+      margin-left: 0;
+
+      img {
+        width: 160px;
+      }
+
+      .navbar-collapse {
+        padding: 2rem 1rem;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 1rem;
+        border: 1px solid #dcdcdc;
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+}
