@@ -48,8 +48,8 @@ const SeventhSection = () => {
   const { isMobileDevice, isLowEndDevice } = useDeviceDetection();
 
   const iphoneProps = {
-    containerParallax: isLowEndDevice ? null : "slide-in-right",
-    showScreenNav: isLowEndDevice ? false : "true",
+    screenParallax: isLowEndDevice ? null : "iphone-screen-notification",
+    showScreenNav: !isLowEndDevice,
   };
 
   return (
