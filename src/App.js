@@ -13,7 +13,7 @@ import Footer from "./Components/Footer";
 import Paginator from "./Components/Paginator";
 import NavBar from "./Components/NavBar";
 
-import './styles/index.scss';
+import "./styles/index.scss";
 
 function App() {
   React.useEffect(() => {
