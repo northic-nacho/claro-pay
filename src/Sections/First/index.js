@@ -33,9 +33,9 @@ const FirstSection = () => {
             pagá tus servicios,
             <br />
             recargá tu celu y tu SUBE.
-            <p className="description">
-              <b>Abierto las 24 horas en tu celular.</b>
-            </p>
+          </SectionDescription>
+          <SectionDescription>
+            <b>Abierto las 24 horas en tu celular.</b>
           </SectionDescription>
           <ArrowButton to="#s2" />
         </div>
