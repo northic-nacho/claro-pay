@@ -47,7 +47,7 @@ const FifthSection = () => {
             {...iphoneProps}
           >
             <ScreenElement
-              parallax="sube-outline-front-mobile"
+              parallax="sube-outline-front"
               className="gf-screen-sube-outline-front"
               image="gf-screen-sube-outline"
             />
