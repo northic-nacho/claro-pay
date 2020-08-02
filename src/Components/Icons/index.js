@@ -17,7 +17,7 @@ const Dash = ({ color = "green" }) => (
   </div>
 );
 
-const Plus = ({ color = "green", iconKey = "0" }) => {
+const Plus = ({ color = "green", iconKey }) => {
   let plusClassNames = `gf-plus-${color}`;
   if (iconKey) {
     plusClassNames += `-${iconKey}`;

@@ -85,7 +85,8 @@ const SixthSection = () => {
       <Icons.Plus color="green" />
       <Icons.Plus color="grey" />
       <Image className="gf-money-grey" image="gf-money-grey" />
-      <Icons.Bars color="grey" />
+      <div className="gf-bars-grey-1">/</div>
+      <div className="gf-bars-grey-2">/</div>
       <Icons.GreenCircle animation="quarter-circle-rotation" />
     </ParallaxSection>
   );
