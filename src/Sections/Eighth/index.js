@@ -1,4 +1,6 @@
-import React from "react";
+/* eslint-disable no-undef */
+/* eslint-disable radix */
+import React, { useEffect, useRef } from "react";
 import ParallaxSection from "../../Components/ParallaxSection";
 import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
@@ -27,7 +29,36 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
   );
 };
 
-const EighthSection = () => {
+const EighthSection = ({ setIsOnLastSection }) => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const setIsOnLastSectionFromScrollProgress = () => {
+      const sectionParallaxProgressAttribute =
+        sectionRef.current.attributes["parallax-progress"];
+
+      if (!sectionParallaxProgressAttribute) return;
+
+      const sectionLoadPercentage = parseInt(
+        sectionParallaxProgressAttribute.value.substring(0, 2)
+      );
+
+      if (sectionLoadPercentage > 49) {
+        setIsOnLastSection(true);
+      } else {
+        setIsOnLastSection(false);
+      }
+    };
+
+    window.addEventListener("scroll", setIsOnLastSectionFromScrollProgress);
+
+    return () =>
+      window.removeEventListener(
+        "scroll",
+        setIsOnLastSectionFromScrollProgress
+      );
+  }, []);
+
   const { isLowEndDevice } = useDeviceDetection();
 
   const iphoneProps = {
@@ -35,7 +66,7 @@ const EighthSection = () => {
   };
 
   return (
-    <ParallaxSection id="s8" parallax="night-bg">
+    <ParallaxSection id="s8" parallax="night-bg" ref={sectionRef}>
       <div parallax="anim-stage">
         <div className="content-group align-items-center">
           <div className="column left">

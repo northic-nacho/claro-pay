@@ -1,9 +1,4 @@
-.navbar-claropay {
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  padding: 1.5rem 1rem;
-
+.navbar {
   .navbar-brand {
     margin-left: 0.5rem;
 
@@ -11,59 +6,60 @@
       margin-top: -18px;
     }
   }
+
   .btn {
     font-weight: 700;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 10rem;
-  
+
     &-primary {
       color: #fff;
       background-color: #ff2c1e;
       border-color: #ff2c1e;
-  
+
       &:hover {
         color: #fff;
         background-color: #ed0f00;
         border-color: #ed0f00;
       }
-  
+
       &:not(:disabled):not(.disabled):active {
         color: #fff;
         background-color: #ed0f00;
         border-color: #ed0f00;
       }
     }
-  
+
     &-link {
       color: #ff2c1e;
-  
+
       &:hover {
         color: #ed0f00;
         text-decoration: underline;
       }
-  
+
       &-black {
         color: #1d1d1e;
-  
+
         &:hover {
           color: #1d1d1e;
           text-decoration: underline;
         }
       }
-  
+
       &-pink {
         color: #fff;
         background-color: #c940ad;
         border-color: #c940ad;
-  
+
         &:hover {
           color: #fff;
           background-color: #b72e9d;
           border-color: #b72e9d;
         }
-  
+
         &:not(:disabled):not(.disabled).active {
           color: #fff;
           background-color: #b72e9d;
@@ -87,7 +83,7 @@
       }
     }
   }
-  
+
   .navbar-collapse {
     padding: 2rem 1rem;
     background-color: #fff;
@@ -96,13 +92,6 @@
     border: 1px solid #dcdcdc;
     background-color: rgba(255, 255, 255, 0.9);
   }
-  
-  .navbar-claropay .navbar-brand {
-    margin-left: 0;
-    img {
-      width: 160px;
-    }
-  }
 
   .show {
     & > .btn-primary.dropdown-toggle {
@@ -110,13 +99,26 @@
       background-color: #ed0f00;
       border-color: #ed0f00;
     }
-  
+
     & > .btn-pink.dropdown-toggle {
       color: #fff;
       background-color: #b72e9d;
       border-color: #b72e9d;
     }
   }
-  
-}
 
+  &--claropay {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 1.5rem 1rem;
+  }
+
+  &--transparent {
+    background-color: transparent;
+  }
+
+  &--white {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
