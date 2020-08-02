@@ -167,16 +167,10 @@ IPHONE SCREENS
     background-image: url("../images/hardware_iphonex_medium_2x.jpg");
   }
 }
-*/
-  @media
-  only
-  screen
-  and
-  (max-width: 768px)
-  and
-  (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
-only screen and (max-width: 768px) and (min-resolution: 144dpi) {
+
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 768px) and (min-resolution: 144dpi) {
   .iphone-s1 .iphone-hardware {
     background-image: url("../images/iphone-s1-small.png");
   }
