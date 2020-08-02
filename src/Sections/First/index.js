@@ -5,19 +5,26 @@ import HighlightedText from "../../Components/HighlightedText";
 import SectionTitle from "../../Components/SectionTitle";
 import Icons from "../../Components/Icons";
 import IPhone from "../../Components/IPhone";
-import "./styles.scss";
 import SectionDescription from "../../Components/SectionDescription";
+import { useDeviceDetection } from "../../hooks/useDeviceDetection";
+import "./styles.scss";
 
 const FirstSection = () => {
+  const { isLowEndDevice } = useDeviceDetection();
+
   return (
     <ParallaxSection id="s1">
       <div className="content-group">
         <div className="column left">
           <IPhone
             className="iphone-s1"
-            containerParallax="slide-in-left slide-in-left:reverse"
+            containerParallax={
+              isLowEndDevice ? null : "slide-in-left slide-in-left:reverse"
+            }
           />
-          <Icons.GreenCircle animation="half-circle-rotation-home" />
+          <Icons.GreenCircle
+            animation={isLowEndDevice ? null : "half-circle-rotation-home"}
+          />
         </div>
         <div className="column right">
           <SectionTitle>
@@ -28,14 +35,16 @@ const FirstSection = () => {
             <HighlightedText text="billetera virtual" />
           </SectionTitle>
           <SectionDescription>
-            Enviá y recibí dinero,
-            <br />
-            pagá tus servicios,
-            <br />
-            recargá tu celu y tu SUBE.
-          </SectionDescription>
-          <SectionDescription>
-            <b>Abierto las 24 horas en tu celular.</b>
+            <p className="description">
+              Enviá y recibí dinero,
+              <br />
+              pagá tus servicios,
+              <br />
+              recargá tu celu y tu SUBE.
+            </p>
+            <p className="description">
+              <b>Abierto las 24 horas en tu celular.</b>
+            </p>
           </SectionDescription>
           <ArrowButton to="#s2" />
         </div>

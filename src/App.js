@@ -1,5 +1,5 @@
 // eslint-disable jsx-a11y/anchor-is-valid
-import React from "react";
+import React, { useState, useEffect } from "react";
 import jqueryParallax from "./jquery.parallax";
 import FirstSection from "./Sections/First";
 import SecondSection from "./Sections/Second";
@@ -16,13 +16,15 @@ import NavBar from "./Components/NavBar";
 import "./styles/index.scss";
 
 function App() {
-  React.useEffect(() => {
+  useEffect(() => {
     jqueryParallax();
   }, []);
 
+  const [isOnLastSection, setIsOnLastSection] = useState(false);
+
   return (
     <div className="app-container">
-      <NavBar />
+      <NavBar isOnLastSection={isOnLastSection} />
       <FirstSection />
       <SecondSection />
       <ThirdSection />
@@ -30,7 +32,7 @@ function App() {
       <FifthSection />
       <SixthSection />
       <SeventhSection />
-      <EighthSection />
+      <EighthSection setIsOnLastSection={setIsOnLastSection} />
       <Footer />
       <Paginator />
     </div>

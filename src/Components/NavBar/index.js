@@ -1,14 +1,27 @@
-import React from 'react'
-import './styles.scss';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+import "./styles.scss";
 
-const NavBar = () => {
+const NavBar = ({ isOnLastSection }) => {
+  let navBarClassName =
+    "navbar navbar-expand-lg navbar-light navbar--claropay ";
+  navBarClassName += isOnLastSection ? "navbar--transparent" : "navbar--white";
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-claropay">
+    <nav className={navBarClassName}>
       <a className="navbar-brand" href="#">
         <img
           id="logoHeader"
-          src="images/logo-claropay-header.png"
-          srcSet="images/logo-claropay-header@2x.png 2x"
+          src={
+            isOnLastSection
+              ? "images/logo-claropay-header-white.png"
+              : "images/logo-claropay-header.png"
+          }
+          srcSet={
+            isOnLastSection
+              ? "images/logo-claropay-header-white@2x.png 2x"
+              : "images/logo-claropay-header@2x.png 2x"
+          }
           alt="Claro Pay"
         />
       </a>
@@ -24,7 +37,7 @@ const NavBar = () => {
         </a>
       </form>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

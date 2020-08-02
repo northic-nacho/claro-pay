@@ -52,14 +52,7 @@ button:focus {
   section {
     background: #fefefe;
   }
-  .navbar-collapse {
-    padding: 2rem 1rem;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-top: 1rem;
-    border: 1px solid #dcdcdc;
-    background-color: rgba(255, 255, 255, 0.9);
-  }
+
   .content-group {
     -ms-flex-direction: column;
     flex-direction: column;
@@ -86,12 +79,7 @@ button:focus {
     top: -14px;
     padding: 0.5rem 0.5rem 0.25rem;
   }
-  .navbar-claropay .navbar-brand {
-    margin-left: 0;
-  }
-  .navbar-claropay .navbar-brand img {
-    width: 160px;
-  }
+
   .pl-6 {
     padding-left: 0;
   }
@@ -179,16 +167,10 @@ IPHONE SCREENS
     background-image: url("../images/hardware_iphonex_medium_2x.jpg");
   }
 }
-*/
-  @media
-  only
-  screen
-  and
-  (max-width: 768px)
-  and
-  (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
-only screen and (max-width: 768px) and (min-resolution: 144dpi) {
+
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 768px) and (min-resolution: 144dpi) {
   .iphone-s1 .iphone-hardware {
     background-image: url("../images/iphone-s1-small.png");
   }
@@ -307,26 +289,4 @@ only screen and (max-width: 768px) and (min-resolution: 144dpi) {
   .iphone-s4 .iphone-shadow {
     background-image: url("../images/iphone-s2-shadow-small@2x.png");
   }
-}
-
-#loading-page {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 500;
-}
-
-#loading-gif {
-  width: 60px;
-  margin-top: 40px;
 }

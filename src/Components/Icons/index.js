@@ -17,7 +17,7 @@ const Dash = ({ color = "green" }) => (
   </div>
 );
 
-const Plus = ({ color = "green", iconKey = "0" }) => {
+const Plus = ({ color = "green", iconKey }) => {
   let plusClassNames = `gf-plus-${color}`;
   if (iconKey) {
     plusClassNames += `-${iconKey}`;
@@ -33,11 +33,19 @@ const Plus = ({ color = "green", iconKey = "0" }) => {
   );
 };
 
-const GreenCircle = ({ animation }) => (
-  <div className="gf-circle-wipe-green">
-    <div className="circle-spinner" parallax={animation} />
-  </div>
-);
+const GreenCircle = ({ animation }) => {
+  const parallaxProps = animation
+    ? {
+        parallax: animation,
+      }
+    : {};
+
+  return (
+    <div className="gf-circle-wipe-green">
+      <div className="circle-spinner" {...parallaxProps} />
+    </div>
+  );
+};
 
 const Icons = {
   Bars,

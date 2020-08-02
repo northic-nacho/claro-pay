@@ -7,15 +7,50 @@ import SectionDescription from "../../Components/SectionDescription";
 import Icons from "../../Components/Icons";
 import ScreenElement from "../../Components/ScreenElement";
 import Image from "../../Components/Image";
+import Video from "../../Components/Video";
 import IPhone from "../../Components/IPhone";
+import Money from "../../Components/Money";
 import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
 
+const IPhoneScreenContent = ({ isLowEndDevice }) => {
+  if (isLowEndDevice) {
+    return <Video id="s3" name="screen-wallet" />;
+  }
+
+  return (
+    <>
+      <ScreenElement
+        className="gf-screen-money-icon"
+        parallax="screen-wallet"
+        image="gf-screen-money-icon"
+      />
+      <ScreenElement
+        className="gf-screen-wallet"
+        parallax="screen-wallet"
+        image="gf-screen-wallet"
+      />
+      <Money />
+      <ScreenElement
+        className="gf-screen-check"
+        parallax="screen-check-green"
+        image="gf-screen-check-green"
+      />
+      <ScreenElement
+        className="gf-screen-app-buttons"
+        image="gf-screen-app-buttons"
+      />
+      <div className="gf-screen-circle-red" parallax="screen-circle" />
+    </>
+  );
+};
+
 const ThirdSection = () => {
-  const { isMobileDevice } = useDeviceDetection();
+  const { isMobileDevice, isLowEndDevice } = useDeviceDetection();
 
   const iphoneProps = {
     containerParallax: isMobileDevice ? null : "slide-in-right",
+    showScreenNav: isLowEndDevice ? false : "true",
   };
 
   return (
@@ -28,45 +63,16 @@ const ThirdSection = () => {
             dinero
           </SectionTitle>
           <SectionDescription>
-            con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales o
-            a cualquier banco de manera <b>simple y segura.</b>
+            <p className="description">
+              con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales
+              o a cualquier banco de manera <b>simple y segura.</b>
+            </p>
           </SectionDescription>
           <ArrowButton to="#s4" />
         </div>
         <div className="column right">
-          <IPhone
-            className="iphone-s4"
-            showScreen
-            showScreenNav
-            {...iphoneProps}
-          >
-            <ScreenElement
-              className="gf-screen-money-icon"
-              parallax="screen-wallet"
-              image="gf-screen-money-icon"
-            />
-            <ScreenElement
-              className="gf-screen-wallet"
-              parallax="screen-wallet"
-              image="gf-screen-wallet"
-            />
-            <div className="screen-money">
-              <h4 className="text-money">
-                <span id="dinero-celular" parallax="screen-circle">
-                  <small>$</small> 85.00
-                </span>
-              </h4>
-            </div>
-            <ScreenElement
-              className="gf-screen-check"
-              parallax="screen-check-green"
-              image="gf-screen-check-green"
-            />
-            <ScreenElement
-              className="gf-screen-app-buttons"
-              image="gf-screen-app-buttons"
-            />
-            <div className="gf-screen-circle-red" parallax="screen-circle" />
+          <IPhone className="iphone-s4" showScreen {...iphoneProps}>
+            <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
           </IPhone>
           <Image
             image="gf-big-bill"
