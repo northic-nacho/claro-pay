@@ -6,14 +6,19 @@ import SectionTitle from "../../Components/SectionTitle";
 import SectionDescription from "../../Components/SectionDescription";
 import Image from "../../Components/Image";
 import Icons from "../../Components/Icons";
+import { useDeviceDetection } from "../../hooks/useDeviceDetection";
 import "./styles.scss";
 
 const SecondSection = () => {
+  const { isLowEndDevice } = useDeviceDetection();
+
   return (
     <ParallaxSection id="s2">
       <div className="content-group">
         <div className="column left">
-          <Icons.GreenCircle animation="half-circle-rotation" />
+          <Icons.GreenCircle
+            animation={isLowEndDevice ? null : "half-circle-rotation"}
+          />
           <ArrowButton to="#s3" />
         </div>
         <div className="column right">
@@ -30,9 +35,11 @@ const SecondSection = () => {
             de <HighlightedText text="Claro" containerClassName="hl2" />
           </SectionTitle>
           <SectionDescription>
-            Tenés la tranquilidad de operar con una compañía que está en la
-            Argentina desde hace más de 10 años con productos y servicios
-            pensados <b>para hacerte todo más simple.</b>
+            <p className="description">
+              Tenés la tranquilidad de operar con una compañía que está en la
+              Argentina desde hace más de 10 años con productos y servicios
+              pensados <b>para hacerte todo más simple.</b>
+            </p>
           </SectionDescription>
         </div>
       </div>

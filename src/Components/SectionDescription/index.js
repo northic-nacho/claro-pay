@@ -1,11 +1,7 @@
 import React from "react";
 
 const SectionDescription = ({ children }) => {
-  return (
-    <div className="section-description">
-      <p className="description">{children}</p>
-    </div>
-  );
+  return <div className="section-description">{children}</div>;
 };
 
 export default SectionDescription;
