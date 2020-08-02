@@ -1,3 +1,11 @@
+## TODO List
+
+- [ ] Incorporar stylelint
+- [ ] Aplicar correctamente BEM
+- [ ] Implementar los condicionales para la versión Lite
+- [ ] Implementar checkeo de version Lite
+- [ ] Implementar TS e interfaces
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
