@@ -10,7 +10,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Gotham", "Roboto", sans-serif;
+  font-family: 'Gotham', 'Roboto', sans-serif;
 }
 
 a {
@@ -38,4 +38,3 @@ h6 {
 }
 
 @import './parallax';
-@import './keyframes';

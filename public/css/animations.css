@@ -33,10 +33,10 @@
     top: 100vh;
   }
   33.3333% {
-    top: 0vh;
+    top: 0.0001vh;
   }
   66.6666% {
-    top: 0vh;
+    top: 0.01vh;
   }
   100% {
     top: -100vh;
@@ -57,7 +57,7 @@
     transform: translateX(-100vh);
   }
   33% {
-    transform: translateX(0vh);
+    transform: translateX(0.01vh);
   }
 }
 
@@ -66,7 +66,7 @@
     transform: translateY(-100vh);
   }
   33% {
-    transform: translateY(0vh);
+    transform: translateY(0.01vh);
   }
 }
 
