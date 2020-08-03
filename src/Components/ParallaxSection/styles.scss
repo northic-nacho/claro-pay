@@ -64,7 +64,6 @@
       font-size: 1.2rem;
     }
   }
-  
 
   .content-group {
     position: relative;
@@ -78,11 +77,12 @@
       position: relative;
     }
   }
+}
 
-  @media only screen and (max-width: 768px) {
-    section {
-      background: #fefefe;
-    }
+@media only screen and (max-width: 768px) {
+  .section {
+    background: #fefefe;
+
     .content-group {
       -ms-flex-direction: column;
       flex-direction: column;
@@ -105,14 +105,10 @@
         padding: 0.5rem 0.5rem 0.25rem;
       }
     }
-  
+
     &-description .description {
       font-size: 0.9rem;
       text-align: center;
     }
-    .pl-6 {
-      padding-left: 0;
-    }
   }
 }
-
