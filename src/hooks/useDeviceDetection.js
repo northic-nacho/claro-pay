@@ -11,7 +11,7 @@ const useDeviceDetection = () => {
   const { deviceMemory } = useMemoryStatus();
 
   useEffect(() => {
-    if (numberOfLogicalProcessors < 3 || deviceMemory < 3) {
+    if (numberOfLogicalProcessors < 2 || deviceMemory < 2) {
       setIsLowEndDevice(true);
     }
   }, []);
