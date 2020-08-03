@@ -2,7 +2,11 @@
 import React from "react";
 import "./styles.scss";
 
-const NavBar = ({ isOnLastSection }) => {
+interface NavBarProps {
+  isOnLastSection: boolean;
+}
+
+const NavBar = ({ isOnLastSection }: NavBarProps) => {
   let navBarClassName =
     "navbar navbar-expand-lg navbar-light navbar--claropay ";
   navBarClassName += isOnLastSection ? "navbar--transparent" : "navbar--white";

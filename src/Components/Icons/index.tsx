@@ -1,15 +1,27 @@
 import React from "react";
 
-const Bars = ({ color = "green", hideInMobile = false }) => {
+interface IconProps {
+  color: string;
+  hideInMobile?: boolean;
+  iconKey?: string;
+}
+
+interface GreenCircleProps {
+  animation: string;
+}
+
+const Bars = ({ color = "green", hideInMobile = false }: IconProps) => {
   const barClassNames = `gf-bars-${color} ${
     hideInMobile ? "ocultar-mobile" : null
   }`;
   return <div className={barClassNames}>//</div>;
 };
 
-const Box = ({ color = "red" }) => <div className={`gf-box-small-${color}`} />;
+const Box = ({ color = "red" }: IconProps) => (
+  <div className={`gf-box-small-${color}`} />
+);
 
-const Dash = ({ color = "green" }) => (
+const Dash = ({ color = "green" }: IconProps) => (
   <div className={`gf-dash-${color}`}>
     <i />
     <i />
@@ -17,7 +29,7 @@ const Dash = ({ color = "green" }) => (
   </div>
 );
 
-const Plus = ({ color = "green", iconKey }) => {
+const Plus = ({ color = "green", iconKey }: IconProps) => {
   let plusClassNames = `gf-plus-${color}`;
   if (iconKey) {
     plusClassNames += `-${iconKey}`;
@@ -33,7 +45,7 @@ const Plus = ({ color = "green", iconKey }) => {
   );
 };
 
-const GreenCircle = ({ animation }) => {
+const GreenCircle = ({ animation }: GreenCircleProps) => {
   const parallaxProps = animation
     ? {
         parallax: animation,

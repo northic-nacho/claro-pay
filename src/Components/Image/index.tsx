@@ -1,8 +1,14 @@
 import React from "react";
 
-const Image = ({ className, image, parallax }) => {
+interface ImageProps {
+  className: string;
+  image: string;
+  parallax?: string;
+}
+
+const Image = ({ className, image, parallax }: ImageProps) => {
   const parallaxProps = {
-    parallax: parallax || null,
+    parallax: parallax || undefined,
   };
   return (
     <div className={className} {...parallaxProps}>

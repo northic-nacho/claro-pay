@@ -1,6 +1,11 @@
 import React from "react";
 
-const Video = ({ id, name }) => (
+interface VideoProps {
+  id: string;
+  name: string;
+}
+
+const Video = ({ id, name }: VideoProps) => (
   <div className="screen-video">
     <video id={`video-${id}`} playsInline autoPlay muted loop>
       <source src={`videos/${name}.mp4`} type="video/mp4" />

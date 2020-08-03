@@ -1,5 +1,14 @@
 import React from "react";
 
+interface IPhoneProps {
+  className: string;
+  containerParallax: string;
+  showScreen: boolean;
+  showScreenNav: boolean;
+  screenParallax: string;
+  children: JSX.Element;
+}
+
 const IPhone = ({
   className,
   containerParallax,
@@ -7,12 +16,7 @@ const IPhone = ({
   showScreenNav,
   screenParallax,
   children,
-}) => {
-  // className could be s1 or s4
-  // containerParallax is optional
-  // screenParallax is optional
-  // iphone-screen is optional
-
+}: IPhoneProps) => {
   const containerProps = containerParallax
     ? { parallax: containerParallax }
     : {};

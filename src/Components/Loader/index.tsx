@@ -1,7 +1,11 @@
 import React from "react";
 import "./styles.scss";
 
-const Loader = ({ appReady }) => {
+interface LoaderProps {
+  appReady: boolean;
+}
+
+const Loader = ({ appReady }: LoaderProps) => {
   if (!appReady)
     return (
       <div className="loading">

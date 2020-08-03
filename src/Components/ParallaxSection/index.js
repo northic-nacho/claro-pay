@@ -12,7 +12,6 @@ const ParallaxSection = React.forwardRef(
         {...rest}
         ref={ref}
       >
-        {/* revisar pq la class la tiene solo la s3 */}
         <div
           parallax="anim-stage"
           id={`anim-stage-${id}`}

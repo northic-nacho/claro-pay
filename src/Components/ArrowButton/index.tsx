@@ -1,6 +1,10 @@
-import React from 'react'
+import React from "react";
 
-const ArrowButton = ({ to }) => {
+interface ArrowButtonProps {
+  to: string;
+}
+
+const ArrowButton = ({ to }: ArrowButtonProps) => {
   return (
     <a href={to} className="btn-arrow">
       <img
@@ -10,6 +14,6 @@ const ArrowButton = ({ to }) => {
       />
     </a>
   );
-}
+};
 
-export default ArrowButton
+export default ArrowButton;
