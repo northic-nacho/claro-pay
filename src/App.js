@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // eslint-disable jsx-a11y/anchor-is-valid
 import React, { useState, useEffect } from "react";
 import jqueryParallax from "./jquery.parallax";
@@ -15,9 +16,19 @@ import NavBar from "./Components/NavBar";
 
 import "./styles/index.scss";
 
-function App() {
+function App({ setAppReady }) {
   useEffect(() => {
     jqueryParallax();
+  }, []);
+
+  useEffect(() => {
+    const setAppReadyOnPageLoad = () => {
+      setAppReady(true);
+    };
+
+    window.addEventListener("load", setAppReadyOnPageLoad);
+
+    return () => window.removeEventListener("load", setAppReadyOnPageLoad);
   }, []);
 
   const [isOnLastSection, setIsOnLastSection] = useState(false);

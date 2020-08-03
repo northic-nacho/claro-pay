@@ -1,14 +1,18 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import Loader from "./Components/Loader";
 
-const App = lazy(() => import("./App"));
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Suspense fallback={<Loader />}>
-      <App />
-    </Suspense>
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const Wrapper = () => {
+  const [appReady, setAppReady] = React.useState(false);
+
+  return (
+    <>
+      <Loader appReady={appReady} />
+      <App setAppReady={setAppReady} />
+    </>
+  );
+};
+
+ReactDOM.render(<Wrapper />, document.getElementById("root"));
