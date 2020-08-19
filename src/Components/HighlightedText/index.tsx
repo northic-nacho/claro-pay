@@ -1,5 +1,5 @@
-import React from "react";
-import "../extended-html.d.ts";
+import React from 'react';
+import '../extended-html.d.ts';
 
 interface HighlightedTextProps {
   containerClassName: string;
@@ -8,16 +8,16 @@ interface HighlightedTextProps {
 }
 
 const HighlightedText = ({
-  containerClassName = "",
-  effect = "reveal-left-in",
-  text,
-}: HighlightedTextProps) => {
-  return (
-    <span className={`highlight ${containerClassName}`}>
-      <i parallax={effect}>{text}</i>
-      {text}
-    </span>
-  );
+    containerClassName = '',
+    effect = 'reveal-left-in',
+    text
+}: HighlightedTextProps ) => {
+    return (
+        <span className={`highlight ${containerClassName}`}>
+            <i parallax={effect}>{text}</i>
+            {text}
+        </span>
+    );
 };
 
 export default HighlightedText;
