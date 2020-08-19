@@ -1,40 +1,40 @@
 [parallax-error]::after {
-  content: attr(parallax-error);
-  background: red;
-  color: white;
-  position: absolute;
-  z-index: 1000;
-  bottom: 0px;
-  right: 0px;
-  padding: 0.2em 0.4em;
+    background: red;
+    bottom: 0;
+    color: white;
+    content: attr(parallax-error);
+    padding: 0.2em 0.4em;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
 }
 
 /* Position fixed: ensures smooth animation across browsers */
-[parallax~="anim-stage"],
-[parallax~="anim-stage-smooth"] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  flex-flow: column;
+[parallax~='anim-stage'],
+[parallax~='anim-stage-smooth'] {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
 }
 
-[parallax~="anim-stage-smooth"]::before,
-[parallax~="anim-stage"]::before {
-  /*content: attr(parallax-progress);*/
-  color: silver;
-  font-weight: bold;
-  font-size: 2em;
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  z-index: 100;
+[parallax~='anim-stage-smooth']::before,
+[parallax~='anim-stage']::before {
+    /*content: attr(parallax-progress);*/
+    color: silver;
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    z-index: 100;
 }
 
 /* We can hide whole content when it is off-screen = animation status is "off" */
-[parallax~="anim-stage"][parallax-status="off"],
-[parallax~="anim-stage-smooth"][parallax-status="off"] {
-  display: none;
+[parallax~='anim-stage'][parallax-status='off'],
+[parallax~='anim-stage-smooth'][parallax-status='off'] {
+    display: none;
 }

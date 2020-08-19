@@ -1,20 +1,19 @@
 @import './fonts';
 
 html {
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Gotham', 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gotham', 'Roboto', sans-serif;
 }
 
 a {
-  color: #ff2c1e;
+    color: #ff2c1e;
 }
 
 .h1,
@@ -29,12 +28,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 .app-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 @import './parallax';

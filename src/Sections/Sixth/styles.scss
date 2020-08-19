@@ -1,312 +1,364 @@
 /*Section 6*/
 /*Circle animation*/
 #s6 {
-  .content-group {
-    .column.left {
-      margin-right: 3rem;
-    }
-  }
-  .section-description {
-    margin-left: 4rem;
-    margin-top: 2rem;
-  }
-  .iphone-image-group {
-    z-index: 4;
-    position: relative;
-    margin-top: 2rem;
-  }
-  .section-title {
-    .title {
-      .highlight {
-        i {
-          background-color: #ff2c1e;
+    .content-group {
+        .column.left {
+            margin-right: 3rem;
         }
-      }
-      .highlight.hl1 {
-        i {
-          width: 390px;
+    }
+
+    .section-description {
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .iphone-image-group {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 4;
+    }
+
+    .section-title {
+        .title {
+            .highlight {
+                i {
+                    background-color: #ff2c1e;
+                }
+            }
+
+            .highlight.hl1 {
+                i {
+                    width: 390px;
+                }
+            }
+
+            .highlight.hl2 {
+                i {
+                    width: 350px;
+                }
+            }
         }
-      }
-      .highlight.hl2 {
-        i {
-          width: 350px;
+    }
+
+    .gf-bill-green {
+        left: 12%;
+        position: absolute;
+        top: 10%;
+    }
+
+    .gf-plus-green {
+        left: 55%;
+        position: absolute;
+        top: 8%;
+    }
+
+    .gf-money-grey {
+        position: absolute;
+        right: 8%;
+        top: 56%;
+    }
+
+    .gf-plus-grey {
+        opacity: 0.5;
+        position: absolute;
+        right: 9%;
+        top: 35%;
+    }
+
+    .gf-bars-grey-1 {
+        bottom: 12%;
+        color: #606060;
+        font-size: 1.2rem;
+        font-weight: bold;
+        opacity: 0.45;
+        opacity: 0.5;
+        position: absolute;
+        right: 50%;
+    }
+
+    .gf-bars-grey-2 {
+        color: #606060;
+        font-size: 1.2rem;
+        font-weight: bold;
+        left: 8%;
+        opacity: 0.45;
+        opacity: 0.5;
+        position: absolute;
+        top: 30%;
+    }
+
+    .gf-circle-wipe-green {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        clip: rect(0, 100px, 200px, 0);
+        height: 200px;
+        left: -80px;
+        margin: 40px auto;
+        position: absolute;
+        top: 20%;
+        -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        transform: rotate(135deg);
+        width: 200px;
+        z-index: 2;
+
+        * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
         }
-      }
+
+        .circle-spinner {
+            background-color: #00f8c0;
+            border-radius: 100px 0 0 100px;
+            height: 100%;
+            position: absolute;
+            transform-origin: 100% 50%;
+            width: 50%;
+            z-index: 2;
+        }
     }
-  }
-  .gf-bill-green {
-    position: absolute;
-    left: 12%;
-    top: 10%;
-  }
-  .gf-plus-green {
-    position: absolute;
-    left: 55%;
-    top: 8%;
-  }
-  .gf-money-grey {
-    position: absolute;
-    top: 56%;
-    right: 8%;
-  }
-  .gf-plus-grey {
-    position: absolute;
-    top: 35%;
-    right: 9%;
-    opacity: 0.5;
-  }
-  .gf-bars-grey-1 {
-    color: #606060;
-    opacity: 0.45;
-    font-weight: bold;
-    font-size: 1.2rem;
-    position: absolute;
-    bottom: 12%;
-    right: 50%;
-    opacity: 0.5;
-  }
-  .gf-bars-grey-2 {
-    color: #606060;
-    opacity: 0.45;
-    font-weight: bold;
-    font-size: 1.2rem;
-    position: absolute;
-    top: 30%;
-    left: 8%;
-    opacity: 0.5;
-  }
-  .gf-circle-wipe-green {
-    position: absolute;
-    margin: 40px auto;
-    z-index: 2;
-    width: 200px;
-    height: 200px;
-    clip: rect(0px, 100px, 200px, 0px);
-    left: -80px;
-    top: 20%;
-    -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    transform: rotate(135deg);
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    * {
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
+
+    .iphone-screen {
+        align-items: center;
+        background-color: #ff2817;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 485px;
+        left: 18px;
+        overflow: hidden;
+        position: absolute;
+        top: 17px;
+        width: 225px;
+        z-index: 1;
     }
-    .circle-spinner {
-      width: 50%;
-      height: 100%;
-      transform-origin: 100% 50%;
-      position: absolute;
-      background-color: #00f8c0;
-      border-radius: 100px 0 0 100px;
-      z-index: 2;
+
+    .gf-screen-cards-background {
+        left: -10px;
+        position: absolute;
+        top: 18px;
     }
-  }
-  .iphone-screen {
-    position: absolute;
-    left: 18px;
-    top: 17px;
-    width: 225px;
-    height: 485px;
-    background-color: #ff2817;
-    z-index: 1;
-    overflow: hidden;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  .gf-screen-cards-background {
-    position: absolute;
-    left: -10px;
-    top: 18px;
-  }
-  .gf-screen-card {
-    position: absolute;
-    width: 258px;
-    height: 158px;
-    img {
-      z-index: 2;
-      position: relative;
-      width: 100%;
+
+    .gf-screen-card {
+        height: 158px;
+        position: absolute;
+        width: 258px;
+
+        img {
+            position: relative;
+            width: 100%;
+            z-index: 2;
+        }
+
+        &::after {
+            background-color: transparent;
+            border-radius: 11px;
+            -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            content: '';
+            height: 156px;
+            left: 1px;
+            position: absolute;
+            top: 1px;
+            width: 257px;
+            z-index: 1;
+        }
     }
-    &:after {
-      position: absolute;
-      width: 257px;
-      height: 156px;
-      border-radius: 11px;
-      background-color: transparent;
-      content: '';
-      left: 1px;
-      top: 1px;
-      z-index: 1;
-      -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-      -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+
+    .gf-screen-card-01 {
+        left: -390px;
+        position: absolute;
+        top: 240px;
+        z-index: 3;
     }
-  }
-  .gf-screen-card-01 {
-    position: absolute;
-    left: -390px;
-    top: 240px;
-    z-index: 3;
-  }
-  .gf-screen-card-02 {
-    position: absolute;
-    left: -320px;
-    top: 170px;
-    z-index: 2;
-  }
-  .gf-screen-card-03 {
-    position: absolute;
-    left: -200px;
-    top: 100px;
-    z-index: 1;
-  }
-  .gf-screen-card-01-mobile {
-    display: none;
-  }
-  .gf-screen-card-02-mobile {
-    display: none;
-  }
-  .gf-screen-card-03-mobile {
-    display: none;
-  }
-  .gf-screen-card-in {
-    position: absolute;
-    width: 192px;
-    z-index: 2;
-    left: 17px;
-    img {
-      width: 100%;
+
+    .gf-screen-card-02 {
+        left: -320px;
+        position: absolute;
+        top: 170px;
+        z-index: 2;
     }
-  }
-  .gf-screen-card-in-01 {
-    top: 339px;
-  }
-  .gf-screen-card-in-02 {
-    top: 210px;
-  }
-  .gf-screen-card-in-03 {
-    top: 85px;
-  }
+
+    .gf-screen-card-03 {
+        left: -200px;
+        position: absolute;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .gf-screen-card-01-mobile {
+        display: none;
+    }
+
+    .gf-screen-card-02-mobile {
+        display: none;
+    }
+
+    .gf-screen-card-03-mobile {
+        display: none;
+    }
+
+    .gf-screen-card-in {
+        left: 17px;
+        position: absolute;
+        width: 192px;
+        z-index: 2;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .gf-screen-card-in-01 {
+        top: 339px;
+    }
+
+    .gf-screen-card-in-02 {
+        top: 210px;
+    }
+
+    .gf-screen-card-in-03 {
+        top: 85px;
+    }
 }
 @media only screen and (max-width: 768px) {
-  #s6 {
-    .iphone-screen {
-      position: absolute;
-      left: 10px;
-      top: 10px;
-      width: 137px;
-      height: 294px;
-    }
-    .content-group {
-      .column.left {
-        margin-right: 0;
-        width: auto;
-      }
-    }
-    .section-title {
-      .title {
-        font-size: 1.6rem;
-        line-height: 1.9rem;
-        .highlight.hl1 {
-          i {
-            width: 52px;
-            padding: 4px 6px;
-            height: 74px;
-            top: -7px;
-            left: -6px;
-          }
+    #s6 {
+        .iphone-screen {
+            height: 294px;
+            left: 10px;
+            position: absolute;
+            top: 10px;
+            width: 137px;
         }
-        .highlight.hl2 {
-          i {
-            width: 226px;
-            padding: 4px 6px;
-            height: 74px;
-            top: -7px;
-            left: -6px;
-          }
+
+        .content-group {
+            .column.left {
+                margin-right: 0;
+                width: auto;
+            }
         }
-      }
+
+        .section-title {
+            .title {
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+
+                .highlight.hl1 {
+                    i {
+                        height: 74px;
+                        left: -6px;
+                        padding: 4px 6px;
+                        top: -7px;
+                        width: 52px;
+                    }
+                }
+
+                .highlight.hl2 {
+                    i {
+                        height: 74px;
+                        left: -6px;
+                        padding: 4px 6px;
+                        top: -7px;
+                        width: 226px;
+                    }
+                }
+            }
+        }
+
+        .section-description {
+            margin-left: 0;
+            margin-top: 0;
+        }
+
+        .btn-arrow {
+            left: 50%;
+            margin-left: -20px;
+            position: relative;
+        }
+
+        .gf-screen-cards-background {
+            top: 10px;
+            width: 100%;
+
+            img {
+                width: 100%;
+                width: 156px;
+            }
+        }
+
+        .gf-screen-card-in-01 {
+            left: 7px;
+            top: 213px;
+            width: 123px;
+        }
+
+        .gf-screen-card-in-02 {
+            left: 7px;
+            top: 132px;
+            width: 123px;
+        }
+
+        .gf-screen-card-in-03 {
+            left: 7px;
+            top: 52px;
+            width: 123px;
+        }
+
+        .gf-screen-card {
+            height: 93px;
+            width: 153px;
+
+            &::after {
+                border-radius: 6px;
+                height: 93px;
+                left: 0;
+                top: 0;
+                width: 153px;
+            }
+        }
+
+        .gf-screen-card-01 {
+            display: none;
+        }
+
+        .gf-screen-card-02 {
+            display: none;
+        }
+
+        .gf-screen-card-03 {
+            display: none;
+        }
+
+        .gf-screen-card-01-mobile {
+            display: block;
+            top: 200px;
+
+            img {
+                width: 153px;
+            }
+        }
+
+        .gf-screen-card-02-mobile {
+            display: block;
+            top: 160px;
+
+            img {
+                width: 153px;
+            }
+        }
+
+        .gf-screen-card-03-mobile {
+            display: block;
+            top: 120px;
+
+            img {
+                width: 153px;
+            }
+        }
     }
-    .section-description {
-      margin-left: 0;
-      margin-top: 0;
-    }
-    .btn-arrow {
-      position: relative;
-      left: 50%;
-      margin-left: -20px;
-    }
-    .gf-screen-cards-background {
-      width: 100%;
-      top: 10px;
-      img {
-        width: 100%;
-        width: 156px;
-      }
-    }
-    .gf-screen-card-in-01 {
-      top: 213px;
-      left: 7px;
-      width: 123px;
-    }
-    .gf-screen-card-in-02 {
-      top: 132px;
-      left: 7px;
-      width: 123px;
-    }
-    .gf-screen-card-in-03 {
-      top: 52px;
-      left: 7px;
-      width: 123px;
-    }
-    .gf-screen-card {
-      &:after {
-        width: 153px;
-        height: 93px;
-        border-radius: 6px;
-        left: 0px;
-        top: 0px;
-      }
-      width: 153px;
-      height: 93px;
-    }
-    .gf-screen-card-01 {
-      display: none;
-    }
-    .gf-screen-card-02 {
-      display: none;
-    }
-    .gf-screen-card-03 {
-      display: none;
-    }
-    .gf-screen-card-01-mobile {
-      display: block;
-      top: 200px;
-      img {
-        width: 153px;
-      }
-    }
-    .gf-screen-card-02-mobile {
-      display: block;
-      top: 160px;
-      img {
-        width: 153px;
-      }
-    }
-    .gf-screen-card-03-mobile {
-      display: block;
-      top: 120px;
-      img {
-        width: 153px;
-      }
-    }
-  }
 }

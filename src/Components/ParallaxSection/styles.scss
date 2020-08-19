@@ -1,114 +1,116 @@
 .section {
-  height: 200vh;
-  background-color: #ebebeb;
-  background: url("./bg-s1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url('./bg-s1.jpg') no-repeat center center fixed;
+    background-color: #ebebeb;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200vh;
 
-  &-title {
-    .title {
-      font-size: 4rem;
-      line-height: 4.5rem;
+    &-title {
+        .title {
+            font-size: 4rem;
+            line-height: 4.5rem;
 
-      &::before {
-        color: #fff;
-        background-color: #000;
-        font-weight: bold;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding: 0.7rem 0.5rem 0.5rem;
-        position: absolute;
-        left: -70px;
-        top: -20px;
-      }
+            &::before {
+                background-color: #000;
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: bold;
+                left: -70px;
+                line-height: 1.6rem;
+                padding: 0.7rem 0.5rem 0.5rem;
+                position: absolute;
+                top: -20px;
+            }
 
-      .highlight {
+            .highlight {
+                position: relative;
+
+                i {
+                    -webkit-clip-path: inset(-1% 100% 50% -1%);
+                    clip-path: inset(-1% 100% 50% -1%);
+                    color: #f2f2f2;
+                    font-style: normal;
+                    height: 154px;
+                    left: -8px;
+                    padding: 0.5rem 0.5rem 0.25rem;
+                    position: absolute;
+                    text-align: left;
+                    top: -15px;
+                }
+            }
+
+            &.color-red {
+                .highlight {
+                    i {
+                        background-color: #ff2c1e;
+                    }
+                }
+            }
+
+            &.color-green {
+                .highlight {
+                    i {
+                        background-color: #00f7bf;
+                    }
+                }
+            }
+        }
+    }
+
+    &-description {
+        .description {
+            font-size: 1.2rem;
+        }
+    }
+
+    .content-group {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
         position: relative;
+        z-index: 20;
 
-        i {
-          height: 154px;
-          left: -8px;
-          top: -15px;
-          color: #f2f2f2;
-          position: absolute;
-          padding: 0.5rem 0.5rem 0.25rem;
-          -webkit-clip-path: inset(-1% 100% 50% -1%);
-          clip-path: inset(-1% 100% 50% -1%);
-          font-style: normal;
-          text-align: left;
+        .column {
+            position: relative;
         }
-      }
-
-      &.color-red {
-        .highlight {
-          i {
-            background-color: #ff2c1e;
-          }
-        }
-      }
-
-      &.color-green {
-        .highlight {
-          i {
-            background-color: #00f7bf;
-          }
-        }
-      }
     }
-  }
-
-  &-description {
-    .description {
-      font-size: 1.2rem;
-    }
-  }
-
-  .content-group {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    z-index: 20;
-
-    .column {
-      position: relative;
-    }
-  }
 }
 
 @media only screen and (max-width: 768px) {
-  .section {
-    background: #fefefe;
+    .section {
+        background: #fefefe;
 
-    .content-group {
-      -ms-flex-direction: column;
-      flex-direction: column;
-      width: 100%;
-      .column {
-        padding-left: 3rem;
-        padding-right: 3rem;
-        width: 100%;
-      }
-    }
+        .content-group {
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 100%;
 
-    &-title .title {
-      font-size: 2.5rem;
-      line-height: 2.8rem;
-      text-align: center;
-      .highlight i {
-        height: 105px;
-        left: -8px;
-        top: -14px;
-        padding: 0.5rem 0.5rem 0.25rem;
-      }
-    }
+            .column {
+                padding-left: 3rem;
+                padding-right: 3rem;
+                width: 100%;
+            }
+        }
 
-    &-description .description {
-      font-size: 0.9rem;
-      text-align: center;
+        &-title .title {
+            font-size: 2.5rem;
+            line-height: 2.8rem;
+            text-align: center;
+
+            .highlight i {
+                height: 105px;
+                left: -8px;
+                padding: 0.5rem 0.5rem 0.25rem;
+                top: -14px;
+            }
+        }
+
+        &-description .description {
+            font-size: 0.9rem;
+            text-align: center;
+        }
     }
-  }
 }
