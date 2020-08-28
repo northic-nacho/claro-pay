@@ -55,22 +55,22 @@ const ThirdSection = () => {
 
     return (
         <ParallaxSection id="s3">
-            <div className="content-group align-items-center">
-                <div className="column left">
+            <div className="content align-items-center">
+                <div className="content__column content__column--left">
                     <SectionTitle>
                         <HighlightedText text="Mandá y recibí" />
                         <br />
             dinero
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description">
+                        <p className="description__copy">
               con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales
               o a cualquier banco de manera <b>simple y segura.</b>
                         </p>
                     </SectionDescription>
                     <ArrowButton to="#s4" />
                 </div>
-                <div className="column right">
+                <div className="content__column content__column--right">
                     <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>

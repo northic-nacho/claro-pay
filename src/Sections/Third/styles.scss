@@ -1,7 +1,7 @@
 /*Section 3*/
 #s3 {
-    .content-group {
-        .column.left {
+    .content {
+        .content__column.content__column--left {
             margin-right: 7rem;
             z-index: 2;
         }
@@ -95,7 +95,7 @@
         z-index: 10;
     }
 
-    .section-title {
+    .page_section__title {
         .title {
             .highlight {
                 i {
@@ -105,7 +105,7 @@
         }
     }
 
-    .section-description {
+    .page_section__description {
         position: relative;
         width: 350px;
     }
@@ -224,31 +224,31 @@
 }
 @media only screen and (max-width: 768px) {
     #s3 {
-        .content-group {
+        .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
             margin-top: 90px;
 
-            .column.left {
+            .content__column.content__column--left {
                 margin-right: 0;
             }
 
-            .column.right {
+            .content__column.content__column--right {
                 width: auto;
                 z-index: 1;
             }
 
-            .column {
+            .content__column {
                 padding-left: 2rem;
                 padding-right: 2rem;
             }
         }
 
-        .section-description {
+        .page_section__description {
             width: 100%;
         }
 
-        .section-title {
+        .page_section__title {
             .title {
                 font-size: 1.6rem;
                 line-height: 1.9rem;

@@ -1,13 +1,13 @@
 /*Section 5*/
 /*Circle animation*/
 #s5 {
-    .content-group {
-        .column.left {
+    .content {
+        .content__column.content__column--left {
             margin-left: 2rem;
             margin-right: 2rem;
         }
 
-        .column.right {
+        .content__columncontent__column content__column--right {
             width: 320px;
         }
     }
@@ -17,7 +17,7 @@
         z-index: 4;
     }
 
-    .section-description {
+    .page_section__description {
         left: 20%;
         margin-top: 3rem;
         position: relative;
@@ -213,27 +213,27 @@
         z-index: 5;
     }
 
-    .section-title {
+    .page_section__title {
         width: 610px;
     }
 }
 @media only screen and (max-width: 768px) {
     #s5 {
-        .content-group {
+        .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
 
-            .column.left {
+            .content__column.content__column--left {
                 z-index: 3;
             }
 
-            .column.right {
+            .content__column.content__column--right {
                 margin: 0 auto;
                 width: auto;
             }
         }
 
-        .section-description {
+        .page_section__description {
             left: 0;
             margin-top: 0;
         }
@@ -246,7 +246,7 @@
             top: 0;
         }
 
-        .section-title {
+        .page_section__description {
             width: auto;
 
             .title {

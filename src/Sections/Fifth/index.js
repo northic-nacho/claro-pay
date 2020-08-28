@@ -47,13 +47,13 @@ const FifthSection = () => {
 
     return (
         <ParallaxSection id="s5">
-            <div className="content-group align-items-center">
-                <div className="column left">
+            <div className="content align-items-center">
+                <div className="content__column content__column--left">
                     <SectionTitle>
                         <HighlightedText text="Movete" /> en todo momento, sin obstáculos
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description">
+                        <p className="description__copy">
               Podés cargar tu tarjeta <b>Sube</b>
                             <br />
               cuando lo necesites,
@@ -63,7 +63,7 @@ const FifthSection = () => {
                     </SectionDescription>
                     <ArrowButton to="#s6" />
                 </div>
-                <div className="column right">
+                <div className="content__column content__column--right">
                     {!isLowEndDevice && (
                         <ScreenElement
                             parallax="sube-money"

@@ -2,8 +2,8 @@
 #s8 {
     background-color: #000;
 
-    .content-group {
-        .column.left {
+    .content {
+        .content__column.content__column--left {
             margin-right: 3rem;
         }
     }
@@ -140,8 +140,8 @@
             }
         }
 
-        .content-group {
-            .column.left {
+        .content {
+            .content__column.content__column--left {
                 margin-right: 0;
                 width: auto;
             }

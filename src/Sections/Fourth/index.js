@@ -132,14 +132,14 @@ const FourthSection = () => {
 
     return (
         <ParallaxSection id="s4">
-            <div className="content-group align-items-center">
-                <div className="column left">
+            <div className="content align-items-center">
+                <div className="content__column content__column--left">
                     <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
                     <div className="gf-circle-grey" {...greyCircleProps} />
                 </div>
-                <div className="column right">
+                <div className="content__column content__column--right">
                     <SectionTitle>
                         <HighlightedText
                             text="Pagá"
@@ -151,7 +151,7 @@ const FourthSection = () => {
             servicios
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description">
+                        <p className="description__copy">
                             <b>Luz, Agua, Gas, Internet...</b>
                             <br />
               lo que necesites sin hacer filas <br />

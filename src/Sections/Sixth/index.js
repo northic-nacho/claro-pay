@@ -47,8 +47,8 @@ const SixthSection = () => {
 
     return (
         <ParallaxSection id="s6">
-            <div className="content-group align-items-center">
-                <div className="column left">
+            <div className="content align-items-center">
+                <div className="content__column content__column--left">
                     <IPhone className="iphone-s4" showScreen>
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
@@ -87,14 +87,14 @@ const SixthSection = () => {
                         </>
                     )}
                 </div>
-                <div className="column right">
+                <div className="content__column content__column--right">
                     <SectionTitle>
             Todas tus tarjetas
                         <br />
                         <HighlightedText text="en un solo lugar" containerClassName="hl2" />
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description">
+                        <p className="description__copy">
               Usá tus <b>tarjetas de crédito</b>
                             <br />
                             <b>y débito</b> de cualquier banco.

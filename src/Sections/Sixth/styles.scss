@@ -1,13 +1,13 @@
 /*Section 6*/
 /*Circle animation*/
 #s6 {
-    .content-group {
-        .column.left {
+    .content {
+        .content__column.content__column--left {
             margin-right: 3rem;
         }
     }
 
-    .section-description {
+    .page_section__description {
         margin-left: 4rem;
         margin-top: 2rem;
     }
@@ -18,7 +18,7 @@
         z-index: 4;
     }
 
-    .section-title {
+    .page_section__title {
         .title {
             .highlight {
                 i {
@@ -236,14 +236,14 @@
             width: 137px;
         }
 
-        .content-group {
-            .column.left {
+        .content {
+            .content__column.content__column--left {
                 margin-right: 0;
                 width: auto;
             }
         }
 
-        .section-title {
+        .page_section__title {
             .title {
                 font-size: 1.6rem;
                 line-height: 1.9rem;
@@ -270,7 +270,7 @@
             }
         }
 
-        .section-description {
+        .page_section__description {
             margin-left: 0;
             margin-top: 0;
         }

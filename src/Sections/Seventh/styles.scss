@@ -1,7 +1,7 @@
 /*Section 7*/
 #s7 {
-    .content-group {
-        .column.left {
+    .content {
+        .content__column.content__column--left {
             margin-right: 3rem;
             z-index: 2;
         }
@@ -42,11 +42,11 @@
         }
     }
 
-    .section-title {
+    .page_section__title {
         width: 520px;
     }
 
-    .section-description {
+    .page_section__description {
         width: 310px;
     }
 
@@ -90,15 +90,15 @@
 }
 @media only screen and (max-width: 768px) {
     #s7 {
-        .content-group {
+        .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
 
-            .column {
+            .content__column {
                 width: auto;
             }
 
-            .column.left {
+            .content__column.content__column--left {
                 margin: 0;
             }
         }
@@ -143,7 +143,7 @@
             }
         }
 
-        .section-title {
+        .page_section__title {
             margin: 0 auto;
             width: 210px;
 

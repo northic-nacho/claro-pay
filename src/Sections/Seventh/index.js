@@ -55,8 +55,8 @@ const SeventhSection = () => {
     return (
         <ParallaxSection id="s7">
             <div parallax="anim-stage">
-                <div className="content-group align-items-center">
-                    <div className="column left">
+                <div className="content align-items-center">
+                    <div className="content__column content__column--left">
                         <SectionTitle>
               Recargá
                             <br />
@@ -70,7 +70,7 @@ const SeventhSection = () => {
                             <HighlightedText text="exclusivos" containerClassName="hl2 " />
                         </SectionTitle>
                         <SectionDescription>
-                            <p className="description">
+                            <p className="description__copy">
                 Recibí <b>alertas con descuentos</b>
                                 <br />
                 para tu línea Claro
@@ -78,7 +78,7 @@ const SeventhSection = () => {
                         </SectionDescription>
                         <ArrowButton to="#s8" />
                     </div>
-                    <div className="column right">
+                    <div className="content__column content__column--right">
                         <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                             <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                         </IPhone>

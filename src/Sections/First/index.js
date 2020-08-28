@@ -14,8 +14,8 @@ const FirstSection = () => {
 
     return (
         <ParallaxSection id="s1">
-            <div className="content-group">
-                <div className="column left">
+            <div className="content">
+                <div className="content__column content__column--left">
                     <IPhone
                         className="iphone-s1"
                         containerParallax={
@@ -26,7 +26,7 @@ const FirstSection = () => {
                         animation={isLowEndDevice ? null : 'half-circle-rotation-home'}
                     />
                 </div>
-                <div className="column right">
+                <div className="content__column content__column--right">
                     <SectionTitle>
             Claro Pay
                         <br />
@@ -35,14 +35,14 @@ const FirstSection = () => {
                         <HighlightedText text="billetera virtual" />
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description">
+                        <p className="description__copy">
               Enviá y recibí dinero,
                             <br />
               pagá tus servicios,
                             <br />
               recargá tu celu y tu SUBE.
                         </p>
-                        <p className="description">
+                        <p className="description__copy">
                             <b>Abierto las 24 horas en tu celular.</b>
                         </p>
                     </SectionDescription>

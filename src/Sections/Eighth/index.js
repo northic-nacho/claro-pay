@@ -68,15 +68,15 @@ const EighthSection = ({ setIsOnLastSection }) => {
     return (
         <ParallaxSection id="s8" parallax="night-bg" ref={sectionRef}>
             <div parallax="anim-stage">
-                <div className="content-group align-items-center">
-                    <div className="column left">
+                <div className="content align-items-center">
+                    <div className="content__column content__column--left">
                         <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                             <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                         </IPhone>
                         <Image className="gf-moare-left" image="gf-moare-grey" />
                         <Image className="gf-moare-right" image="gf-moare-grey" />
                     </div>
-                    <div className="column right">
+                    <div className="content__column content__column--right">
                         <SectionTitle>
               ¡Abierto
                             <br />

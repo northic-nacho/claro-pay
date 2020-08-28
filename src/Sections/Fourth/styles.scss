@@ -1,17 +1,17 @@
 /*Section 4*/
 #s4 {
-    .content-group {
-        .column.left {
+    .content {
+        .content__column.content__column--left {
             margin-right: 7rem;
             z-index: 1;
         }
 
-        .column.right {
+        .content__column.content__column--right {
             z-index: 2;
         }
     }
 
-    .section-title {
+    .page_section__title {
         width: 410px;
 
         .title {
@@ -283,18 +283,18 @@
             }
         }
 
-        .content-group {
-            .column.right {
+        .content {
+            .content__column.content__column--right {
                 z-index: 2;
             }
 
-            .column.left {
+            .content__column.content__column--left {
                 margin: 0 auto;
                 width: auto;
             }
         }
 
-        .section-title {
+        .page_section__title {
             width: auto;
 
             .title {

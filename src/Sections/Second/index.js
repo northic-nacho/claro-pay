@@ -14,14 +14,14 @@ const SecondSection = () => {
 
     return (
         <ParallaxSection id="s2">
-            <div className="content-group">
-                <div className="column left">
+            <div className="content">
+                <div className="content__column content__column--left">
                     <Icons.GreenCircle
                         animation={isLowEndDevice ? null : 'half-circle-rotation'}
                     />
                     <ArrowButton to="#s3" />
                 </div>
-                <div className="column right">
+                <div className="content__column content__column--right">
                     <SectionTitle>
             Con todo el
                         <br />
@@ -35,7 +35,7 @@ const SecondSection = () => {
             de <HighlightedText text="Claro" containerClassName="hl2" />
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description">
+                        <p className="description__copy">
               Tenés la tranquilidad de operar con una compañía que está en la
               Argentina desde hace más de 10 años con productos y servicios
               pensados <b>para hacerte todo más simple.</b>
