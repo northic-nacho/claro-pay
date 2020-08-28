@@ -1,4 +1,4 @@
-.section {
+.page_section {
     background: url('./bg-s1.jpg') no-repeat center center fixed;
     background-color: #ebebeb;
     -webkit-background-size: cover;
@@ -7,7 +7,7 @@
     background-size: cover;
     height: 200vh;
 
-    &-title {
+    &__title {
         .title {
             font-size: 4rem;
             line-height: 4.5rem;
@@ -59,13 +59,13 @@
         }
     }
 
-    &-description {
-        .description {
+    &__description {
+        .description__copy {
             font-size: 1.2rem;
         }
     }
 
-    .content-group {
+    .content {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: center;
@@ -73,29 +73,29 @@
         position: relative;
         z-index: 20;
 
-        .column {
+        .content__column {
             position: relative;
         }
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .section {
+    .page_section {
         background: #fefefe;
 
-        .content-group {
+        .content {
             -ms-flex-direction: column;
             flex-direction: column;
             width: 100%;
 
-            .column {
+            .content__column {
                 padding-left: 3rem;
                 padding-right: 3rem;
                 width: 100%;
             }
         }
 
-        &-title .title {
+        &__title .title {
             font-size: 2.5rem;
             line-height: 2.8rem;
             text-align: center;
@@ -108,7 +108,7 @@
             }
         }
 
-        &-description .description {
+        &__description .description__copy {
             font-size: 0.9rem;
             text-align: center;
         }

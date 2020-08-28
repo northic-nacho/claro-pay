@@ -6,7 +6,7 @@ interface SectionTitleProps {
 
 const SectionTitle = ({ children }: SectionTitleProps ) => {
     return (
-        <div className="section-title">
+        <div className="page_section__title">
             <h1 className="title color-red">{children}</h1>
         </div>
     );
