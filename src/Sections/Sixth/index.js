@@ -91,7 +91,7 @@ const SixthSection = () => {
                     <SectionTitle>
             Todas tus tarjetas
                         <br />
-                        <HighlightedText text="en un solo lugar" containerClassName="hl2" />
+                        <HighlightedText text="en un solo lugar" containerClassName="highlight--second" />
                     </SectionTitle>
                     <SectionDescription>
                         <p className="description__copy">

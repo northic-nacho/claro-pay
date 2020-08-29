@@ -63,11 +63,11 @@ const SeventhSection = () => {
               con{' '}
                             <HighlightedText
                                 text="descuentos"
-                                containerClassName="hl1"
+                                containerClassName="highlight--first"
                                 effect="reveal-left-in:shift(-30%)"
                             />
                             <br />
-                            <HighlightedText text="exclusivos" containerClassName="hl2 " />
+                            <HighlightedText text="exclusivos" containerClassName="highlight--second " />
                         </SectionTitle>
                         <SectionDescription>
                             <p className="description__copy">

@@ -143,11 +143,11 @@ const FourthSection = () => {
                     <SectionTitle>
                         <HighlightedText
                             text="Pagá"
-                            containerClassName="hl1"
+                            containerClassName="highlight--first"
                             effect="reveal-left-in:shift(-30%)"
                         />{' '}
             todas tus facturas y{' '}
-                        <HighlightedText text="recargá" containerClassName="hl2" /> tus
+                        <HighlightedText text="recargá" containerClassName="highlight--second" /> tus
             servicios
                     </SectionTitle>
                     <SectionDescription>

@@ -15,13 +15,13 @@
         width: 410px;
 
         .title {
-            .highlight.hl1 {
+            .highlight.highlight--first {
                 i {
                     width: 180px;
                 }
             }
 
-            .highlight.hl2 {
+            .highlight.highlight--second {
                 i {
                     width: 270px;
                 }
@@ -301,7 +301,7 @@
                 font-size: 1.6rem;
                 line-height: 1.9rem;
 
-                .highlight.hl1 {
+                .highlight.highlight--first {
                     i {
                         height: 74px;
                         left: -6px;
@@ -311,7 +311,7 @@
                     }
                 }
 
-                .highlight.hl2 {
+                .highlight.highlight--second {
                     i {
                         height: 74px;
                         left: -6px;

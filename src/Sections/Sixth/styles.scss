@@ -26,13 +26,13 @@
                 }
             }
 
-            .highlight.hl1 {
+            .highlight.highlight--first {
                 i {
                     width: 390px;
                 }
             }
 
-            .highlight.hl2 {
+            .highlight.highlight--second {
                 i {
                     width: 350px;
                 }
@@ -248,7 +248,7 @@
                 font-size: 1.6rem;
                 line-height: 1.9rem;
 
-                .highlight.hl1 {
+                .highlight.highlight--first {
                     i {
                         height: 74px;
                         left: -6px;
@@ -258,7 +258,7 @@
                     }
                 }
 
-                .highlight.hl2 {
+                .highlight.highlight--second {
                     i {
                         height: 74px;
                         left: -6px;

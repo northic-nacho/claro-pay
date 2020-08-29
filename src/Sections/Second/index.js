@@ -27,12 +27,12 @@ const SecondSection = () => {
                         <br />
                         <HighlightedText
                             text="respaldo"
-                            containerClassName="hl1"
+                            containerClassName="highlight--first"
                             effect="reveal-left-in:shift(-30%)"
                         />
                         <br />
                         <span className="pl-6" />
-            de <HighlightedText text="Claro" containerClassName="hl2" />
+            de <HighlightedText text="Claro" containerClassName="highlight--second" />
                     </SectionTitle>
                     <SectionDescription>
                         <p className="description__copy">
