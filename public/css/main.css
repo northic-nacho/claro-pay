@@ -4,69 +4,80 @@ ESTILOS GENERALES DISEÑO
 
 .small,
 small {
-  font-size: 40%;
-  font-weight: inherit;
+    font-size: 40%;
+    font-weight: inherit;
 }
+
 .color-red {
-  color: #ff2c1e;
+    color: #ff2c1e;
 }
+
 .color-green {
-  color: #00f7bf;
+    color: #00f7bf;
 }
 
 .pl-6 {
-  padding-left: 6rem;
+    padding-left: 6rem;
 }
 
 .gf-dash-green,
 .gf-dash-grey {
-  position: absolute;
-  width: 24px;
-  height: 130px;
-  z-index: 1;
-  display: -ms-flexbox;
-  display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 130px;
+    position: absolute;
+    width: 24px;
+    z-index: 1;
 }
+
 .gf-dash-green i {
-  border-left: dotted 4px #00f8c0;
-  border-right: dotted 4px #00f8c0;
-  height: 100%;
-  display: block;
-  width: 6px;
+    border-left: dotted 4px #00f8c0;
+    border-right: dotted 4px #00f8c0;
+    display: block;
+    height: 100%;
+    width: 6px;
 }
+
 .gf-dash-grey i {
-  border-left: dotted 4px #606060;
-  border-right: dotted 4px #606060;
-  height: 100%;
-  opacity: 0.5;
-  display: block;
-  width: 6px;
+    border-left: dotted 4px #606060;
+    border-right: dotted 4px #606060;
+    display: block;
+    height: 100%;
+    opacity: 0.5;
+    width: 6px;
 }
+
 button:focus {
-  outline: none;
+    outline: none;
 }
+
 .btn-signup-mobile {
-  display: none;
+    display: none;
 }
 @media only screen and (max-width: 768px) {
-  .pl-6 {
-    padding-left: 0;
-  }
-  .btn-login {
-    display: none;
-  }
-  .btn-signup {
-    display: none;
-  }
-  .btn-signup-mobile {
-    display: block;
-  }
-  .btn {
-    font-size: 0.8rem;
-  }
-  .screen-video video {
-    width: 137px;
-  }
+    .pl-6 {
+        padding-left: 0;
+    }
+
+    .btn-login {
+        display: none;
+    }
+
+    .btn-signup {
+        display: none;
+    }
+
+    .btn-signup-mobile {
+        display: block;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    .screen-video video {
+        width: 137px;
+    }
 }
 
 /* *************************************************************************
@@ -74,188 +85,203 @@ IPHONE SCREENS
 ************************************************************************* */
 /*Hardware*/
 .iphone-image-group {
-  position: relative;
+    position: relative;
 }
 
 .iphone-image-group .iphone-hardware {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 .iphone-s1 .iphone-hardware {
-  width: 422px;
-  height: 513px;
-  background-size: 422px 513px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s1.png");
+    background-image: url('../images/iphone-s1.png');
+    background-repeat: no-repeat;
+    background-size: 422px 513px;
+    height: 513px;
+    width: 422px;
 }
+
 .iphone-s2 .iphone-hardware {
-  width: 260px;
-  height: 519px;
-  background-size: 260px 519px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s2.png");
+    background-image: url('../images/iphone-s2.png');
+    background-repeat: no-repeat;
+    background-size: 260px 519px;
+    height: 519px;
+    width: 260px;
 }
+
 .iphone-s3 .iphone-hardware {
-  width: 207px;
-  height: 546px;
-  background-size: 207px 546px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s3.png");
+    background-image: url('../images/iphone-s3.png');
+    background-repeat: no-repeat;
+    background-size: 207px 546px;
+    height: 546px;
+    width: 207px;
 }
+
 .iphone-s4 .iphone-hardware {
-  width: 260px;
-  height: 519px;
-  background-size: 260px 519px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s4.png");
+    background-image: url('../images/iphone-s4.png');
+    background-repeat: no-repeat;
+    background-size: 260px 519px;
+    height: 519px;
+    width: 260px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-resolution: 1.5dppx),
+    only screen and (min-resolution: 1.5dppx),
   (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi) {
-  .iphone-s1 .iphone-hardware {
-    background-image: url("../images/iphone-s1@2x.png");
-  }
-  .iphone-s2 .iphone-hardware {
-    background-image: url("../images/iphone-s2@2x.png");
-  }
-  .iphone-s3 .iphone-hardware {
-    background-image: url("../images/iphone-s3@2x.png");
-  }
-  .iphone-s4 .iphone-hardware {
-    background-image: url("../images/iphone-s4@2x.png");
-  }
+    .iphone-s1 .iphone-hardware {
+        background-image: url('../images/iphone-s1@2x.png');
+    }
+
+    .iphone-s2 .iphone-hardware {
+        background-image: url('../images/iphone-s2@2x.png');
+    }
+
+    .iphone-s3 .iphone-hardware {
+        background-image: url('../images/iphone-s3@2x.png');
+    }
+
+    .iphone-s4 .iphone-hardware {
+        background-image: url('../images/iphone-s4@2x.png');
+    }
 }
 
 @media only screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (max-width: 992px) and (min-resolution: 1.5dppx),
+    only screen and (max-width: 992px) and (min-resolution: 1.5dppx),
   only screen and (max-width: 992px) and (min-resolution: 144dpi) {
-  .image-hardware-iphonex {
-    background-image: url("../images/hardware_iphonex_medium_2x.jpg");
-  }
+    .image-hardware-iphonex {
+        background-image: url('../images/hardware_iphonex_medium_2x.jpg');
+    }
 }
 
 @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
+    only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
   only screen and (max-width: 768px) and (min-resolution: 144dpi) {
-  .iphone-s1 .iphone-hardware {
-    background-image: url("../images/iphone-s1-small.png");
-  }
-  .iphone-s4 .iphone-hardware {
-    background-image: url("../images/iphone-s4-small.png");
-  }
+    .iphone-s1 .iphone-hardware {
+        background-image: url('../images/iphone-s1-small.png');
+    }
+
+    .iphone-s4 .iphone-hardware {
+        background-image: url('../images/iphone-s4-small.png');
+    }
 }
 @media only screen and (max-width: 768px) {
-  .iphone-s1 .iphone-hardware {
-    width: 296px;
-    height: 360px;
-    background-size: 296px 360px;
-    background-repeat: no-repeat;
-    background-image: url("../images/iphone-s1-small@2x.png");
-  }
-  .iphone-s4 .iphone-hardware {
-    width: 156px;
-    height: 313px;
-    background-size: 156px 313px;
-    background-repeat: no-repeat;
-    background-image: url("../images/iphone-s4-small@2x.png");
-  }
+    .iphone-s1 .iphone-hardware {
+        background-image: url('../images/iphone-s1-small@2x.png');
+        background-repeat: no-repeat;
+        background-size: 296px 360px;
+        height: 360px;
+        width: 296px;
+    }
 
-  .ocultar-mobile {
-    display: none;
-  }
+    .iphone-s4 .iphone-hardware {
+        background-image: url('../images/iphone-s4-small@2x.png');
+        background-repeat: no-repeat;
+        background-size: 156px 313px;
+        height: 313px;
+        width: 156px;
+    }
+
+    .hide-in-mobile {
+        display: none;
+    }
 }
 
 /*Shadow*/
 .iphone-image-group .iphone-shadow {
-  position: absolute;
-  z-index: -1;
+    position: absolute;
+    z-index: -1;
 }
 
 .iphone-s1 .iphone-shadow {
-  width: 476px;
-  height: 21px;
-  background-size: 476px 21px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s1-shadow.png");
-  bottom: -58px;
-  left: -36px;
+    background-image: url('../images/iphone-s1-shadow.png');
+    background-repeat: no-repeat;
+    background-size: 476px 21px;
+    bottom: -58px;
+    height: 21px;
+    left: -36px;
+    width: 476px;
 }
+
 .iphone-s2 .iphone-shadow {
-  width: 744px;
-  height: 126px;
-  background-size: 744px 126px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s2-shadow.png");
-  top: 435px;
-  left: -330px;
+    background-image: url('../images/iphone-s2-shadow.png');
+    background-repeat: no-repeat;
+    background-size: 744px 126px;
+    height: 126px;
+    left: -330px;
+    top: 435px;
+    width: 744px;
 }
+
 .iphone-s3 .iphone-shadow {
-  width: 769px;
-  height: 369px;
-  background-size: 769px 369px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s3-shadow.png");
-  bottom: -133px;
-  left: -372px;
+    background-image: url('../images/iphone-s3-shadow.png');
+    background-repeat: no-repeat;
+    background-size: 769px 369px;
+    bottom: -133px;
+    height: 369px;
+    left: -372px;
+    width: 769px;
 }
+
 .iphone-s4 .iphone-shadow {
-  width: 744px;
-  height: 126px;
-  background-size: 744px 126px;
-  background-repeat: no-repeat;
-  background-image: url("../images/iphone-s2-shadow.png");
-  top: 435px;
-  left: -330px;
+    background-image: url('../images/iphone-s2-shadow.png');
+    background-repeat: no-repeat;
+    background-size: 744px 126px;
+    height: 126px;
+    left: -330px;
+    top: 435px;
+    width: 744px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-resolution: 1.5dppx),
+    only screen and (min-resolution: 1.5dppx),
   (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi) {
-  .iphone-s1 .iphone-shadow {
-    background-image: url("../images/iphone-s1-shadow@2x.png");
-  }
-  .iphone-s2 .iphone-shadow,
-  .iphone-s4 .iphone-shadow {
-    background-image: url("../images/iphone-s2-shadow@2x.png");
-  }
-  .iphone-s3 .iphone-shadow {
-    background-image: url("../images/iphone-s3-shadow@2x.png");
-  }
+    .iphone-s1 .iphone-shadow {
+        background-image: url('../images/iphone-s1-shadow@2x.png');
+    }
+
+    .iphone-s2 .iphone-shadow,
+    .iphone-s4 .iphone-shadow {
+        background-image: url('../images/iphone-s2-shadow@2x.png');
+    }
+
+    .iphone-s3 .iphone-shadow {
+        background-image: url('../images/iphone-s3-shadow@2x.png');
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .iphone-s1 .iphone-shadow {
-    width: 286px;
-    height: 13px;
-    background-size: 286px 13px;
-    background-repeat: no-repeat;
-    background-image: url("../images/iphone-s1-shadow-small.png");
-    bottom: -17px;
-    left: 4px;
-  }
-  .iphone-s2 .iphone-shadow,
-  .iphone-s4 .iphone-shadow {
-    width: 447px;
-    height: 76px;
-    background-size: 447px 76px;
-    background-repeat: no-repeat;
-    background-image: url("../images/iphone-s2-shadow-small.png");
-    top: 263px;
-    left: -198px;
-  }
+    .iphone-s1 .iphone-shadow {
+        background-image: url('../images/iphone-s1-shadow-small.png');
+        background-repeat: no-repeat;
+        background-size: 286px 13px;
+        bottom: -17px;
+        height: 13px;
+        left: 4px;
+        width: 286px;
+    }
+
+    .iphone-s2 .iphone-shadow,
+    .iphone-s4 .iphone-shadow {
+        background-image: url('../images/iphone-s2-shadow-small.png');
+        background-repeat: no-repeat;
+        background-size: 447px 76px;
+        height: 76px;
+        left: -198px;
+        top: 263px;
+        width: 447px;
+    }
 }
 @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
+    only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
   only screen and (max-width: 768px) and (min-resolution: 144dpi) {
-  .iphone-s1 .iphone-shadow {
-    background-image: url("../images/iphone-s1-shadow-small@2x.png");
-  }
-  .iphone-s2 .iphone-shadow,
-  .iphone-s4 .iphone-shadow {
-    background-image: url("../images/iphone-s2-shadow-small@2x.png");
-  }
+    .iphone-s1 .iphone-shadow {
+        background-image: url('../images/iphone-s1-shadow-small@2x.png');
+    }
+
+    .iphone-s2 .iphone-shadow,
+    .iphone-s4 .iphone-shadow {
+        background-image: url('../images/iphone-s2-shadow-small@2x.png');
+    }
 }

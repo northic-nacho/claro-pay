@@ -107,7 +107,7 @@ const FifthSection = () => {
             <Icons.Plus color="green" iconKey={2} />
             <Icons.Plus color="green" iconKey={3} />
             <Image className="gf-money-grey" image="gf-money-grey" />
-            <Image className="gf-house-grey ocultar-mobile" image="gf-house-grey" />
+            <Image className="gf-house-grey hide-in-mobile" image="gf-house-grey" />
             <div className="gf-circle-grey-1" />
             <Icons.Bars color="green" />
             <Icons.GreenCircle

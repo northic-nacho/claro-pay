@@ -87,7 +87,7 @@ const ThirdSection = () => {
             <Icons.Bars color="grey" />
             <Image className="gf-money-grey" image="gf-money-grey" />
             <Image className="gf-money-white" image="gf-money-white" />
-            <Image className="gf-check-green ocultar-mobile" image="gf-check-green" />
+            <Image className="gf-check-green hide-in-mobile" image="gf-check-green" />
             <Icons.Dash color="grey" />
             <Icons.Plus color="green" />
             <Icons.Plus color="white" />

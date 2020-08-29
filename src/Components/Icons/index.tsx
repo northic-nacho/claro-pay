@@ -11,8 +11,8 @@ interface GreenCircleProps {
 }
 
 const Bars = ({ color = 'green', hideInMobile = false }: IconProps ) => {
-    const barClassNames = `gf-bars-${color} ${
-        hideInMobile ? 'ocultar-mobile' : null
+    const barClassNames = `icon icon__bars--${color} ${
+        hideInMobile ? 'hide-in-mobile' : null
     }`;
     return <div className={barClassNames}>//</div>;
 };

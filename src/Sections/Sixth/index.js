@@ -107,8 +107,8 @@ const SixthSection = () => {
             <Icons.Plus color="green" />
             <Icons.Plus color="grey" />
             <Image className="gf-money-grey" image="gf-money-grey" />
-            <div className="gf-bars-grey-1">/</div>
-            <div className="gf-bars-grey-2">/</div>
+            <div className="icon__bars--grey-1">/</div>
+            <div className="icon__bars--grey-2">/</div>
             {!isLowEndDevice && (
                 <Icons.GreenCircle animation="quarter-circle-rotation" />
             )}
