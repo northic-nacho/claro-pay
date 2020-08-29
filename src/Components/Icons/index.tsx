@@ -18,11 +18,11 @@ const Bars = ({ color = 'green', hideInMobile = false }: IconProps ) => {
 };
 
 const Box = ({ color = 'red' }: IconProps ) => (
-    <div className={`gf-box-small-${color}`} />
+    <div className={`icon icon__box---${color}`} />
 );
 
 const Dash = ({ color = 'green' }: IconProps ) => (
-    <div className={`gf-dash-${color}`}>
+    <div className={`icon__dash--${color}`}>
         <i />
         <i />
         <i />
@@ -30,15 +30,15 @@ const Dash = ({ color = 'green' }: IconProps ) => (
 );
 
 const Plus = ({ color = 'green', iconKey }: IconProps ) => {
-    let plusClassNames = `gf-plus-${color}`;
+    let plusClassNames = `icon__plus--${color}`;
     if ( iconKey ) {
         plusClassNames += `-${iconKey}`;
     }
     return (
         <div className={plusClassNames}>
             <img
-                src={`images/gf-plus-${color}.png`}
-                srcSet={`images/gf-plus-${color}@2x.png 2x`}
+                src={`images/icon__plus--${color}.png`}
+                srcSet={`images/icon__plus--${color}@2x.png 2x`}
                 alt=""
             />
         </div>
@@ -53,7 +53,7 @@ const GreenCircle = ({ animation }: GreenCircleProps ) => {
         : {};
 
     return (
-        <div className="gf-circle-wipe-green">
+        <div className="icon__circle-wipe--green">
             <div className="circle-spinner" {...parallaxProps} />
         </div>
     );

@@ -33,7 +33,7 @@
         width: 360px;
     }
 
-    .gf-circle-wipe-green {
+    .icon__circle-wipe--green {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -73,7 +73,7 @@
         z-index: 2;
     }
 
-    .gf-dash-green {
+    .icon__dash--green {
         left: 0;
         top: 35%;
     }
@@ -109,7 +109,7 @@
         position: absolute;
     }
 
-    .gf-box-small-red {
+    .icon__box---red {
         background-color: #ff2c1e;
         height: 3px;
         left: 3%;
@@ -154,7 +154,7 @@
             z-index: 2;
         }
 
-        .gf-circle-wipe-green {
+        .icon__circle-wipe--green {
             clip: rect(0, 150px, 300px, 0);
             height: 300px;
             left: -40px;

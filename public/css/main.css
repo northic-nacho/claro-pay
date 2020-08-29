@@ -20,8 +20,8 @@ small {
     padding-left: 6rem;
 }
 
-.gf-dash-green,
-.gf-dash-grey {
+.icon__dash--green,
+.icon__dash--grey {
     display: -ms-flexbox;
     display: flex;
     height: 130px;
@@ -30,7 +30,7 @@ small {
     z-index: 1;
 }
 
-.gf-dash-green i {
+.icon__dash--green i {
     border-left: dotted 4px #00f8c0;
     border-right: dotted 4px #00f8c0;
     display: block;
@@ -38,7 +38,7 @@ small {
     width: 6px;
 }
 
-.gf-dash-grey i {
+.icon__dash--grey i {
     border-left: dotted 4px #606060;
     border-right: dotted 4px #606060;
     display: block;
@@ -127,7 +127,7 @@ IPHONE SCREENS
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (min-resolution: 1.5dppx),
-  (-webkit-min-device-pixel-ratio: 1.5),
+    (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi) {
     .iphone-s1 .iphone-hardware {
         background-image: url('../images/iphone-s1@2x.png');
@@ -148,7 +148,7 @@ IPHONE SCREENS
 
 @media only screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (max-width: 992px) and (min-resolution: 1.5dppx),
-  only screen and (max-width: 992px) and (min-resolution: 144dpi) {
+    only screen and (max-width: 992px) and (min-resolution: 144dpi) {
     .image-hardware-iphonex {
         background-image: url('../images/hardware_iphonex_medium_2x.jpg');
     }
@@ -156,7 +156,7 @@ IPHONE SCREENS
 
 @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
-  only screen and (max-width: 768px) and (min-resolution: 144dpi) {
+    only screen and (max-width: 768px) and (min-resolution: 144dpi) {
     .iphone-s1 .iphone-hardware {
         background-image: url('../images/iphone-s1-small.png');
     }
@@ -235,7 +235,7 @@ IPHONE SCREENS
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (min-resolution: 1.5dppx),
-  (-webkit-min-device-pixel-ratio: 1.5),
+    (-webkit-min-device-pixel-ratio: 1.5),
   (min-resolution: 144dpi) {
     .iphone-s1 .iphone-shadow {
         background-image: url('../images/iphone-s1-shadow@2x.png');
@@ -275,7 +275,7 @@ IPHONE SCREENS
 }
 @media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (max-width: 768px) and (min-resolution: 1.5dppx),
-  only screen and (max-width: 768px) and (min-resolution: 144dpi) {
+    only screen and (max-width: 768px) and (min-resolution: 144dpi) {
     .iphone-s1 .iphone-shadow {
         background-image: url('../images/iphone-s1-shadow-small@2x.png');
     }
