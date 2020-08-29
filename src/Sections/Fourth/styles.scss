@@ -56,14 +56,14 @@
         width: 225px;
         z-index: 1;
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             bottom: 0;
             left: 0;
             position: absolute;
             z-index: 10;
         }
 
-        .gf-screen-circle-red {
+        .icon__screen-circle-red {
             background-color: #ff2817;
             border-radius: 300px;
             height: 600px;
@@ -87,7 +87,7 @@
         }
     }
 
-    .gf-circle-grey {
+    .icon__circle-grey {
         background-color: #606060;
         border-radius: 60px;
         height: 120px;
@@ -105,25 +105,25 @@
         position: absolute;
     }
 
-    .gf-money-grey {
+    .icon__money-grey {
         left: 42%;
         position: absolute;
         top: 18%;
     }
 
-    .gf-ticket-green {
+    .icon__ticket-green {
         left: 42%;
         position: absolute;
         top: 30%;
     }
 
-    .gf-bill-green {
+    .icon__bill-green {
         bottom: 15%;
         position: absolute;
         right: 20%;
     }
 
-    .gf-money-grey-2 {
+    .icon__money-grey-2 {
         bottom: 20%;
         position: absolute;
         right: 10%;
@@ -148,7 +148,7 @@
         top: 210px;
     }
 
-    .gf-screen-service-circle {
+    .icon__screen-service-circle {
         margin: 0 1.5rem;
         position: relative;
 
@@ -172,64 +172,64 @@
         }
     }
 
-    .gf-screen-ribbon {
+    .icon__screen-ribbon {
         margin-right: 2rem;
     }
 
-    .gf-screen-service-plus-white-01 {
+    .icon__screen-service-plus-white-01 {
         left: 320px;
         position: absolute;
         top: 15px;
     }
 
-    .gf-screen-service-plus-red-01 {
+    .icon__screen-service-plus-red-01 {
         bottom: 10px;
         left: 455px;
         position: absolute;
     }
 
-    .gf-screen-service-money-white {
+    .icon__screen-service-money-white {
         left: 480px;
         position: absolute;
         top: 35px;
     }
 
-    .gf-screen-service-plus-red-02 {
+    .icon__screen-service-plus-red-02 {
         left: 655px;
         position: absolute;
         top: 15px;
     }
 
-    .gf-screen-service-plus-red-03 {
+    .icon__screen-service-plus-red-03 {
         bottom: 15px;
         left: 845px;
         position: absolute;
     }
 
-    .gf-screen-service-plus-red-04 {
+    .icon__screen-service-plus-red-04 {
         bottom: 15px;
         left: 1245px;
         position: absolute;
     }
 
-    .gf-screen-service-plus-red-05 {
+    .icon__screen-service-plus-red-05 {
         left: 1385px;
         position: absolute;
         top: 15px;
     }
 
-    .gf-screen-service-plus-red-06 {
+    .icon__screen-service-plus-red-06 {
         left: 1405px;
         position: absolute;
         top: 45px;
     }
 
-    .gf-screen-service-01 {
+    .icon__screen-service-01 {
         margin-left: 3rem;
         margin-right: 1rem;
     }
 
-    .gf-screen-service-08 {
+    .icon__screen-service-08 {
         margin-left: 5rem;
         margin-right: 12rem;
     }
@@ -247,7 +247,7 @@
             top: 10px;
             width: 137px;
 
-            .gf-screen-circle-red {
+            .icon__screen-circle-red {
                 border-radius: 200px;
                 height: 400px;
                 left: 50%;
@@ -262,20 +262,20 @@
         }
 
         .screen-nav {
-            .gf-screen-logo {
+            .icon__screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .gf-screen-nav-button {
+            .icon__screen-nav-button {
                 img {
                     width: 75%;
                 }
             }
         }
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             width: 100%;
 
             img {
@@ -334,7 +334,7 @@
             top: 110px;
         }
 
-        .gf-screen-service-circle {
+        .icon__screen-service-circle {
             margin: 0 0.75rem;
 
             &::after {
@@ -345,13 +345,13 @@
             }
         }
 
-        .gf-screen-service-points-white {
+        .icon__screen-service-points-white {
             img {
                 width: 15px;
             }
         }
 
-        .gf-screen-ribbon {
+        .icon__screen-ribbon {
             margin-right: 1rem;
 
             img {
@@ -359,7 +359,7 @@
             }
         }
 
-        .gf-screen-service-01 {
+        .icon__screen-service-01 {
             margin-left: 1rem;
 
             img {
@@ -367,95 +367,95 @@
             }
         }
 
-        .gf-screen-service-02 {
+        .icon__screen-service-02 {
             img {
                 height: 76px;
             }
         }
 
-        .gf-screen-service-03 {
+        .icon__screen-service-03 {
             img {
                 height: 76px;
             }
         }
 
-        .gf-screen-service-04 {
+        .icon__screen-service-04 {
             img {
                 height: 76px;
             }
         }
 
-        .gf-screen-service-05 {
+        .icon__screen-service-05 {
             img {
                 height: 76px;
             }
         }
 
-        .gf-screen-service-06 {
+        .icon__screen-service-06 {
             img {
                 height: 76px;
             }
         }
 
-        .gf-screen-service-07 {
+        .icon__screen-service-07 {
             img {
                 height: 76px;
             }
         }
 
-        .gf-screen-service-plus-white-01 {
+        .icon__screen-service-plus-white-01 {
             left: 200px;
             top: 15px;
         }
 
-        .gf-screen-service-plus-red-01 {
+        .icon__screen-service-plus-red-01 {
             bottom: 10px;
             left: 288px;
             position: absolute;
         }
 
-        .gf-screen-service-money-white {
+        .icon__screen-service-money-white {
             left: 297px;
             position: absolute;
             top: 35px;
         }
 
-        .gf-screen-service-plus-red-02 {
+        .icon__screen-service-plus-red-02 {
             left: 405px;
             position: absolute;
             top: 15px;
         }
 
-        .gf-screen-service-plus-red-03 {
+        .icon__screen-service-plus-red-03 {
             bottom: 15px;
             left: 525px;
             position: absolute;
         }
 
-        .gf-screen-service-plus-red-04 {
+        .icon__screen-service-plus-red-04 {
             bottom: 15px;
             left: 755px;
             position: absolute;
         }
 
-        .gf-screen-service-plus-red-05 {
+        .icon__screen-service-plus-red-05 {
             left: 855px;
             position: absolute;
             top: 15px;
         }
 
-        .gf-screen-service-plus-red-06 {
+        .icon__screen-service-plus-red-06 {
             left: 875px;
             position: absolute;
             top: 45px;
         }
 
-        .gf-screen-service-08 {
+        .icon__screen-service-08 {
             margin-left: 3rem;
             margin-right: 3rem;
         }
 
-        .gf-bill-green {
+        .icon__bill-green {
             bottom: 5%;
             right: 70%;
         }

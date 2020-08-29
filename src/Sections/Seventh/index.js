@@ -37,7 +37,7 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
                 />
             </div>
             <ScreenElement
-                className="gf-screen-app-buttons"
+                className="icon__screen-app-buttons"
                 image="gf-screen-app-buttons"
             />
         </>
@@ -82,11 +82,11 @@ const SeventhSection = () => {
                         <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                             <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                         </IPhone>
-                        <Image className="gf-moare-right" image="gf-moare-grey" />
+                        <Image className="icon__moare-right" image="icon__moare-grey" />
                         {isMobileDevice ? (
                             ''
                         ) : (
-                            <div className="gf-circle-green" parallax="zoom-in:shift(10%)" />
+                            <div className="icon__circle-green" parallax="zoom-in:shift(10%)" />
                         )}
                     </div>
                 </div>

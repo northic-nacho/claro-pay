@@ -30,14 +30,14 @@
         width: 225px;
         z-index: 1;
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             bottom: 0;
             left: 0;
             position: absolute;
             z-index: 10;
         }
 
-        .gf-screen-circle-red {
+        .icon__screen-circle-red {
             background-color: #ff2817;
             border-radius: 300px;
             height: 600px;
@@ -60,13 +60,13 @@
             z-index: 2;
         }
 
-        .gf-screen-money-icon {
+        .icon__screen-money-icon {
             margin-top: 20px;
             position: relative;
             z-index: 2;
         }
 
-        .gf-screen-wallet {
+        .icon__screen-wallet {
             margin-top: 30px;
             position: relative;
             z-index: 3;
@@ -85,7 +85,7 @@
         }
     }
 
-    .gf-screen-check {
+    .icon__screen-check {
         position: absolute;
         top: 160px;
         z-index: 3;
@@ -110,13 +110,13 @@
         width: 350px;
     }
 
-    .gf-big-bill {
+    .icon__big-bill {
         left: 50px;
         position: absolute;
         top: 0;
     }
 
-    .gf-shield-green {
+    .icon__shield-green {
         left: 10%;
         position: absolute;
         top: 48%;
@@ -132,20 +132,20 @@
         top: 12%;
     }
 
-    .gf-money-grey {
+    .icon__money-grey {
         left: 56%;
         position: absolute;
         top: 35%;
     }
 
-    .gf-money-white {
+    .icon__money-white {
         position: absolute;
         right: 7%;
         top: 19%;
         z-index: 4;
     }
 
-    .gf-check-green {
+    .icon__check-green {
         left: 56%;
         position: absolute;
         top: 51%;
@@ -179,14 +179,14 @@
         position: relative;
     }
 
-    .gf-moare-right {
+    .icon__moare-right {
         left: 230px;
         position: absolute;
         top: -50px;
         z-index: 3;
     }
 
-    .gf-circle-red {
+    .icon__circle-red {
         background-color: #ff2817;
         border-radius: 400px;
         height: 650px;
@@ -197,7 +197,7 @@
         z-index: 2;
     }
 
-    .gf-circle-white {
+    .icon__circle-white {
         background-color: #f2f2f2;
         border-radius: 90px;
         bottom: -20px;
@@ -211,7 +211,7 @@
         z-index: 4;
     }
 
-    .gf-circle-green {
+    .icon__circle-green {
         background-color: #00f5bd;
         border-radius: 400px;
         height: 600px;
@@ -272,7 +272,7 @@
             margin-top: 0;
         }
 
-        .gf-big-bill {
+        .icon__big-bill {
             left: 57px;
             top: 30px;
 
@@ -281,7 +281,7 @@
             }
         }
 
-        .gf-circle-white {
+        .icon__circle-white {
             border-radius: 90px;
             bottom: 0;
             height: 90px;
@@ -296,7 +296,7 @@
             top: 10px;
             width: 137px;
 
-            .gf-screen-circle-red {
+            .icon__screen-circle-red {
                 border-radius: 200px;
                 height: 400px;
                 left: 50%;
@@ -309,7 +309,7 @@
                 padding: 10px;
             }
 
-            .gf-screen-money-icon {
+            .icon__screen-money-icon {
                 margin-top: 10px;
 
                 img {
@@ -317,7 +317,7 @@
                 }
             }
 
-            .gf-screen-wallet {
+            .icon__screen-wallet {
                 margin-top: 20px;
                 text-align: center;
 
@@ -336,20 +336,20 @@
         }
 
         .screen-nav {
-            .gf-screen-logo {
+            .icon__screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .gf-screen-nav-button {
+            .icon__screen-nav-button {
                 img {
                     width: 75%;
                 }
             }
         }
 
-        .gf-screen-check {
+        .icon__screen-check {
             text-align: center;
             top: 110px;
 
@@ -358,7 +358,7 @@
             }
         }
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             width: 100%;
 
             img {
@@ -366,7 +366,7 @@
             }
         }
 
-        .gf-circle-green {
+        .icon__circle-green {
             background-color: #00f5bd;
             border-radius: 200px;
             height: 400px;

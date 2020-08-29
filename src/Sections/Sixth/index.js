@@ -20,22 +20,22 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
     return (
         <>
             <ScreenElement
-                className="gf-screen-card-in-01 gf-screen-card-in"
+                className="icon__screen-card-in-01 icon__screen-card-in"
                 parallax="credit-card-in-1"
                 image="gf-screen-card-01"
             />
             <ScreenElement
-                className="gf-screen-card-in-02 gf-screen-card-in"
+                className="icon__screen-card-in-02 icon__screen-card-in"
                 parallax="credit-card-in-2"
                 image="gf-screen-card-02"
             />
             <ScreenElement
-                className="gf-screen-card-in-03 gf-screen-card-in"
+                className="icon__screen-card-in-03 icon__screen-card-in"
                 parallax="credit-card-in-3"
                 image="gf-screen-card-03"
             />
             <ScreenElement
-                className="gf-screen-cards-background"
+                className="icon__screen-cards-background"
                 image="gf-screen-cards-background"
             />
         </>
@@ -55,34 +55,34 @@ const SixthSection = () => {
                     {!isLowEndDevice && (
                         <>
                             <ScreenElement
-                                className="gf-screen-card-01 gf-screen-card"
+                                className="icon__screen-card-01 icon__screen-card"
                                 parallax="credit-card-back-1"
-                                image="gf-screen-card-01"
+                                image="icon__screen-card-01"
                             />
                             <ScreenElement
-                                className="gf-screen-card-02 gf-screen-card"
+                                className="icon__screen-card-02 icon__screen-card"
                                 parallax="credit-card-back-2"
-                                image="gf-screen-card-02"
+                                image="icon__screen-card-02"
                             />
                             <ScreenElement
-                                className="gf-screen-card-03 gf-screen-card"
+                                className="icon__screen-card-03 icon__screen-card"
                                 parallax="credit-card-back-3"
-                                image="gf-screen-card-03"
+                                image="icon__screen-card-03"
                             />
                             <ScreenElement
-                                className="gf-screen-card-01-mobile gf-screen-card"
+                                className="icon__screen-card-01-mobile icon__screen-card"
                                 parallax="credit-card-back-1-mobile"
-                                image="gf-screen-card-01"
+                                image="icon__screen-card-01"
                             />
                             <ScreenElement
-                                className="gf-screen-card-02-mobile gf-screen-card"
+                                className="icon__screen-card-02-mobile icon__screen-card"
                                 parallax="credit-card-back-2-mobile"
-                                image="gf-screen-card-02"
+                                image="icon__screen-card-02"
                             />
                             <ScreenElement
-                                className="gf-screen-card-03-mobile gf-screen-card"
+                                className="icon__screen-card-03-mobile icon__screen-card"
                                 parallax="credit-card-back-3-mobile"
-                                image="gf-screen-card-03"
+                                image="icon__screen-card-03"
                             />
                         </>
                     )}
@@ -103,10 +103,10 @@ const SixthSection = () => {
                     <ArrowButton to="#s7" />
                 </div>
             </div>
-            <Image className="gf-bill-green" image="gf-bill-green" />
+            <Image className="icon__bill-green" image="icon__bill-green" />
             <Icons.Plus color="green" />
             <Icons.Plus color="grey" />
-            <Image className="gf-money-grey" image="gf-money-grey" />
+            <Image className="icon__money-grey" image="icon__money-grey" />
             <div className="icon__bars--grey-1">/</div>
             <div className="icon__bars--grey-2">/</div>
             {!isLowEndDevice && (

@@ -34,7 +34,7 @@
             z-index: 2;
         }
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             bottom: 0;
             left: 0;
             position: absolute;
@@ -69,7 +69,7 @@
         display: none;
     }
 
-    .gf-moare-right {
+    .icon__moare-right {
         position: absolute;
         right: -180px;
         top: -40px;
@@ -78,7 +78,7 @@
         transform: rotate(180deg);
     }
 
-    .gf-circle-green {
+    .icon__circle-green {
         background-color: rgb(0, 246, 190);
         border-radius: 100px;
         height: 200px;
@@ -122,20 +122,20 @@
         }
 
         .screen-nav {
-            .gf-screen-logo {
+            .icon__screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .gf-screen-nav-button {
+            .icon__screen-nav-button {
                 img {
                     width: 75%;
                 }
             }
         }
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             width: 100%;
 
             img {
@@ -194,7 +194,7 @@
             }
         }
 
-        .gf-moare-right {
+        .icon__moare-right {
             right: -60px;
             top: -40px;
 
@@ -203,7 +203,7 @@
             }
         }
 
-        .gf-circle-green {
+        .icon__circle-green {
             height: 120px;
             left: 120px;
             top: 120px;

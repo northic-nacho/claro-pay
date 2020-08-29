@@ -21,99 +21,99 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
         <>
             <div className="screen-services-container" parallax="ribbon-services">
                 <ScreenElement
-                    className="gf-screen-service-01 gf-screen-service-circle"
-                    image="gf-screen-service-01"
+                    className="icon__screen-service-01 icon__screen-service-circle"
+                    image="icon__screen-service-01"
                 />
-                <ScreenElement className="gf-screen-ribbon" image="gf-screen-ribbon" />
+                <ScreenElement className="icon__screen-ribbon" image="icon__screen-ribbon" />
                 <ScreenElement
-                    className="gf-screen-service-plus-white-01"
-                    image="gf-screen-service-plus-white"
+                    className="icon__screen-service-plus-white-01"
+                    image="icon__screen-service-plus-white"
                 />
                 <ScreenElement
-                    className="gf-screen-service-02 gf-screen-service-circle"
+                    className="icon__screen-service-02 icon__screen-service-circle"
                     parallax="service-zoom-in:shift(0%)"
-                    image="gf-screen-service-02"
+                    image="icon__screen-service-02"
                 />
                 <ScreenElement
-                    className="gf-screen-service-plus-red-01"
-                    image="gf-screen-service-plus-red"
+                    className="icon__screen-service-plus-red-01"
+                    image="icon__screen-service-plus-red"
                 />
                 <ScreenElement
-                    className="gf-screen-service-money-white"
-                    image="gf-screen-service-money-white"
+                    className="icon__screen-service-money-white"
+                    image="icon__screen-service-money-white"
                 />
                 <ScreenElement
-                    className="gf-screen-service-03 gf-screen-service-circle"
+                    className="icon__screen-service-03 icon__screen-service-circle"
                     parallax="service-zoom-in:shift(0%)"
-                    image="gf-screen-service-03"
+                    image="icon__screen-service-03"
                 />
                 <ScreenElement
-                    className="gf-screen-service-plus-red-02"
-                    image="gf-screen-service-plus-red"
+                    className="icon__screen-service-plus-red-02"
+                    image="icon__screen-service-plus-red"
                 />
                 <ScreenElement
-                    className="gf-screen-service-points-white"
-                    image="gf-screen-service-points-white"
+                    className="icon__screen-service-points-white"
+                    image="icon__screen-service-points-white"
                 />
                 <ScreenElement
-                    className="gf-screen-service-04 gf-screen-service-circle"
+                    className="icon__screen-service-04 icon__screen-service-circle"
                     parallax="service-zoom-in:shift(0%)"
-                    image="gf-screen-service-04"
+                    image="icon__screen-service-04"
                 />
                 <ScreenElement
-                    className="gf-screen-service-points-white"
-                    image="gf-screen-service-points-white"
+                    className="icon__screen-service-points-white"
+                    image="icon__screen-service-points-white"
                 />
                 <ScreenElement
-                    className="gf-screen-service-plus-red-03"
-                    image="gf-screen-service-plus-red"
+                    className="icon__screen-service-plus-red-03"
+                    image="icon__screen-service-plus-red"
                 />
                 <ScreenElement
-                    className="gf-screen-service-05 gf-screen-service-circle"
-                    image="gf-screen-service-05"
-                    parallax="service-zoom-in:shift(0%)"
-                />
-                <ScreenElement
-                    className="gf-screen-service-points-white"
-                    image="gf-screen-service-points-white"
-                />
-                <ScreenElement
-                    className="gf-screen-service-06 gf-screen-service-circle"
-                    parallax="service-zoom-in:shift(0%)"
-                    image="gf-screen-service-06"
-                />
-                <ScreenElement
-                    className="gf-screen-service-points-white"
-                    image="gf-screen-service-points-white"
-                />
-                <ScreenElement
-                    className="gf-screen-service-plus-red-04"
-                    image="gf-screen-service-plus-red"
-                />
-                <ScreenElement
-                    className="gf-screen-service-07 gf-screen-service-circle"
-                    image="gf-screen-service-07"
+                    className="icon__screen-service-05 icon__screen-service-circle"
+                    image="icon__screen-service-05"
                     parallax="service-zoom-in:shift(0%)"
                 />
                 <ScreenElement
-                    className="gf-screen-service-plus-red-05"
-                    image="gf-screen-service-plus-red"
+                    className="icon__screen-service-points-white"
+                    image="icon__screen-service-points-white"
                 />
                 <ScreenElement
-                    className="gf-screen-service-plus-red-06"
-                    image="gf-screen-service-plus-red"
-                />
-                <ScreenElement
-                    className="gf-screen-service-08"
+                    className="icon__screen-service-06 icon__screen-service-circle"
                     parallax="service-zoom-in:shift(0%)"
-                    image="gf-screen-service-08"
+                    image="icon__screen-service-06"
+                />
+                <ScreenElement
+                    className="icon__screen-service-points-white"
+                    image="icon__screen-service-points-white"
+                />
+                <ScreenElement
+                    className="icon__screen-service-plus-red-04"
+                    image="icon__screen-service-plus-red"
+                />
+                <ScreenElement
+                    className="icon__screen-service-07 icon__screen-service-circle"
+                    image="icon__screen-service-07"
+                    parallax="service-zoom-in:shift(0%)"
+                />
+                <ScreenElement
+                    className="icon__screen-service-plus-red-05"
+                    image="icon__screen-service-plus-red"
+                />
+                <ScreenElement
+                    className="icon__screen-service-plus-red-06"
+                    image="icon__screen-service-plus-red"
+                />
+                <ScreenElement
+                    className="icon__screen-service-08"
+                    parallax="service-zoom-in:shift(0%)"
+                    image="icon__screen-service-08"
                 />
             </div>
             <ScreenElement
-                className="gf-screen-app-buttons"
-                image="gf-screen-app-buttons"
+                className="icon__screen-app-buttons"
+                image="icon__screen-app-buttons"
             />
-            <div className="gf-screen-circle-red" />
+            <div className="icon__screen-circle-red" />
         </>
     );
 };
@@ -137,7 +137,7 @@ const FourthSection = () => {
                     <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
-                    <div className="gf-circle-grey" {...greyCircleProps} />
+                    <div className="icon__circle-grey" {...greyCircleProps} />
                 </div>
                 <div className="content__column content__column--right">
                     <SectionTitle>
@@ -162,14 +162,14 @@ const FourthSection = () => {
                 </div>
             </div>
             <Icons.Plus color="green" />
-            <Image className="gf-money-grey" image="gf-money-grey" />
+            <Image className="icon__money-grey" image="icon__money-grey" />
             {isMobileDevice ? (
                 ''
             ) : (
-                <Image className="gf-ticket-green" image="gf-ticket-green" />
+                <Image className="icon__ticket-green" image="icon__ticket-green" />
             )}
-            <Image className="gf-bill-green" image="gf-bill-green" />
-            <Image className="gf-money-grey-2" image="gf-money-grey" />
+            <Image className="icon__bill-green" image="icon__bill-green" />
+            <Image className="icon__money-grey-2" image="icon__money-grey" />
             <Icons.Dash color="grey" />
         </ParallaxSection>
     );

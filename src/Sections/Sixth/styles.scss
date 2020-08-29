@@ -40,7 +40,7 @@
         }
     }
 
-    .gf-bill-green {
+    .icon__bill-green {
         left: 12%;
         position: absolute;
         top: 10%;
@@ -52,7 +52,7 @@
         top: 8%;
     }
 
-    .gf-money-grey {
+    .icon__money-grey {
         position: absolute;
         right: 8%;
         top: 56%;
@@ -137,13 +137,13 @@
         z-index: 1;
     }
 
-    .gf-screen-cards-background {
+    .icon__screen-cards-background {
         left: -10px;
         position: absolute;
         top: 18px;
     }
 
-    .gf-screen-card {
+    .icon__screen-card {
         height: 158px;
         position: absolute;
         width: 258px;
@@ -170,40 +170,40 @@
         }
     }
 
-    .gf-screen-card-01 {
+    .icon__screen-card-01 {
         left: -390px;
         position: absolute;
         top: 240px;
         z-index: 3;
     }
 
-    .gf-screen-card-02 {
+    .icon__screen-card-02 {
         left: -320px;
         position: absolute;
         top: 170px;
         z-index: 2;
     }
 
-    .gf-screen-card-03 {
+    .icon__screen-card-03 {
         left: -200px;
         position: absolute;
         top: 100px;
         z-index: 1;
     }
 
-    .gf-screen-card-01-mobile {
+    .icon__screen-card-01-mobile {
         display: none;
     }
 
-    .gf-screen-card-02-mobile {
+    .icon__screen-card-02-mobile {
         display: none;
     }
 
-    .gf-screen-card-03-mobile {
+    .icon__screen-card-03-mobile {
         display: none;
     }
 
-    .gf-screen-card-in {
+    .icon__screen-card-in {
         left: 17px;
         position: absolute;
         width: 192px;
@@ -214,15 +214,15 @@
         }
     }
 
-    .gf-screen-card-in-01 {
+    .icon__screen-card-in-01 {
         top: 339px;
     }
 
-    .gf-screen-card-in-02 {
+    .icon__screen-card-in-02 {
         top: 210px;
     }
 
-    .gf-screen-card-in-03 {
+    .icon__screen-card-in-03 {
         top: 85px;
     }
 }
@@ -281,7 +281,7 @@
             position: relative;
         }
 
-        .gf-screen-cards-background {
+        .icon__screen-cards-background {
             top: 10px;
             width: 100%;
 
@@ -291,25 +291,25 @@
             }
         }
 
-        .gf-screen-card-in-01 {
+        .icon__screen-card-in-01 {
             left: 7px;
             top: 213px;
             width: 123px;
         }
 
-        .gf-screen-card-in-02 {
+        .icon__screen-card-in-02 {
             left: 7px;
             top: 132px;
             width: 123px;
         }
 
-        .gf-screen-card-in-03 {
+        .icon__screen-card-in-03 {
             left: 7px;
             top: 52px;
             width: 123px;
         }
 
-        .gf-screen-card {
+        .icon__screen-card {
             height: 93px;
             width: 153px;
 
@@ -322,19 +322,19 @@
             }
         }
 
-        .gf-screen-card-01 {
+        .icon__screen-card-01 {
             display: none;
         }
 
-        .gf-screen-card-02 {
+        .icon__screen-card-02 {
             display: none;
         }
 
-        .gf-screen-card-03 {
+        .icon__screen-card-03 {
             display: none;
         }
 
-        .gf-screen-card-01-mobile {
+        .icon__screen-card-01-mobile {
             display: block;
             top: 200px;
 
@@ -343,7 +343,7 @@
             }
         }
 
-        .gf-screen-card-02-mobile {
+        .icon__screen-card-02-mobile {
             display: block;
             top: 160px;
 
@@ -352,7 +352,7 @@
             }
         }
 
-        .gf-screen-card-03-mobile {
+        .icon__screen-card-03-mobile {
             display: block;
             top: 120px;
 

@@ -44,8 +44,8 @@ const SecondSection = () => {
                 </div>
             </div>
             <Icons.Dash color="green" />
-            <Image className="gf-money-red" image="gf-money-red" />
-            <Image className="gf-shield-green" image="gf-shield-green" />
+            <Image className="icon__money-red" image="icon__money-red" />
+            <Image className="icon__shield-green" image="icon__shield-green" />
             <Icons.Bars color="grey" />
             <Icons.Bars color="green" hideInMobile />
             <Icons.Box color="red" />

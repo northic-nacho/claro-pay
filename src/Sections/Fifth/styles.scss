@@ -48,19 +48,19 @@
         top: 20%;
     }
 
-    .gf-money-grey {
+    .icon__money-grey {
         left: 51%;
         position: absolute;
         top: 9%;
     }
 
-    .gf-house-grey {
+    .icon__house-grey {
         left: 50%;
         position: absolute;
         top: 60%;
     }
 
-    .gf-circle-grey-1 {
+    .icon__circle-grey-1 {
         background-color: #d8d8d8;
         border-radius: 30px;
         height: 60px;
@@ -70,7 +70,7 @@
         width: 60px;
     }
 
-    .gf-circle-grey-2 {
+    .icon__circle-grey-2 {
         background-color: #d8d8d8;
         border-radius: 60px;
         bottom: 0;
@@ -81,14 +81,14 @@
         z-index: 1;
     }
 
-    .gf-circle-bar-grey {
+    .icon__circle-bar-grey {
         position: absolute;
         right: -100px;
         top: 30px;
         z-index: 2;
     }
 
-    .gf-moare-right {
+    .icon__moare-right {
         position: absolute;
         right: -150px;
         top: -80px;
@@ -156,7 +156,7 @@
         width: 225px;
         z-index: 1;
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             bottom: 0;
             left: 0;
             position: absolute;
@@ -175,38 +175,38 @@
         }
     }
 
-    .gf-screen-sube-outline-back-mobile {
+    .icon__screen-sube-outline-back-mobile {
         display: none;
     }
 
-    .gf-screen-sube-green-back-mobile {
+    .icon__screen-sube-green-back-mobile {
         display: none;
     }
 
-    .gf-screen-sube-outline-front-mobile {
+    .icon__screen-sube-outline-front-mobile {
         display: none;
     }
 
-    .gf-screen-sube-outline-back {
+    .icon__screen-sube-outline-back {
         left: -240px;
         position: absolute;
         top: 160px;
     }
 
-    .gf-screen-sube-green-back {
+    .icon__screen-sube-green-back {
         left: -240px;
         position: absolute;
         top: 160px;
         z-index: 3;
     }
 
-    .gf-screen-sube-outline-front {
+    .icon__screen-sube-outline-front {
         left: -259px;
         position: absolute;
         top: 143px;
     }
 
-    .gf-screen-sube-money {
+    .icon__screen-sube-money {
         left: 68px;
         position: absolute;
         top: 273px;
@@ -282,20 +282,20 @@
         }
 
         .screen-nav {
-            .gf-screen-logo {
+            .icon__screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .gf-screen-nav-button {
+            .icon__screen-nav-button {
                 img {
                     width: 75%;
                 }
             }
         }
 
-        .gf-screen-app-buttons {
+        .icon__screen-app-buttons {
             width: 100%;
 
             img {
@@ -303,7 +303,7 @@
             }
         }
 
-        .gf-screen-sube-outline-back-mobile {
+        .icon__screen-sube-outline-back-mobile {
             display: block;
             left: -80px;
             position: absolute;
@@ -314,7 +314,7 @@
             }
         }
 
-        .gf-screen-sube-outline-front-mobile {
+        .icon__screen-sube-outline-front-mobile {
             display: block;
             left: -259px;
             position: absolute;
@@ -325,7 +325,7 @@
             }
         }
 
-        .gf-screen-sube-green-back-mobile {
+        .icon__screen-sube-green-back-mobile {
             display: block;
             left: -80px;
             position: absolute;
@@ -337,19 +337,19 @@
             }
         }
 
-        .gf-screen-sube-outline-back {
+        .icon__screen-sube-outline-back {
             display: none;
         }
 
-        .gf-screen-sube-green-back {
+        .icon__screen-sube-green-back {
             display: none;
         }
 
-        .gf-screen-sube-outline-front {
+        .icon__screen-sube-outline-front {
             display: none;
         }
 
-        .gf-money-grey {
+        .icon__money-grey {
             left: 15%;
             top: 12%;
         }

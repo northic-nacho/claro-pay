@@ -21,26 +21,26 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
     return (
         <>
             <ScreenElement
-                className="gf-screen-money-icon"
+                className="icon__screen-money-icon"
                 parallax="screen-wallet"
-                image="gf-screen-money-icon"
+                image="icon__screen-money-icon"
             />
             <ScreenElement
-                className="gf-screen-wallet"
+                className="icon__screen-wallet"
                 parallax="screen-wallet"
-                image="gf-screen-wallet"
+                image="icon__screen-wallet"
             />
             <Money />
             <ScreenElement
-                className="gf-screen-check"
+                className="icon__screen-check"
                 parallax="screen-check-green"
-                image="gf-screen-check-green"
+                image="icon__screen-check-green"
             />
             <ScreenElement
-                className="gf-screen-app-buttons"
-                image="gf-screen-app-buttons"
+                className="icon__screen-app-buttons"
+                image="icon__screen-app-buttons"
             />
-            <div className="gf-screen-circle-red" parallax="screen-circle" />
+            <div className="icon__screen-circle-red" parallax="screen-circle" />
         </>
     );
 };
@@ -75,26 +75,26 @@ const ThirdSection = () => {
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
                     <Image
-                        image="gf-big-bill"
-                        className="gf-big-bill"
+                        image="icon__big-bill"
+                        className="icon__big-bill"
                         parallax="bill-slide-in-top"
                     />
-                    <div className="gf-circle-white" parallax="zoom-in:shift(10%)" />
-                    <Image image="gf-moare-right" className="gf-moare-right" />
+                    <div className="icon__circle-white" parallax="zoom-in:shift(10%)" />
+                    <Image image="icon__moare-right" className="icon__moare-right" />
                 </div>
             </div>
-            <Image className="gf-shield-green" image="gf-shield-green" />
+            <Image className="icon__shield-green" image="icon__shield-green" />
             <Icons.Bars color="grey" />
-            <Image className="gf-money-grey" image="gf-money-grey" />
-            <Image className="gf-money-white" image="gf-money-white" />
-            <Image className="gf-check-green hide-in-mobile" image="gf-check-green" />
+            <Image className="icon__money-grey" image="icon__money-grey" />
+            <Image className="icon__money-white" image="icon__money-white" />
+            <Image className="icon__check-green hide-in-mobile" image="icon__check-green" />
             <Icons.Dash color="grey" />
             <Icons.Plus color="green" />
             <Icons.Plus color="white" />
             {isMobileDevice ? (
                 ''
             ) : (
-                <div className="gf-circle-green" parallax="zoom-in zoom-in:reverse" />
+                <div className="icon__circle-green" parallax="zoom-in zoom-in:reverse" />
             )}
         </ParallaxSection>
     );
