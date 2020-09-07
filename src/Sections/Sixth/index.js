@@ -57,32 +57,32 @@ const SixthSection = () => {
                             <ScreenElement
                                 className="icon__screen-card-01 icon__screen-card"
                                 parallax="credit-card-back-1"
-                                image="icon__screen-card-01"
+                                image="gf-screen-card-01"
                             />
                             <ScreenElement
                                 className="icon__screen-card-02 icon__screen-card"
                                 parallax="credit-card-back-2"
-                                image="icon__screen-card-02"
+                                image="gf-screen-card-02"
                             />
                             <ScreenElement
                                 className="icon__screen-card-03 icon__screen-card"
                                 parallax="credit-card-back-3"
-                                image="icon__screen-card-03"
+                                image="gf-screen-card-03"
                             />
                             <ScreenElement
                                 className="icon__screen-card-01-mobile icon__screen-card"
                                 parallax="credit-card-back-1-mobile"
-                                image="icon__screen-card-01"
+                                image="gf-screen-card-01"
                             />
                             <ScreenElement
                                 className="icon__screen-card-02-mobile icon__screen-card"
                                 parallax="credit-card-back-2-mobile"
-                                image="icon__screen-card-02"
+                                image="gf-screen-card-02"
                             />
                             <ScreenElement
                                 className="icon__screen-card-03-mobile icon__screen-card"
                                 parallax="credit-card-back-3-mobile"
-                                image="icon__screen-card-03"
+                                image="gf-screen-card-03"
                             />
                         </>
                     )}
@@ -103,10 +103,10 @@ const SixthSection = () => {
                     <ArrowButton to="#s7" />
                 </div>
             </div>
-            <Image className="icon__bill-green" image="icon__bill-green" />
+            <Image className="icon__bill-green" image="gf-bill-green" />
             <Icons.Plus color="green" />
             <Icons.Plus color="grey" />
-            <Image className="icon__money-grey" image="icon__money-grey" />
+            <Image className="icon__money-grey" image="gf-money-grey" />
             <div className="icon__bars--grey-1">/</div>
             <div className="icon__bars--grey-2">/</div>
             {!isLowEndDevice && (

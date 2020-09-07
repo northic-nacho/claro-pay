@@ -73,8 +73,8 @@ const EighthSection = ({ setIsOnLastSection }) => {
                         <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                             <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                         </IPhone>
-                        <Image className="icon__moare-left" image="icon__moare-grey" />
-                        <Image className="icon__moare-right" image="icon__moare-grey" />
+                        <Image className="icon__moare-left" image="gf-moare-grey" />
+                        <Image className="icon__moare-right" image="gf-moare-grey" />
                     </div>
                     <div className="content__column content__column--right">
                         <SectionTitle>

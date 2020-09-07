@@ -23,22 +23,22 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
             <ScreenElement
                 className="icon__screen-money-icon"
                 parallax="screen-wallet"
-                image="icon__screen-money-icon"
+                image="gf-screen-money-icon"
             />
             <ScreenElement
                 className="icon__screen-wallet"
                 parallax="screen-wallet"
-                image="icon__screen-wallet"
+                image="gf-screen-wallet"
             />
             <Money />
             <ScreenElement
                 className="icon__screen-check"
                 parallax="screen-check-green"
-                image="icon__screen-check-green"
+                image="gf-screen-check-green"
             />
             <ScreenElement
                 className="icon__screen-app-buttons"
-                image="icon__screen-app-buttons"
+                image="gf-screen-app-buttons"
             />
             <div className="icon__screen-circle-red" parallax="screen-circle" />
         </>
@@ -75,19 +75,19 @@ const ThirdSection = () => {
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
                     <Image
-                        image="icon__big-bill"
+                        image="gf-big-bill"
                         className="icon__big-bill"
                         parallax="bill-slide-in-top"
                     />
                     <div className="icon__circle-white" parallax="zoom-in:shift(10%)" />
-                    <Image image="icon__moare-right" className="icon__moare-right" />
+                    <Image image="gf-moare-right" className="icon__moare-right" />
                 </div>
             </div>
-            <Image className="icon__shield-green" image="icon__shield-green" />
+            <Image className="icon__shield-green" image="gf-shield-green" />
             <Icons.Bars color="grey" />
-            <Image className="icon__money-grey" image="icon__money-grey" />
-            <Image className="icon__money-white" image="icon__money-white" />
-            <Image className="icon__check-green hide-in-mobile" image="icon__check-green" />
+            <Image className="icon__money-grey" image="gf-money-grey" />
+            <Image className="icon__money-white" image="gf-money-white" />
+            <Image className="icon__check-green hide-in-mobile" image="gf-check-green" />
             <Icons.Dash color="grey" />
             <Icons.Plus color="green" />
             <Icons.Plus color="white" />
