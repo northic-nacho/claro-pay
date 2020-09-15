@@ -1,5 +1,5 @@
 /*Section 7*/
-#s7 {
+.page_section-s7 {
     .content {
         .content-column.content-column--left {
             margin-right: 3rem;
@@ -89,7 +89,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s7 {
+    .page_section-s7 {
         .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;

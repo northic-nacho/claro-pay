@@ -1,6 +1,6 @@
 /*Section 1*/
 /*Circle animation*/
-#s1 {
+.page_section-s1 {
     .page_section-title {
         margin-bottom: 3rem;
         margin-top: 3rem;
@@ -118,7 +118,7 @@
         justify-content: flex-start !important;
     }
 
-    #s1 {
+    .page_section-s1 {
         .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;

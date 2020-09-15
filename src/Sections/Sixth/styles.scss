@@ -1,6 +1,6 @@
 /*Section 6*/
 /*Circle animation*/
-#s6 {
+.page_section-s6 {
     .content {
         .content-column.content-column--left {
             margin-right: 3rem;
@@ -227,7 +227,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s6 {
+    .page_section-s6 {
         .iphone-screen {
             height: 294px;
             left: 10px;

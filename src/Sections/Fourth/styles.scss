@@ -1,5 +1,5 @@
 /*Section 4*/
-#s4 {
+.page_section-s4 {
     .content {
         .content-column.content-column--left {
             margin-right: 7rem;
@@ -235,7 +235,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s4 {
+    .page_section-s4 {
         .iphone-image-group {
             margin-top: 20px;
         }

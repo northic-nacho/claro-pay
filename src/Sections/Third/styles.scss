@@ -1,5 +1,5 @@
 /*Section 3*/
-#s3 {
+.page_section-s3 {
     .content {
         .content-column.content-column--left {
             margin-right: 7rem;
@@ -223,7 +223,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s3 {
+    .page_section-s3 {
         .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;

@@ -1,6 +1,6 @@
 /*Section 5*/
 /*Circle animation*/
-#s5 {
+.page_section-s5 {
     .content {
         .content-column.content-column--left {
             margin-left: 2rem;
@@ -218,7 +218,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s5 {
+    .page_section-s5 {
         .content {
             -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;

@@ -1,5 +1,5 @@
 /*Section 8*/
-#s8 {
+.page_section-s8 {
     background-color: #000;
 
     .content {
@@ -124,7 +124,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s8 {
+    .page_section-s8 {
         background: url('../../Components/ParallaxSection/bg-s1.jpg') no-repeat center center fixed;
         background-color: #000;
 

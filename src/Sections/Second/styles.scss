@@ -1,6 +1,6 @@
 /*Section 2*/
 /*Circle animation*/
-#s2 {
+.page_section-s2 {
     .content {
         .content-column.content-column--left {
             width: 360px;
@@ -119,7 +119,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #s2 {
+    .page_section-s2 {
         .content {
             .content-column.content-column--left {
                 height: 150px;
