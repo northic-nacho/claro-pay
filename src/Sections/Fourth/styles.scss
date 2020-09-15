@@ -1,17 +1,17 @@
 /*Section 4*/
 #s4 {
     .content {
-        .content__column.content__column--left {
+        .content-column.content-column--left {
             margin-right: 7rem;
             z-index: 1;
         }
 
-        .content__column.content__column--right {
+        .content-column.content-column--right {
             z-index: 2;
         }
     }
 
-    .page_section__title {
+    .page_section-title {
         width: 410px;
 
         .title {
@@ -56,14 +56,14 @@
         width: 225px;
         z-index: 1;
 
-        .icon__screen-app-buttons {
+        .icon-screen-app-buttons {
             bottom: 0;
             left: 0;
             position: absolute;
             z-index: 10;
         }
 
-        .icon__screen-circle-red {
+        .icon-screen-circle-red {
             background-color: #ff2817;
             border-radius: 300px;
             height: 600px;
@@ -87,7 +87,7 @@
         }
     }
 
-    .icon__circle-grey {
+    .icon-circle-grey {
         background-color: #606060;
         border-radius: 60px;
         height: 120px;
@@ -99,37 +99,37 @@
         z-index: 1;
     }
 
-    .icon__plus--green {
+    .icon-plus--green {
         height: 18%;
         left: 9%;
         position: absolute;
     }
 
-    .icon__money-grey {
+    .icon-money-grey {
         left: 42%;
         position: absolute;
         top: 18%;
     }
 
-    .icon__ticket-green {
+    .icon-ticket-green {
         left: 42%;
         position: absolute;
         top: 30%;
     }
 
-    .icon__bill-green {
+    .icon-bill-green {
         bottom: 15%;
         position: absolute;
         right: 20%;
     }
 
-    .icon__money-grey-2 {
+    .icon-money-grey-2 {
         bottom: 20%;
         position: absolute;
         right: 10%;
     }
 
-    .icon__dash--grey {
+    .icon-dash--grey {
         bottom: 22%;
         position: absolute;
         right: 0;
@@ -148,7 +148,7 @@
         top: 210px;
     }
 
-    .icon__screen-service-circle {
+    .icon-screen-service-circle {
         margin: 0 1.5rem;
         position: relative;
 
@@ -172,64 +172,64 @@
         }
     }
 
-    .icon__screen-ribbon {
+    .icon-screen-ribbon {
         margin-right: 2rem;
     }
 
-    .icon__screen-service-plus-white-01 {
+    .icon-screen-service-plus-white-01 {
         left: 320px;
         position: absolute;
         top: 15px;
     }
 
-    .icon__screen-service-plus-red-01 {
+    .icon-screen-service-plus-red-01 {
         bottom: 10px;
         left: 455px;
         position: absolute;
     }
 
-    .icon__screen-service-money-white {
+    .icon-screen-service-money-white {
         left: 480px;
         position: absolute;
         top: 35px;
     }
 
-    .icon__screen-service-plus-red-02 {
+    .icon-screen-service-plus-red-02 {
         left: 655px;
         position: absolute;
         top: 15px;
     }
 
-    .icon__screen-service-plus-red-03 {
+    .icon-screen-service-plus-red-03 {
         bottom: 15px;
         left: 845px;
         position: absolute;
     }
 
-    .icon__screen-service-plus-red-04 {
+    .icon-screen-service-plus-red-04 {
         bottom: 15px;
         left: 1245px;
         position: absolute;
     }
 
-    .icon__screen-service-plus-red-05 {
+    .icon-screen-service-plus-red-05 {
         left: 1385px;
         position: absolute;
         top: 15px;
     }
 
-    .icon__screen-service-plus-red-06 {
+    .icon-screen-service-plus-red-06 {
         left: 1405px;
         position: absolute;
         top: 45px;
     }
 
-    .icon__screen-service-01 {
+    .icon-screen-service-01 {
         margin-left: 3rem;
         margin-right: 1rem;
     }
 
-    .icon__screen-service-08 {
+    .icon-screen-service-08 {
         margin-left: 5rem;
         margin-right: 12rem;
     }
@@ -247,7 +247,7 @@
             top: 10px;
             width: 137px;
 
-            .icon__screen-circle-red {
+            .icon-screen-circle-red {
                 border-radius: 200px;
                 height: 400px;
                 left: 50%;
@@ -262,20 +262,20 @@
         }
 
         .screen-nav {
-            .icon__screen-logo {
+            .icon-screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .icon__screen-nav-button {
+            .icon-screen-nav-button {
                 img {
                     width: 75%;
                 }
             }
         }
 
-        .icon__screen-app-buttons {
+        .icon-screen-app-buttons {
             width: 100%;
 
             img {
@@ -284,17 +284,17 @@
         }
 
         .content {
-            .content__column.content__column--right {
+            .content-column.content-column--right {
                 z-index: 2;
             }
 
-            .content__column.content__column--left {
+            .content-column.content-column--left {
                 margin: 0 auto;
                 width: auto;
             }
         }
 
-        .page_section__title {
+        .page_section-title {
             width: auto;
 
             .title {
@@ -334,7 +334,7 @@
             top: 110px;
         }
 
-        .icon__screen-service-circle {
+        .icon-screen-service-circle {
             margin: 0 0.75rem;
 
             &::after {
@@ -345,13 +345,13 @@
             }
         }
 
-        .icon__screen-service-points-white {
+        .icon-screen-service-points-white {
             img {
                 width: 15px;
             }
         }
 
-        .icon__screen-ribbon {
+        .icon-screen-ribbon {
             margin-right: 1rem;
 
             img {
@@ -359,7 +359,7 @@
             }
         }
 
-        .icon__screen-service-01 {
+        .icon-screen-service-01 {
             margin-left: 1rem;
 
             img {
@@ -367,95 +367,95 @@
             }
         }
 
-        .icon__screen-service-02 {
+        .icon-screen-service-02 {
             img {
                 height: 76px;
             }
         }
 
-        .icon__screen-service-03 {
+        .icon-screen-service-03 {
             img {
                 height: 76px;
             }
         }
 
-        .icon__screen-service-04 {
+        .icon-screen-service-04 {
             img {
                 height: 76px;
             }
         }
 
-        .icon__screen-service-05 {
+        .icon-screen-service-05 {
             img {
                 height: 76px;
             }
         }
 
-        .icon__screen-service-06 {
+        .icon-screen-service-06 {
             img {
                 height: 76px;
             }
         }
 
-        .icon__screen-service-07 {
+        .icon-screen-service-07 {
             img {
                 height: 76px;
             }
         }
 
-        .icon__screen-service-plus-white-01 {
+        .icon-screen-service-plus-white-01 {
             left: 200px;
             top: 15px;
         }
 
-        .icon__screen-service-plus-red-01 {
+        .icon-screen-service-plus-red-01 {
             bottom: 10px;
             left: 288px;
             position: absolute;
         }
 
-        .icon__screen-service-money-white {
+        .icon-screen-service-money-white {
             left: 297px;
             position: absolute;
             top: 35px;
         }
 
-        .icon__screen-service-plus-red-02 {
+        .icon-screen-service-plus-red-02 {
             left: 405px;
             position: absolute;
             top: 15px;
         }
 
-        .icon__screen-service-plus-red-03 {
+        .icon-screen-service-plus-red-03 {
             bottom: 15px;
             left: 525px;
             position: absolute;
         }
 
-        .icon__screen-service-plus-red-04 {
+        .icon-screen-service-plus-red-04 {
             bottom: 15px;
             left: 755px;
             position: absolute;
         }
 
-        .icon__screen-service-plus-red-05 {
+        .icon-screen-service-plus-red-05 {
             left: 855px;
             position: absolute;
             top: 15px;
         }
 
-        .icon__screen-service-plus-red-06 {
+        .icon-screen-service-plus-red-06 {
             left: 875px;
             position: absolute;
             top: 45px;
         }
 
-        .icon__screen-service-08 {
+        .icon-screen-service-08 {
             margin-left: 3rem;
             margin-right: 3rem;
         }
 
-        .icon__bill-green {
+        .icon-bill-green {
             bottom: 5%;
             right: 70%;
         }

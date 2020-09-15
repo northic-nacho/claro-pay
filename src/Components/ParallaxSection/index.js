@@ -7,7 +7,7 @@ const ParallaxSection = React.forwardRef(
         return (
             <section
                 id={id}
-                className={`page_section page_section__${id}`}
+                className={`page_section page_section-${id}`}
                 role="parallax-container"
                 {...rest}
                 ref={ref}

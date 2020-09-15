@@ -37,7 +37,7 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
                 />
             </div>
             <ScreenElement
-                className="icon__screen-app-buttons"
+                className="icon-screen-app-buttons"
                 image="gf-screen-app-buttons"
             />
         </>
@@ -56,7 +56,7 @@ const SeventhSection = () => {
         <ParallaxSection id="s7">
             <div parallax="anim-stage">
                 <div className="content align-items-center">
-                    <div className="content__column content__column--left">
+                    <div className="content-column content-column--left">
                         <SectionTitle>
               Recargá
                             <br />
@@ -70,7 +70,7 @@ const SeventhSection = () => {
                             <HighlightedText text="exclusivos" containerClassName="highlight--second " />
                         </SectionTitle>
                         <SectionDescription>
-                            <p className="description__copy">
+                            <p className="description-copy">
                 Recibí <b>alertas con descuentos</b>
                                 <br />
                 para tu línea Claro
@@ -78,15 +78,15 @@ const SeventhSection = () => {
                         </SectionDescription>
                         <ArrowButton to="#s8" />
                     </div>
-                    <div className="content__column content__column--right">
+                    <div className="content-column content-column--right">
                         <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                             <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                         </IPhone>
-                        <Image className="icon__moare-right" image="gf-moare-grey" />
+                        <Image className="icon-moare-right" image="gf-moare-grey" />
                         {isMobileDevice ? (
                             ''
                         ) : (
-                            <div className="icon__circle-green" parallax="zoom-in:shift(10%)" />
+                            <div className="icon-circle-green" parallax="zoom-in:shift(10%)" />
                         )}
                     </div>
                 </div>

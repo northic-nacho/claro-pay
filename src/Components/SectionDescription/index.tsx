@@ -5,7 +5,7 @@ interface SectionDescriptionProps {
 }
 
 const SectionDescription = ({ children }: SectionDescriptionProps ) => {
-    return <div className="page_section__description">{children}</div>;
+    return <div className="page_section-description">{children}</div>;
 };
 
 export default SectionDescription;

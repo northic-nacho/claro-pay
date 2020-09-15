@@ -20,22 +20,22 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
     return (
         <>
             <ScreenElement
-                className="icon__screen-card-in-01 icon__screen-card-in"
+                className="icon-screen-card-in-01 icon-screen-card-in"
                 parallax="credit-card-in-1"
                 image="gf-screen-card-01"
             />
             <ScreenElement
-                className="icon__screen-card-in-02 icon__screen-card-in"
+                className="icon-screen-card-in-02 icon-screen-card-in"
                 parallax="credit-card-in-2"
                 image="gf-screen-card-02"
             />
             <ScreenElement
-                className="icon__screen-card-in-03 icon__screen-card-in"
+                className="icon-screen-card-in-03 icon-screen-card-in"
                 parallax="credit-card-in-3"
                 image="gf-screen-card-03"
             />
             <ScreenElement
-                className="icon__screen-cards-background"
+                className="icon-screen-cards-background"
                 image="gf-screen-cards-background"
             />
         </>
@@ -48,53 +48,53 @@ const SixthSection = () => {
     return (
         <ParallaxSection id="s6">
             <div className="content align-items-center">
-                <div className="content__column content__column--left">
+                <div className="content-column content-column--left">
                     <IPhone className="iphone-s4" showScreen>
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
                     {!isLowEndDevice && (
                         <>
                             <ScreenElement
-                                className="icon__screen-card-01 icon__screen-card"
+                                className="icon-screen-card-01 icon-screen-card"
                                 parallax="credit-card-back-1"
                                 image="gf-screen-card-01"
                             />
                             <ScreenElement
-                                className="icon__screen-card-02 icon__screen-card"
+                                className="icon-screen-card-02 icon-screen-card"
                                 parallax="credit-card-back-2"
                                 image="gf-screen-card-02"
                             />
                             <ScreenElement
-                                className="icon__screen-card-03 icon__screen-card"
+                                className="icon-screen-card-03 icon-screen-card"
                                 parallax="credit-card-back-3"
                                 image="gf-screen-card-03"
                             />
                             <ScreenElement
-                                className="icon__screen-card-01-mobile icon__screen-card"
+                                className="icon-screen-card-01-mobile icon-screen-card"
                                 parallax="credit-card-back-1-mobile"
                                 image="gf-screen-card-01"
                             />
                             <ScreenElement
-                                className="icon__screen-card-02-mobile icon__screen-card"
+                                className="icon-screen-card-02-mobile icon-screen-card"
                                 parallax="credit-card-back-2-mobile"
                                 image="gf-screen-card-02"
                             />
                             <ScreenElement
-                                className="icon__screen-card-03-mobile icon__screen-card"
+                                className="icon-screen-card-03-mobile icon-screen-card"
                                 parallax="credit-card-back-3-mobile"
                                 image="gf-screen-card-03"
                             />
                         </>
                     )}
                 </div>
-                <div className="content__column content__column--right">
+                <div className="content-column content-column--right">
                     <SectionTitle>
             Todas tus tarjetas
                         <br />
                         <HighlightedText text="en un solo lugar" containerClassName="highlight--second" />
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description__copy">
+                        <p className="description-copy">
               Usá tus <b>tarjetas de crédito</b>
                             <br />
                             <b>y débito</b> de cualquier banco.
@@ -103,12 +103,12 @@ const SixthSection = () => {
                     <ArrowButton to="#s7" />
                 </div>
             </div>
-            <Image className="icon__bill-green" image="gf-bill-green" />
+            <Image className="icon-bill-green" image="gf-bill-green" />
             <Icons.Plus color="green" />
             <Icons.Plus color="grey" />
-            <Image className="icon__money-grey" image="gf-money-grey" />
-            <div className="icon__bars--grey-1">/</div>
-            <div className="icon__bars--grey-2">/</div>
+            <Image className="icon-money-grey" image="gf-money-grey" />
+            <div className="icon-bars--grey-1">/</div>
+            <div className="icon-bars--grey-2">/</div>
             {!isLowEndDevice && (
                 <Icons.GreenCircle animation="quarter-circle-rotation" />
             )}

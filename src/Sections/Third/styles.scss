@@ -1,7 +1,7 @@
 /*Section 3*/
 #s3 {
     .content {
-        .content__column.content__column--left {
+        .content-column.content-column--left {
             margin-right: 7rem;
             z-index: 2;
         }
@@ -30,14 +30,14 @@
         width: 225px;
         z-index: 1;
 
-        .icon__screen-app-buttons {
+        .icon-screen-app-buttons {
             bottom: 0;
             left: 0;
             position: absolute;
             z-index: 10;
         }
 
-        .icon__screen-circle-red {
+        .icon-screen-circle-red {
             background-color: #ff2817;
             border-radius: 300px;
             height: 600px;
@@ -60,13 +60,13 @@
             z-index: 2;
         }
 
-        .icon__screen-money-icon {
+        .icon-screen-money-icon {
             margin-top: 20px;
             position: relative;
             z-index: 2;
         }
 
-        .icon__screen-wallet {
+        .icon-screen-wallet {
             margin-top: 30px;
             position: relative;
             z-index: 3;
@@ -85,7 +85,7 @@
         }
     }
 
-    .icon__screen-check {
+    .icon-screen-check {
         position: absolute;
         top: 160px;
         z-index: 3;
@@ -95,7 +95,7 @@
         z-index: 10;
     }
 
-    .page_section__title {
+    .page_section-title {
         .title {
             .highlight {
                 i {
@@ -105,24 +105,24 @@
         }
     }
 
-    .page_section__description {
+    .page_section-description {
         position: relative;
         width: 350px;
     }
 
-    .icon__big-bill {
+    .icon-big-bill {
         left: 50px;
         position: absolute;
         top: 0;
     }
 
-    .icon__shield-green {
+    .icon-shield-green {
         left: 10%;
         position: absolute;
         top: 48%;
     }
 
-    .icon__bars--grey {
+    .icon-bars--grey {
         color: #606060;
         font-size: 1.2rem;
         font-weight: bold;
@@ -132,37 +132,37 @@
         top: 12%;
     }
 
-    .icon__money-grey {
+    .icon-money-grey {
         left: 56%;
         position: absolute;
         top: 35%;
     }
 
-    .icon__money-white {
+    .icon-money-white {
         position: absolute;
         right: 7%;
         top: 19%;
         z-index: 4;
     }
 
-    .icon__check-green {
+    .icon-check-green {
         left: 56%;
         position: absolute;
         top: 51%;
     }
 
-    .icon__dash--grey {
+    .icon-dash--grey {
         left: 0;
         top: 27%;
     }
 
-    .icon__plus--green {
+    .icon-plus--green {
         bottom: 26%;
         left: 19%;
         position: absolute;
     }
 
-    .icon__plus--white {
+    .icon-plus--white {
         bottom: 20%;
         bottom: 25%;
         position: absolute;
@@ -179,14 +179,14 @@
         position: relative;
     }
 
-    .icon__moare-right {
+    .icon-moare-right {
         left: 230px;
         position: absolute;
         top: -50px;
         z-index: 3;
     }
 
-    .icon__circle-red {
+    .icon-circle-red {
         background-color: #ff2817;
         border-radius: 400px;
         height: 650px;
@@ -197,7 +197,7 @@
         z-index: 2;
     }
 
-    .icon__circle-white {
+    .icon-circle-white {
         background-color: #f2f2f2;
         border-radius: 90px;
         bottom: -20px;
@@ -211,7 +211,7 @@
         z-index: 4;
     }
 
-    .icon__circle-green {
+    .icon-circle-green {
         background-color: #00f5bd;
         border-radius: 400px;
         height: 600px;
@@ -229,26 +229,26 @@
             flex-direction: column-reverse;
             margin-top: 90px;
 
-            .content__column.content__column--left {
+            .content-column.content-column--left {
                 margin-right: 0;
             }
 
-            .content__column.content__column--right {
+            .content-column.content-column--right {
                 width: auto;
                 z-index: 1;
             }
 
-            .content__column {
+            .content-column {
                 padding-left: 2rem;
                 padding-right: 2rem;
             }
         }
 
-        .page_section__description {
+        .page_section-description {
             width: 100%;
         }
 
-        .page_section__title {
+        .page_section-title {
             .title {
                 font-size: 1.6rem;
                 line-height: 1.9rem;
@@ -272,7 +272,7 @@
             margin-top: 0;
         }
 
-        .icon__big-bill {
+        .icon-big-bill {
             left: 57px;
             top: 30px;
 
@@ -281,7 +281,7 @@
             }
         }
 
-        .icon__circle-white {
+        .icon-circle-white {
             border-radius: 90px;
             bottom: 0;
             height: 90px;
@@ -296,7 +296,7 @@
             top: 10px;
             width: 137px;
 
-            .icon__screen-circle-red {
+            .icon-screen-circle-red {
                 border-radius: 200px;
                 height: 400px;
                 left: 50%;
@@ -309,7 +309,7 @@
                 padding: 10px;
             }
 
-            .icon__screen-money-icon {
+            .icon-screen-money-icon {
                 margin-top: 10px;
 
                 img {
@@ -317,7 +317,7 @@
                 }
             }
 
-            .icon__screen-wallet {
+            .icon-screen-wallet {
                 margin-top: 20px;
                 text-align: center;
 
@@ -336,20 +336,20 @@
         }
 
         .screen-nav {
-            .icon__screen-logo {
+            .icon-screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .icon__screen-nav-button {
+            .icon-screen-nav-button {
                 img {
                     width: 75%;
                 }
             }
         }
 
-        .icon__screen-check {
+        .icon-screen-check {
             text-align: center;
             top: 110px;
 
@@ -358,7 +358,7 @@
             }
         }
 
-        .icon__screen-app-buttons {
+        .icon-screen-app-buttons {
             width: 100%;
 
             img {
@@ -366,7 +366,7 @@
             }
         }
 
-        .icon__circle-green {
+        .icon-circle-green {
             background-color: #00f5bd;
             border-radius: 200px;
             height: 400px;

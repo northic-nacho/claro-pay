@@ -3,7 +3,7 @@
     background-color: #000;
 
     .content {
-        .content__column.content__column--left {
+        .content-column.content-column--left {
             margin-right: 3rem;
         }
     }
@@ -36,13 +36,13 @@
         }
     }
 
-    .icon__moare-left {
+    .icon-moare-left {
         left: -200px;
         position: absolute;
         top: 0;
     }
 
-    .icon__moare-right {
+    .icon-moare-right {
         position: absolute;
         right: -140px;
         top: -40px;
@@ -141,20 +141,20 @@
         }
 
         .content {
-            .content__column.content__column--left {
+            .content-column.content-column--left {
                 margin-right: 0;
                 width: auto;
             }
         }
 
         .screen-nav {
-            .icon__screen-logo {
+            .icon-screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .icon__screen-nav-button {
+            .icon-screen-nav-button {
                 img {
                     width: 75%;
                 }
@@ -209,7 +209,7 @@
             }
         }
 
-        .icon__moare-left {
+        .icon-moare-left {
             left: -60px;
             top: 0;
             width: 157px;
@@ -219,7 +219,7 @@
             }
         }
 
-        .icon__moare-right {
+        .icon-moare-right {
             right: -60px;
             top: -40px;
             width: 157px;

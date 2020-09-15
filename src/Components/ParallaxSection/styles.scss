@@ -7,7 +7,7 @@
     background-size: cover;
     height: 200vh;
 
-    &__title {
+    &-title {
         .title {
             font-size: 4rem;
             line-height: 4.5rem;
@@ -59,8 +59,8 @@
         }
     }
 
-    &__description {
-        .description__copy {
+    &-description {
+        .description-copy {
             font-size: 1.2rem;
         }
     }
@@ -73,7 +73,7 @@
         position: relative;
         z-index: 20;
 
-        .content__column {
+        .content-column {
             position: relative;
         }
     }
@@ -88,14 +88,14 @@
             flex-direction: column;
             width: 100%;
 
-            .content__column {
+            .content-column {
                 padding-left: 3rem;
                 padding-right: 3rem;
                 width: 100%;
             }
         }
 
-        &__title .title {
+        &-title .title {
             font-size: 2.5rem;
             line-height: 2.8rem;
             text-align: center;
@@ -108,7 +108,7 @@
             }
         }
 
-        &__description .description__copy {
+        &-description .description-copy {
             font-size: 0.9rem;
             text-align: center;
         }

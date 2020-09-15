@@ -2,16 +2,16 @@
 /*Circle animation*/
 #s2 {
     .content {
-        .content__column.content__column--left {
+        .content-column.content-column--left {
             width: 360px;
         }
 
-        .content__column.content__column--right {
+        .content-column.content-column--right {
             width: 600px;
         }
     }
 
-    .page_section__title {
+    .page_section-title {
         .title {
             .highlight.highlight--first {
                 i {
@@ -27,13 +27,13 @@
         }
     }
 
-    .page_section__description {
+    .page_section-description {
         margin-left: 6rem;
         margin-top: 2rem;
         width: 360px;
     }
 
-    .icon__circle-wipe--green {
+    .icon-circle-wipe--green {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -73,24 +73,24 @@
         z-index: 2;
     }
 
-    .icon__dash--green {
+    .icon-dash--green {
         left: 0;
         top: 35%;
     }
 
-    .icon__money-red {
+    .icon-money-red {
         position: absolute;
         right: 15%;
         top: 40%;
     }
 
-    .icon__shield-green {
+    .icon-shield-green {
         position: absolute;
         right: 15%;
         top: 50%;
     }
 
-    .icon__bars--grey {
+    .icon-bars--grey {
         bottom: 15%;
         color: #606060;
         font-size: 1.2rem;
@@ -100,7 +100,7 @@
         right: 5%;
     }
 
-    .icon__bars--green {
+    .icon-bars--green {
         bottom: 44%;
         color: #00f8c0;
         font-size: 1.2rem;
@@ -109,7 +109,7 @@
         position: absolute;
     }
 
-    .icon__box---red {
+    .icon-box---red {
         background-color: #ff2c1e;
         height: 3px;
         left: 3%;
@@ -121,18 +121,18 @@
 @media only screen and (max-width: 768px) {
     #s2 {
         .content {
-            .content__column.content__column--left {
+            .content-column.content-column--left {
                 height: 150px;
                 z-index: 1;
             }
 
-            .content__column.content__column--right {
+            .content-column.content-column--right {
                 width: 100%;
                 z-index: 2;
             }
         }
 
-        .page_section__title {
+        .page_section-title {
             .title {
                 .highlight.highlight--first {
                     i {
@@ -154,7 +154,7 @@
             z-index: 2;
         }
 
-        .icon__circle-wipe--green {
+        .icon-circle-wipe--green {
             clip: rect(0, 150px, 300px, 0);
             height: 300px;
             left: -40px;
@@ -166,19 +166,19 @@
             }
         }
 
-        .page_section__description {
+        .page_section-description {
             margin-left: 0;
             margin-top: 2rem;
             text-align: center;
             width: auto;
         }
 
-        .icon__money-red {
+        .icon-money-red {
             right: 5%;
             top: 40%;
         }
 
-        .icon__shield-green {
+        .icon-shield-green {
             right: 5%;
             top: 50%;
         }

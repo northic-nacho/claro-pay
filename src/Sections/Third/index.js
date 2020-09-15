@@ -21,26 +21,26 @@ const IPhoneScreenContent = ({ isLowEndDevice }) => {
     return (
         <>
             <ScreenElement
-                className="icon__screen-money-icon"
+                className="icon-screen-money-icon"
                 parallax="screen-wallet"
                 image="gf-screen-money-icon"
             />
             <ScreenElement
-                className="icon__screen-wallet"
+                className="icon-screen-wallet"
                 parallax="screen-wallet"
                 image="gf-screen-wallet"
             />
             <Money />
             <ScreenElement
-                className="icon__screen-check"
+                className="icon-screen-check"
                 parallax="screen-check-green"
                 image="gf-screen-check-green"
             />
             <ScreenElement
-                className="icon__screen-app-buttons"
+                className="icon-screen-app-buttons"
                 image="gf-screen-app-buttons"
             />
-            <div className="icon__screen-circle-red" parallax="screen-circle" />
+            <div className="icon-screen-circle-red" parallax="screen-circle" />
         </>
     );
 };
@@ -56,45 +56,45 @@ const ThirdSection = () => {
     return (
         <ParallaxSection id="s3">
             <div className="content align-items-center">
-                <div className="content__column content__column--left">
+                <div className="content-column content-column--left">
                     <SectionTitle>
                         <HighlightedText text="Mandá y recibí" />
                         <br />
             dinero
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description__copy">
+                        <p className="description-copy">
               con tus amigos, a cuentas Claro Pay, a otras Billeteras Virtuales
               o a cualquier banco de manera <b>simple y segura.</b>
                         </p>
                     </SectionDescription>
                     <ArrowButton to="#s4" />
                 </div>
-                <div className="content__column content__column--right">
+                <div className="content-column content-column--right">
                     <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                         <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                     </IPhone>
                     <Image
                         image="gf-big-bill"
-                        className="icon__big-bill"
+                        className="icon-big-bill"
                         parallax="bill-slide-in-top"
                     />
-                    <div className="icon__circle-white" parallax="zoom-in:shift(10%)" />
-                    <Image image="gf-moare-right" className="icon__moare-right" />
+                    <div className="icon-circle-white" parallax="zoom-in:shift(10%)" />
+                    <Image image="gf-moare-right" className="icon-moare-right" />
                 </div>
             </div>
-            <Image className="icon__shield-green" image="gf-shield-green" />
+            <Image className="icon-shield-green" image="gf-shield-green" />
             <Icons.Bars color="grey" />
-            <Image className="icon__money-grey" image="gf-money-grey" />
-            <Image className="icon__money-white" image="gf-money-white" />
-            <Image className="icon__check-green hide-in-mobile" image="gf-check-green" />
+            <Image className="icon-money-grey" image="gf-money-grey" />
+            <Image className="icon-money-white" image="gf-money-white" />
+            <Image className="icon-check-green hide-in-mobile" image="gf-check-green" />
             <Icons.Dash color="grey" />
             <Icons.Plus color="green" />
             <Icons.Plus color="white" />
             {isMobileDevice ? (
                 ''
             ) : (
-                <div className="icon__circle-green" parallax="zoom-in zoom-in:reverse" />
+                <div className="icon-circle-green" parallax="zoom-in zoom-in:reverse" />
             )}
         </ParallaxSection>
     );

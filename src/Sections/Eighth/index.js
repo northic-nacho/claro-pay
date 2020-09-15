@@ -69,14 +69,14 @@ const EighthSection = ({ setIsOnLastSection }) => {
         <ParallaxSection id="s8" parallax="night-bg" ref={sectionRef}>
             <div parallax="anim-stage">
                 <div className="content align-items-center">
-                    <div className="content__column content__column--left">
+                    <div className="content-column content-column--left">
                         <IPhone className="iphone-s4" showScreen {...iphoneProps}>
                             <IPhoneScreenContent isLowEndDevice={isLowEndDevice} />
                         </IPhone>
-                        <Image className="icon__moare-left" image="gf-moare-grey" />
-                        <Image className="icon__moare-right" image="gf-moare-grey" />
+                        <Image className="icon-moare-left" image="gf-moare-grey" />
+                        <Image className="icon-moare-right" image="gf-moare-grey" />
                     </div>
-                    <div className="content__column content__column--right">
+                    <div className="content-column content-column--right">
                         <SectionTitle>
               ¡Abierto
                             <br />

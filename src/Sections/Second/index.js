@@ -15,13 +15,13 @@ const SecondSection = () => {
     return (
         <ParallaxSection id="s2">
             <div className="content">
-                <div className="content__column content__column--left">
+                <div className="content-column content-column--left">
                     <Icons.GreenCircle
                         animation={isLowEndDevice ? null : 'half-circle-rotation'}
                     />
                     <ArrowButton to="#s3" />
                 </div>
-                <div className="content__column content__column--right">
+                <div className="content-column content-column--right">
                     <SectionTitle>
             Con todo el
                         <br />
@@ -35,7 +35,7 @@ const SecondSection = () => {
             de <HighlightedText text="Claro" containerClassName="highlight--second" />
                     </SectionTitle>
                     <SectionDescription>
-                        <p className="description__copy">
+                        <p className="description-copy">
               Tenés la tranquilidad de operar con una compañía que está en la
               Argentina desde hace más de 10 años con productos y servicios
               pensados <b>para hacerte todo más simple.</b>
@@ -44,8 +44,8 @@ const SecondSection = () => {
                 </div>
             </div>
             <Icons.Dash color="green" />
-            <Image className="icon__money-red" image="gf-money-red" />
-            <Image className="icon__shield-green" image="gf-shield-green" />
+            <Image className="icon-money-red" image="gf-money-red" />
+            <Image className="icon-shield-green" image="gf-shield-green" />
             <Icons.Bars color="grey" />
             <Icons.Bars color="green" hideInMobile />
             <Icons.Box color="red" />

@@ -1,7 +1,7 @@
 /*Section 1*/
 /*Circle animation*/
 #s1 {
-    .page_section__title {
+    .page_section-title {
         margin-bottom: 3rem;
         margin-top: 3rem;
         text-align: left;
@@ -16,7 +16,7 @@
         }
     }
 
-    .page_section__description {
+    .page_section-description {
         margin-top: -20px;
         position: relative;
         width: 430px;
@@ -33,7 +33,7 @@
         z-index: 3;
     }
 
-    .icon__bars---green {
+    .icon-bars---green {
         bottom: 35%;
         color: #00f8c0;
         font-size: 1.2rem;
@@ -42,7 +42,7 @@
         position: absolute;
     }
 
-    .icon__box---red {
+    .icon-box---red {
         background-color: #ff2c1e;
         height: 3px;
         left: 3%;
@@ -51,12 +51,12 @@
         width: 40px;
     }
 
-    .icon__dash--green {
+    .icon-dash--green {
         left: 0;
         top: 20%;
     }
 
-    .icon__logo-claropay {
+    .icon-logo-claropay {
         bottom: 30%;
         left: 5%;
         position: absolute;
@@ -64,12 +64,12 @@
     }
 
     .content {
-        .content__column.content__column--right {
+        .content-column.content-column--right {
             margin-left: 3rem;
         }
     }
 
-    .icon__circle-wipe--green {
+    .icon-circle-wipe--green {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -102,7 +102,7 @@
         }
     }
 
-    .icon__bars---grey {
+    .icon-bars---grey {
         bottom: 15%;
         color: #606060;
         font-size: 1.2rem;
@@ -124,17 +124,17 @@
             flex-direction: column-reverse;
             margin-top: 120px;
 
-            .content__column.content__column--left {
+            .content-column.content-column--left {
                 position: absolute;
                 top: 110%;
             }
 
-            .content__column.content__column--right {
+            .content-column.content-column--right {
                 margin-left: 0;
             }
         }
 
-        .page_section__title {
+        .page_section-title {
             margin-bottom: 0;
             margin-top: 0;
             text-align: center;
@@ -155,7 +155,7 @@
             }
         }
 
-        .page_section__description {
+        .page_section-description {
             margin-top: 0;
             text-align: center;
             width: auto;
@@ -169,7 +169,7 @@
             position: absolute;
         }
 
-        .icon__circle-wipe--green {
+        .icon-circle-wipe--green {
             clip: rect(0, 150px, 300px, 0);
             height: 300px;
             left: 40px;
@@ -181,7 +181,7 @@
             }
         }
 
-        .icon__bars---green {
+        .icon-bars---green {
             bottom: 35%;
             left: 10%;
         }
