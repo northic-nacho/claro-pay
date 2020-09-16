@@ -7,13 +7,18 @@ interface NavBarProps {
 }
 
 const NavBar = ({ isOnLastSection }: NavBarProps ) => {
+    const [isSsoActive, setIsSsoActive] = React.useState(false);
+
     let navBarClassName =
     'navbar navbar-expand-lg navbar-light navbar--claropay ';
     navBarClassName += isOnLastSection ? 'navbar--transparent' : 'navbar--white';
 
+    let ssoCircleClassName = 'sso-circle ';
+    ssoCircleClassName += isSsoActive ? 'active' : '';
+
     return (
         <nav className={navBarClassName}>
-            <a className="navbar-brand" href="#">
+            <a className="navbar__brand" href="#">
                 <img
                     id="logoHeader"
                     src={
@@ -30,15 +35,18 @@ const NavBar = ({ isOnLastSection }: NavBarProps ) => {
                 />
             </a>
             <form className="form-inline ml-auto">
-                <a href="#" className="btn btn-primary btn-signup">
-                    Creá tu cuenta
+            <div className="navbar__btn">
+                <a
+                    href="#"
+                    className="btn btn--primary btn--signup btn--sso"
+                    onClick={() => setIsSsoActive(true)}
+                >
+                    Entrar ahora
                 </a>
-                <a href="#" className="btn btn-link-black btn-login">
-                    Entrá ahora
-                </a>
-                <a href="#" className="btn btn-primary btn-signup-mobile">
-                    Entrá ahora
-                </a>
+                <div
+                    className={ssoCircleClassName}>
+                </div>
+            </div>
             </form>
         </nav>
     );
