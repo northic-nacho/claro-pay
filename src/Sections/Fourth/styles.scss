@@ -130,14 +130,27 @@
     }
 
     .icon-dash--grey {
-        bottom: 22%;
+        display: flex;
+        width: 24px;
+        height: 130px;
         position: absolute;
+        bottom: 22%;
         right: 0;
+        z-index: 1;
+
+        i {
+            border-left: dotted 4px #606060;
+            border-right: dotted 4px #606060;
+            height: 100%;
+            opacity: .5;
+            display: block;
+            width: 6px;
+        }
     }
 
     .screen-services-container {
         align-items: center;
-        background-color: #00f5bd;
+        background-color: #e1e4e3;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -234,6 +247,7 @@
         margin-right: 12rem;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .page_section-s4 {
         .iphone-image-group {
@@ -262,13 +276,13 @@
         }
 
         .screen-nav {
-            .icon-screen-logo {
+            .gf-screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .icon-screen-nav-button {
+            .gf-screen-nav-button {
                 img {
                     width: 75%;
                 }

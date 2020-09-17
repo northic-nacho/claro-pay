@@ -33,16 +33,17 @@
         z-index: 3;
     }
 
-    .icon-bars---green {
+    .icon-bars--green {
         bottom: 35%;
-        color: #00f8c0;
+        color: #606060;
+        opacity: .45;
         font-size: 1.2rem;
         font-weight: bold;
         left: 40%;
         position: absolute;
     }
 
-    .icon-box---red {
+    .icon-box--red {
         background-color: #ff2c1e;
         height: 3px;
         left: 3%;
@@ -52,8 +53,22 @@
     }
 
     .icon-dash--green {
+        display: flex;
+        width: 24px;
+        height: 130px;
+        position: absolute;
         left: 0;
         top: 20%;
+        z-index: 1;
+
+        i {
+            display: block;
+            width: 6px;
+            height: 100%;
+            border-left: dotted 4px #606060;
+            border-right: dotted 4px #606060;
+            opacity: .5;
+        }
     }
 
     .icon-logo-claropay {
@@ -69,30 +84,24 @@
         }
     }
 
-    .icon-circle-wipe--green {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
+    .icon-circle-wipe--red {
         box-sizing: border-box;
         clip: rect(0, 250px, 500px, 0);
         height: 500px;
-        left: -40px;
-        margin: 40px auto;
-        position: absolute;
-        top: -48px;
-        -webkit-transform: rotate(30deg);
-        -ms-transform: rotate(30deg);
-        transform: rotate(30deg);
         width: 500px;
+        position: absolute;
+        left: -40px;
+        top: -48px;
+        margin: 40px auto;
+        transform: rotate(30deg);
         z-index: 2;
 
         * {
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
             box-sizing: border-box;
         }
 
         .circle-spinner {
-            background: #00f8c0;
+            background: rgba(255, 45, 31, 0.3);
             border-radius: 250px 0 0 250px;
             height: 100%;
             position: absolute;
@@ -102,7 +111,7 @@
         }
     }
 
-    .icon-bars---grey {
+    .icon-bars--grey {
         bottom: 15%;
         color: #606060;
         font-size: 1.2rem;
@@ -112,6 +121,7 @@
         right: 5%;
     }
 }
+
 @media only screen and (max-width: 768px) {
     #anim-stage-s1 {
         -ms-flex-pack: start !important;
@@ -169,7 +179,7 @@
             position: absolute;
         }
 
-        .icon-circle-wipe--green {
+        .icon-circle-wipe--red {
             clip: rect(0, 150px, 300px, 0);
             height: 300px;
             left: 40px;
@@ -181,7 +191,7 @@
             }
         }
 
-        .icon-bars---green {
+        .icon-bars--green {
             bottom: 35%;
             left: 10%;
         }

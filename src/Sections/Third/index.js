@@ -83,7 +83,7 @@ const ThirdSection = () => {
                     <Image image="gf-moare-right" className="icon-moare-right" />
                 </div>
             </div>
-            <Image className="icon-shield-green" image="gf-shield-green" />
+            <Image className="icon-shield-grey" image="gf-shield-grey" />
             <Icons.Bars color="grey" />
             <Image className="icon-money-grey" image="gf-money-grey" />
             <Image className="icon-money-white" image="gf-money-white" />
@@ -94,7 +94,7 @@ const ThirdSection = () => {
             {isMobileDevice ? (
                 ''
             ) : (
-                <div className="icon-circle-green" parallax="zoom-in zoom-in:reverse" />
+                <div className="icon-circle-red" parallax="zoom-in zoom-in:reverse" />
             )}
         </ParallaxSection>
     );

@@ -488,13 +488,13 @@
 
 @keyframes iphone-screen-notification {
   0% {
-    background-color: #ff2817;
+    background-color: #b0b0b0;
   }
   50% {
-    background-color: #ff2817;
+    background-color: #b0b0b0;
   }
   55% {
-    background-color: #00f6be;
+    background-color: #ff2817;
   }
 }
 

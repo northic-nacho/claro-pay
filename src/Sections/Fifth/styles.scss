@@ -95,8 +95,9 @@
         z-index: 2;
     }
 
-    .icon-bars--green {
-        color: #00f8c0;
+    .icon-bars--grey {
+        color: #606060;
+        opacity: 0.45;
         font-size: 1.2rem;
         font-weight: bold;
         position: absolute;
@@ -105,33 +106,27 @@
         z-index: 4;
     }
 
-    .icon-circle-wipe--green {
-        bottom: -540px;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        clip: rect(0, 300px, 600px, 0);
+    .icon-circle-wipe--red {
+        width: 600px;
         height: 600px;
-        left: 60px;
         margin: 40px auto;
         position: absolute;
-        -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
+        left: 60px;
+        bottom: -540px;
+        box-sizing: border-box;
+        clip: rect(0, 300px, 600px, 0);
         transform: rotate(90deg);
-        width: 600px;
         z-index: 2;
 
         * {
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
             box-sizing: border-box;
         }
 
         .circle-spinner {
             background-color: transparent;
-            border-left: 6px solid #00f8c0;
+            border-left: 6px solid #ff2c1e;
             border-radius: 300px 0 0 300px;
-            border-top: 6px solid #00f8c0;
+            border-top: 6px solid #ff2c1e;
             height: 100%;
             position: absolute;
             transform-origin: 100% 50%;
@@ -217,6 +212,7 @@
         width: 610px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .page_section-s5 {
         .content {
@@ -246,7 +242,7 @@
             top: 0;
         }
 
-        .page_section-description {
+        .page_section-title {
             width: auto;
 
             .title {
@@ -282,13 +278,13 @@
         }
 
         .screen-nav {
-            .icon-screen-logo {
+            .gf-screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .icon-screen-nav-button {
+            .gf-screen-nav-button {
                 img {
                     width: 75%;
                 }

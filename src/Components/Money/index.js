@@ -46,8 +46,7 @@ const Money = () => {
                     id="dinero-celular"
                     parallax="screen-circle"
                 >
-                    <small>$</small>
-                    {moneyValue}
+                    $ {moneyValue}
                 </span>
             </h4>
         </div>

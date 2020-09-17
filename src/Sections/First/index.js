@@ -22,7 +22,7 @@ const FirstSection = () => {
                             isLowEndDevice ? null : 'slide-in-left slide-in-left:reverse'
                         }
                     />
-                    <Icons.GreenCircle
+                    <Icons.RedCircle
                         animation={isLowEndDevice ? null : 'half-circle-rotation-home'}
                     />
                 </div>

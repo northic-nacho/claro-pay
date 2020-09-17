@@ -116,7 +116,7 @@
         top: 0;
     }
 
-    .icon-shield-green {
+    .icon-shield-grey {
         left: 10%;
         position: absolute;
         top: 48%;
@@ -152,8 +152,21 @@
     }
 
     .icon-dash--grey {
+        display: flex;
+        width: 24px;
+        height: 130px;
+        position: absolute;
         left: 0;
         top: 27%;
+
+        i {
+            border-left: dotted 4px #606060;
+            border-right: dotted 4px #606060;
+            height: 100%;
+            opacity: .5;
+            display: block;
+            width: 6px;
+        }
     }
 
     .icon-plus--green {
@@ -186,17 +199,6 @@
         z-index: 3;
     }
 
-    .icon-circle-red {
-        background-color: #ff2817;
-        border-radius: 400px;
-        height: 650px;
-        position: absolute;
-        right: -23%;
-        top: 5%;
-        width: 650px;
-        z-index: 2;
-    }
-
     .icon-circle-white {
         background-color: #f2f2f2;
         border-radius: 90px;
@@ -211,8 +213,8 @@
         z-index: 4;
     }
 
-    .icon-circle-green {
-        background-color: #00f5bd;
+    .icon-circle-red {
+        background-color: rgba(255, 45, 31, 0.3);
         border-radius: 400px;
         height: 600px;
         left: 0;
@@ -336,13 +338,13 @@
         }
 
         .screen-nav {
-            .icon-screen-logo {
+            .gf-screen-logo {
                 img {
                     width: 75%;
                 }
             }
 
-            .icon-screen-nav-button {
+            .gf-screen-nav-button {
                 img {
                     width: 75%;
                 }
@@ -366,8 +368,8 @@
             }
         }
 
-        .icon-circle-green {
-            background-color: #00f5bd;
+        .icon-circle-red {
+            background-color: rgba(255, 45, 31, 0.3);
             border-radius: 200px;
             height: 400px;
             left: -25%;

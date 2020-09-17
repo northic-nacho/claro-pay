@@ -110,7 +110,7 @@ const SixthSection = () => {
             <div className="icon-bars--grey-1">/</div>
             <div className="icon-bars--grey-2">/</div>
             {!isLowEndDevice && (
-                <Icons.GreenCircle animation="quarter-circle-rotation" />
+                <Icons.RedCircle animation="quarter-circle-rotation" />
             )}
         </ParallaxSection>
     );

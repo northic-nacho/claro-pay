@@ -109,8 +109,8 @@ const FifthSection = () => {
             <Image className="icon-money-grey" image="gf-money-grey" />
             <Image className="icon-house-grey hide-in-mobile" image="gf-house-grey" />
             <div className="icon-circle-grey-1" />
-            <Icons.Bars color="green" />
-            <Icons.GreenCircle
+            <Icons.Bars color="grey" />
+            <Icons.RedCircle
                 animation={isLowEndDevice ? null : 'half-circle-rotation'}
             />
         </ParallaxSection>

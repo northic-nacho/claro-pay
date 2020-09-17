@@ -16,7 +16,7 @@ const SecondSection = () => {
         <ParallaxSection id="s2">
             <div className="content">
                 <div className="content-column content-column--left">
-                    <Icons.GreenCircle
+                    <Icons.RedCircle
                         animation={isLowEndDevice ? null : 'half-circle-rotation'}
                     />
                     <ArrowButton to="#s3" />
@@ -45,7 +45,7 @@ const SecondSection = () => {
             </div>
             <Icons.Dash color="green" />
             <Image className="icon-money-red" image="gf-money-red" />
-            <Image className="icon-shield-green" image="gf-shield-green" />
+            <Image className="icon-shield-grey" image="gf-shield-grey" />
             <Icons.Bars color="grey" />
             <Icons.Bars color="green" hideInMobile />
             <Icons.Box color="red" />

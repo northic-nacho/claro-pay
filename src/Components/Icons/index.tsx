@@ -6,19 +6,19 @@ interface IconProps {
   iconKey?: string;
 }
 
-interface GreenCircleProps {
+interface RedCircleProps {
   animation: string;
 }
 
 const Bars = ({ color = 'green', hideInMobile = false }: IconProps ) => {
     const barClassNames = `icon icon-bars--${color} ${
-        hideInMobile ? 'hide-in-mobile' : null
+        hideInMobile ? 'hide-in-mobile' : ''
     }`;
     return <div className={barClassNames}>//</div>;
 };
 
 const Box = ({ color = 'red' }: IconProps ) => (
-    <div className={`icon icon-box---${color}`} />
+    <div className={`icon icon-box--${color}`} />
 );
 
 const Dash = ({ color = 'green' }: IconProps ) => (
@@ -37,15 +37,15 @@ const Plus = ({ color = 'green', iconKey }: IconProps ) => {
     return (
         <div className={plusClassNames}>
             <img
-                src={`images/icon-plus--${color}.png`}
-                srcSet={`images/icon-plus--${color}@2x.png 2x`}
+                src={`images/gf-plus-${color}.png`}
+                srcSet={`images/gf-plus-${color}@2x.png 2x`}
                 alt=""
             />
         </div>
     );
 };
 
-const GreenCircle = ({ animation }: GreenCircleProps ) => {
+const RedCircle = ({ animation }: RedCircleProps ) => {
     const parallaxProps = animation
         ? {
             parallax: animation
@@ -53,7 +53,7 @@ const GreenCircle = ({ animation }: GreenCircleProps ) => {
         : {};
 
     return (
-        <div className="icon-circle-wipe--green">
+        <div className="icon-circle-wipe--red">
             <div className="circle-spinner" {...parallaxProps} />
         </div>
     );
@@ -63,7 +63,7 @@ const Icons = {
     Bars,
     Box,
     Dash,
-    GreenCircle,
+    RedCircle,
     Plus
 };
 
