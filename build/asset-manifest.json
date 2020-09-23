@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/claro/static/css/main.1cfd4168.chunk.css",
-    "main.js": "/claro/static/js/main.570f7a8a.chunk.js",
-    "main.js.map": "/claro/static/js/main.570f7a8a.chunk.js.map",
-    "runtime-main.js": "/claro/static/js/runtime-main.35bdf6a6.js",
-    "runtime-main.js.map": "/claro/static/js/runtime-main.35bdf6a6.js.map",
-    "static/js/2.4dd9571d.chunk.js": "/claro/static/js/2.4dd9571d.chunk.js",
-    "static/js/2.4dd9571d.chunk.js.map": "/claro/static/js/2.4dd9571d.chunk.js.map",
-    "index.html": "/claro/index.html",
-    "precache-manifest.42129900b06a7a0e294e2b13a326521e.js": "/claro/precache-manifest.42129900b06a7a0e294e2b13a326521e.js",
-    "service-worker.js": "/claro/service-worker.js",
-    "static/css/main.1cfd4168.chunk.css.map": "/claro/static/css/main.1cfd4168.chunk.css.map",
-    "static/js/2.4dd9571d.chunk.js.LICENSE.txt": "/claro/static/js/2.4dd9571d.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/claro/static/media/copyfonts.com_gotham-book.e1d0c1f0.woff",
-    "static/media/styles.scss": "/claro/static/media/bg-s1.4a20b1fb.jpg"
+    "main.css": "/claro-pay/static/css/main.99f0d72d.chunk.css",
+    "main.js": "/claro-pay/static/js/main.570f7a8a.chunk.js",
+    "main.js.map": "/claro-pay/static/js/main.570f7a8a.chunk.js.map",
+    "runtime-main.js": "/claro-pay/static/js/runtime-main.bff85c03.js",
+    "runtime-main.js.map": "/claro-pay/static/js/runtime-main.bff85c03.js.map",
+    "static/js/2.4dd9571d.chunk.js": "/claro-pay/static/js/2.4dd9571d.chunk.js",
+    "static/js/2.4dd9571d.chunk.js.map": "/claro-pay/static/js/2.4dd9571d.chunk.js.map",
+    "index.html": "/claro-pay/index.html",
+    "precache-manifest.bfb6c69f8e101e285b39a35ffcce0bd8.js": "/claro-pay/precache-manifest.bfb6c69f8e101e285b39a35ffcce0bd8.js",
+    "service-worker.js": "/claro-pay/service-worker.js",
+    "static/css/main.99f0d72d.chunk.css.map": "/claro-pay/static/css/main.99f0d72d.chunk.css.map",
+    "static/js/2.4dd9571d.chunk.js.LICENSE.txt": "/claro-pay/static/js/2.4dd9571d.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/claro-pay/static/media/copyfonts.com_gotham-book.e1d0c1f0.woff",
+    "static/media/styles.scss": "/claro-pay/static/media/bg-s1.4a20b1fb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.35bdf6a6.js",
+    "static/js/runtime-main.bff85c03.js",
     "static/js/2.4dd9571d.chunk.js",
-    "static/css/main.1cfd4168.chunk.css",
+    "static/css/main.99f0d72d.chunk.css",
     "static/js/main.570f7a8a.chunk.js"
   ]
 }
